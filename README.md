@@ -9,12 +9,12 @@ Elevation FW ships major, minor and patch updates.
 There are 2 kinds of support regarding to the nature os the release: **LTS** and **HSO**.
 
 ## LTS _(long time support)_
-These Elevation FW versions are released every **6 months** and are supported for a period of **12 months** after the publish date and usually correspond to a major versions.
+These Elevation FW versions are released every **6 months** and are supported until a new LTS version is released. Usually it corresponds to a major versions.
 All bugs fixed in versions released between these and the next LTS version, will be synchronized. 
 New Features will not be sincronized.
 
 ## HSO _(hotfix support only)_
-These Elevation FW versions are released approximately every 2 months, and are supported for a period of **6 months**, but only for critical hotfixes.
+These Elevation FW versions are released approximately every 2 months, and are supported until 2 new LTS versions come out, but only for critical hotfixes.
 <br/><br/>
 
 ## 2021 Release Plan
