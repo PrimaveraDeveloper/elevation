@@ -65,7 +65,7 @@ These Elevation FW versions are released approximately every 2 months, and are s
 
 ## Maintenance Dashboard
 
-<a href="https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW?activeDashboardId=2e64cacd-a914-49a1-b029-f846d0d6b9bc"><img src="./images/maintenanceDashboard.jpg" width="800"></a>
+<a href="https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW?activeDashboardId=2e64cacd-a914-49a1-b029-f846d0d6b9bc" target="_blank"><img src="./images/maintenanceDashboard.jpg" width="800"></a>
 <br/><br/>
 
 ## Contributing and Feedback
