@@ -1,6 +1,6 @@
 # Elevation FW Releases
 
-Welcome to the the **Elevation FW Release Notes** house.
+Welcome to the the **Elevation Framework** house.
 
 Here you can find information about all the Elevation Framework Releases, as well as all published hotfixes.
 All release notes include information about the new features, the bugs resolved, and give indications of how the upgrade should be performed.
@@ -61,6 +61,11 @@ These Elevation FW versions are released approximately every 2 months, and are s
 | 14 Fev 2019 | [4.2.0.X / mainline_4.2]                                    | minor version | HSO |
 | 25 Jan 2019 | [4.1.0.X / mainline]                                        | minor version | HSO |
 | 08 Jan 2019 | [4.0.8.X / mainline]                                        | _patch_ version | HSO |
+<br/><br/>
+
+## Mantenance Dashbboard
+
+<a href="https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW?activeDashboardId=2e64cacd-a914-49a1-b029-f846d0d6b9bc"><img src="./releasenotes/images/mantenanceDashboard.jpg" width="800"></a>
 <br/><br/>
 
 ## Contributing and Feedback
