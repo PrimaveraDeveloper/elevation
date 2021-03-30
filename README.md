@@ -71,8 +71,7 @@ These Elevation FW versions are released approximately every 2 months, and are s
 ## Contributing and Feedback
 
 Contribution is limited to the INT.BIZ, INT.CORE and INT.CORE2 teams.
-
-Any problem found in the documentation or any other suggestion should be reported  [**here**](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW?activeDashboardId=2e64cacd-a914-49a1-b029-f846d0d6b9bc) .
+Any problem found in the documentation or any other suggestion should be reported to those Teams.
 <br/><br/>
 
 ## License
