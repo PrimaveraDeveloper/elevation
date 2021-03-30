@@ -63,9 +63,9 @@ These Elevation FW versions are released approximately every 2 months, and are s
 | 08 Jan 2019 | [4.0.8.X / mainline]                                        | _patch_ version | HSO |
 <br/><br/>
 
-## Mantenance Dashbboard
+## Maintenance Dashbboard
 
-<a href="https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW?activeDashboardId=2e64cacd-a914-49a1-b029-f846d0d6b9bc"><img src="./releasenotes/images/mantenanceDashboard.jpg" width="800"></a>
+<a href="https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW?activeDashboardId=2e64cacd-a914-49a1-b029-f846d0d6b9bc"><img src="./images/maintenanceDashboard.jpg" width="800"></a>
 <br/><br/>
 
 ## Contributing and Feedback
