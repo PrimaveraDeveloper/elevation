@@ -177,7 +177,7 @@ NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subi
 ### Para serem aplicadas é necessário:
 
 - Alterar o web.config, na configuração de cache, substituindo DictionaryCacheHandler por MemoryCacheHandler.
-- Atualizar versões Microsoft.ApplicationInsights para *.65 
+- Atualizar versões Primavera.CoreLib.* para *.65 
 - Atualizar o package Microsoft.ApplicationInsights para a versão 2.17.0
 ```xml
 <package id="Microsoft.ApplicationInsights" version="2.17.0" targetFramework="net472" />
