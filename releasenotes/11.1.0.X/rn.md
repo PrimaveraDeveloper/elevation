@@ -157,11 +157,11 @@ NOTA: Colocando a “true” para usar o novo APPS e “false” para o antigo S
 
 ## 18 Mar 2021
 
-Por forma a tirar o melhor partido das melhorias de performance introduzidas nos últimos dias:
+### Por forma a tirar o melhor partido das melhorias de performance introduzidas nos últimos dias:
 
 - Alterar o web.config, na configuração de cache, substituindo DictionaryCacheHandler por MemoryCacheHandler.
 - Atualizar versões CoreLib para *.54 
-
+</br>
 **NOTA:** Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
 
 ## 1 Abr 2021
@@ -182,5 +182,6 @@ Por forma a tirar o melhor partido das melhorias de performance introduzidas nos
 ```xml
 <package id="Microsoft.ApplicationInsights" version="2.17.0" targetFramework="net472" />
 ```
-- Alterar o config do AppInsights.
+- Alterar o config do AppInsights
+</br>
 **NOTA:** Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
