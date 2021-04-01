@@ -182,6 +182,5 @@ NOTA: Colocando a “true” para usar o novo APPS e “false” para o antigo S
 ```xml
 <package id="Microsoft.ApplicationInsights" version="2.17.0" targetFramework="net472" />
 ```
-- Alterar o config do AppInsights
 </br>
 **NOTA:** Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
