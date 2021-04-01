@@ -1,5 +1,5 @@
-| **Server version** | 11.1.0.X                                                                    |  
-| ---: | :--- |
+| **Server version** | 11.1.0.X                                                                   |  
+| ---:               | :---                                                                       |
 | **Cliente tag**    | mainline_11.1.0                                                            |
 | **SDK**            | [**11.01.00.0524**](\\\storage\BUILDS\TFS\fw4\mainline\SDK\11.01.00.0524)  |
 | **Upgrade DB**     | [**scripts sql**](./db_upgrade.zip)                                        |
@@ -155,7 +155,7 @@ NOTA: Colocando a “true” para usar o novo APPS e “false” para o antigo S
 
 # Erratas e Atualizações
 
-## \#1 18 Mar 2021
+## \#1 - 18 Mar 2021
 
 ### Por forma a tirar o melhor partido das melhorias de performance introduzidas nos últimos dias:
 
@@ -164,7 +164,7 @@ NOTA: Colocando a “true” para usar o novo APPS e “false” para o antigo S
 </br>
 NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
 
-## \#2 1 Abr 2021
+## \#2 - 1 Abr 2021
 
 ### Ainda no âmbito das melhorias de performance, foram incluídas algumas funcionalidades adicionais:
 
