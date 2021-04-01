@@ -162,7 +162,7 @@ NOTA: Colocando a “true” para usar o novo APPS e “false” para o antigo S
 - Alterar o web.config, na configuração de cache, substituindo DictionaryCacheHandler por MemoryCacheHandler.
 - Atualizar versões CoreLib para *.54 
 </br>
-**NOTA:** Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
+NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
 
 ## 1 Abr 2021
 
@@ -183,4 +183,4 @@ NOTA: Colocando a “true” para usar o novo APPS e “false” para o antigo S
 <package id="Microsoft.ApplicationInsights" version="2.17.0" targetFramework="net472" />
 ```
 </br>
-**NOTA:** Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
+NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
