@@ -152,3 +152,35 @@ NOTA: Colocando a “true” para usar o novo APPS e “false” para o antigo S
 - http://nuget.primaverabss.com:82/nuget/General
 - http://api.nuget.org/v3/index.json
 <br/><br/>
+
+# Erratas e Atualizações
+
+## 18 Mar 2021
+
+Por forma a tirar o melhor partido das melhorias de performance introduzidas nos últimos dias:
+
+- Alterar o web.config, na configuração de cache, substituindo DictionaryCacheHandler por MemoryCacheHandler.
+- Atualizar versões CoreLib para *.54 
+
+**NOTA:** Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
+
+## 1 Abr 2021
+
+### Ainda no âmbito das melhorias de performance, foram incluídas algumas funcionalidades adicionais:
+
+ - Possibilidade de desligar a cache redis por configuração (traduz-se em ganhos de performance em localhost)
+ ```xml
+ <add name="cache-perapplication" handlerType="Primavera.Core.Caching.Redis.RedisCacheHandler, Primavera.CoreLib.Caching.Redis, Version=4.0.0.0, Culture=neutral, PublicKeyToken=33086db60a481256" enabled="false">
+ ```
+ - Melhorias no tracing poduzido (stacktrace nas custom properties)
+
+### Para serem aplicadas é necessário:
+
+- Alterar o web.config, na configuração de cache, substituindo DictionaryCacheHandler por MemoryCacheHandler.
+- Atualizar versões Microsoft.ApplicationInsights para *.65 
+- Atualizar o package Microsoft.ApplicationInsights para a versão 2.17.0
+```xml
+<package id="Microsoft.ApplicationInsights" version="2.17.0" targetFramework="net472" />
+```
+- Alterar o config do AppInsights.
+**NOTA:** Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
