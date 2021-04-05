@@ -162,7 +162,7 @@ NOTA: Colocando a “true” para usar o novo APPS e “false” para o antigo S
 - Alterar o web.config, na configuração de cache, substituindo DictionaryCacheHandler por MemoryCacheHandler.
 - Atualizar versões CoreLib para *.54 
 </br>
-NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
+NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências inadvertidamente.
 
 ## \#2 - 1 Abr 2021
 
@@ -183,7 +183,7 @@ NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subi
 <package id="Microsoft.ApplicationInsights" version="2.17.0" targetFramework="net472" />
 ```
 </br>
-NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
+NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências inadvertidamente.
 
 ## \#3 - 5 Mar Abr
 
@@ -198,4 +198,5 @@ NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subi
    - loader.gif
    - interceptor.js
    - env.js
-
+</br>
+NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo com as rferências dos módulos da framework. Em caso de necessidade de updates, usar DependencyBehaviour=Lowest, por forma a não subir dependências inadvertidamente.
