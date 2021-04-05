@@ -190,6 +190,8 @@ NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subi
 ### Foram detetadas algumas inconsistencias nas referências
 
 - Para corrigir, foram publicados packages de todos os módulos servidor de framework, com todas as referências consolidadas.
+</br>
+NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo com as rferências dos módulos da framework. Em caso de necessidade de updates, usar DependencyBehaviour=Lowest, por forma a não subir dependências inadvertidamente.
 
 ### Static Content
 
@@ -198,5 +200,3 @@ NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subi
    - loader.gif
    - interceptor.js
    - env.js
-</br>
-NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo com as rferências dos módulos da framework. Em caso de necessidade de updates, usar DependencyBehaviour=Lowest, por forma a não subir dependências inadvertidamente.
