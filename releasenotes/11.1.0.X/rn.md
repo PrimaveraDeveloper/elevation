@@ -187,7 +187,9 @@ NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subi
 
 ## \#3 - 5 Mar Abr
 
-- Foram lançados packages de todos os módulos servidor, com todas as referências consolidadas.
+### Foram detetadas algumas inconsistencias nas referências
+
+- Para corrigir, foram publicados packages de todos os módulos servidor de framework, com todas as referências consolidadas.
 
 ### Static Content
 
