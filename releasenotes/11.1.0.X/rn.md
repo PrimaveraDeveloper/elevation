@@ -196,7 +196,7 @@ NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo c
 
 ### Static Content
 
-- Para que as versões 10.1.0 e 11.1.0 possam coabitar numa infraestrutura, é necessario redirecionar os seguintes ficheiros para as apps da versão 11.1.0, definindo re-write rules 11.1.0 nos respetivos ARR _(comunicar ao CMS)_.
+- Para que as versões 10.1.0 e 11.1.0 possam coabitar numa infraestrutura, é necessario redirecionar os seguintes ficheiros para as apps da versão 11.1.0, definindo re-write rules nos respetivos ARR _(comunicar ao CMS)_.
    - pace.min.js
    - loader.gif
    - interceptor.js
