@@ -191,7 +191,8 @@ NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subi
 
 - Para corrigir, foram publicados packages de todos os módulos servidor de framework, com todas as referências consolidadas.
 </br>
-NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo com as rferências dos módulos da framework. Em caso de necessidade de updates, usar DependencyBehaviour=Lowest, por forma a não subir dependências inadvertidamente.
+NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo com as referências dos módulos da framework. 
+      Em caso de necessidade de updates, usar DependencyBehaviour=Lowest, para garantir que não se atualizam dependências inadvertidamente.
 
 ### Static Content
 
