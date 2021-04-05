@@ -185,7 +185,7 @@ NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subi
 </br>
 NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências inadvertidamente.
 
-## \#3 - 5 Mar Abr
+## \#3 - 5 Abr 2021
 
 ### Foram detetadas algumas inconsistencias nas referências
 
