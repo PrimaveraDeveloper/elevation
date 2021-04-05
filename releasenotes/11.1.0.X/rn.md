@@ -184,3 +184,16 @@ NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subi
 ```
 </br>
 NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subir dependências indevidamente.
+
+## \#3 - 5 Mar Abr
+
+- Foram lançados packages de todos os módulos servidor, com todas as referências consolidadas.
+
+### Static Content
+
+- Para que a verão 10.1.0 e a versão 11.1.1 coabitem numa infraestrutura, é necessario redirecionar os seguintes ficheiros para as apps da versão 11.1.0, definindo re-write rules 11.1.0 nos respetivos ARR _(comunicar ao CMS)_.
+   - pace.min.js
+   - loader.gif
+   - interceptor.js
+   - env.js
+
