@@ -194,6 +194,12 @@ NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subi
 NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo com as referências dos módulos da framework. 
       Em caso de necessidade de updates, usar DependencyBehaviour=Lowest, para garantir que não se atualizam dependências inadvertidamente.
 
+### Rotas de Cliente
+
+- Desde a separação cliente/servidor que, nas rotas cliente, a _account_ e a _subscription_ aparecem na queryString. Assim, é necessário que todas as rotas cliente construídas no produto sejam alteradas:
+   - de https://myproduct.com/myaccount/mysubscription/#/mypartialroute
+   - para https://myproduct.com/#/mypartialroute?account=myacount&subscription=mysubscription
+
 ### Static Content
 
 - Para que as versões 10.1.0 e 11.1.0 possam coabitar numa infraestrutura, é necessario redirecionar os seguintes ficheiros para as apps da versão 11.1.0, definindo re-write rules nos respetivos ARR _(comunicar ao CMS)_.
