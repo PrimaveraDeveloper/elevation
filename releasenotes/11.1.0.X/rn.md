@@ -194,7 +194,7 @@ NOTA: Executar este update com DependencyBehaviour=Lowest, por forma a não subi
 NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo com as referências dos módulos da framework. 
       Em caso de necessidade de updates, usar DependencyBehaviour=Lowest, para garantir que não se atualizam dependências inadvertidamente.
 
-### Rotas de Cliente
+### Rotas Cliente
 
 - Desde a separação cliente/servidor que, nas rotas cliente, a _account_ e a _subscription_ aparecem na queryString. Assim, é necessário que todas as rotas cliente construídas no produto sejam alteradas:
    - de https://myproduct.com/myaccount/mysubscription/#/mypartialroute
