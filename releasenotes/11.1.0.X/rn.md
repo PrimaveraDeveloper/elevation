@@ -208,7 +208,7 @@ NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo c
    - interceptor.js
    - env.js
   
-### Problemas resolvidos
+### Foram incçuídas as correções dos seguintes problemas:
 
 - "Perdeu-se" uma propriedade de uma classe de configuração para a outra _(158763)_
 - Erro ao aceder à lista das tarefas _(160008)_
