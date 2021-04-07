@@ -207,3 +207,38 @@ NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo c
    - loader.gif
    - interceptor.js
    - env.js
+  
+### Problemas resolvidos
+
+- "Perdeu-se" uma propriedade de uma classe de configuração para a outra _(158763)_
+- Erro ao aceder à lista das tarefas _(160008)_
+- Erro ao descarregar o ficheiro modelo da Contabilidade e Inventário com cultura em PT (Importações de Ficheiros) _(160033)_
+- Querie OData não ordena resultado _(159148)_
+- Erro ao aceder ao Rose com o role de Contabilista _(159804)_
+- Lista de subscrições devolve erro 500 e vem a vazio _(159623)_
+- Propriedade hassequence não esta sendo mapeada para view definition _(159417)_
+- Nos Dashboards ao mudar de empresa no seletor não atualiza a informação referente à empresa selecionada _(157682)_
+- O component inlineAlertMessage não aparece _(159442)_
+- Widget CARD - Dívida a Receber: Documentos apresentados no Card não são os mesmos apresentados na lista _(157274)_
+- Stepper volta para step anterior após criação de entidade _(155808)_
+- [Taskbox] - Quando nao existe nenhuma instancia da tbx, a primeira instancia a iniciar deve recuperar as tasks _(149612)_
+- Ao modelar um report com um field do tipo Text não permite definir um texto _(158975)_
+- Erro ao imprimir as listas _(159345)_
+- Campo disabled fica required, após o abilitar e desabilitar _(158461)_
+- Custom delete de uma entidade não funciona _(153408)_
+</br>
+Bugs Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation 
+</br>
+- [Not a Bug] Aplicação recarrega após clicarmos na mensagem para validação dos logs (inline alerts) _(157846)_
+- [Duplicated] Erro ao descarregar o ficheiro modelo da Contabilidade e Inventário (Importações de Ficheiros) _(160959)_
+- [Not a Bug] Erro ao importar ficheiros _(157805)_
+- [Not a Bug] No template de email não é possivel definir o corpo da notificação _(149587)_
+- [Obsolete] [FW] - Incorreta geração de O01.PayrollPT.Lookups.sqlserver.pt quando entidade base extendida possui um atributo lookup correspondente a um atributo de uma outra entidade associada. _(139509)_
+- [Assumed as Limitation] Licenciamento - O subscriber da remoção não envia os perfis _(157336)_
+- [NOT a BUG] Retirar opção Chat do Produto _(157128)_
+- [As designed] Nas configurações da Empresa, se o campo 'Email' estiver preenchido não são enviados e-mails _(128166)_
+- [Duplicated] View fica cortada em ecrãs mais pequenos _(152087)_
+- [Not a Bug] Lista de fatura de vendas não é ordenada _(155041)_
+- [Obsolete] Lista fica em loading após filtro rápido impedindo uso da opção de Export _(153746)_
+- [Obsolete] Página de erro do Rose não está correta _(154417)_
+
