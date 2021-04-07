@@ -226,6 +226,7 @@ NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo c
 - Erro ao imprimir as listas _(159345)_
 - Campo disabled fica required, após o abilitar e desabilitar _(158461)_
 - Custom delete de uma entidade não funciona _(153408)_
+- Evento NewUserCreatedEvent não é disparado _(160569)_
 
 Bugs Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation 
 
