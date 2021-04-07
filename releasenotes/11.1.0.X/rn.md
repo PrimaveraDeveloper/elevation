@@ -226,9 +226,9 @@ NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo c
 - Erro ao imprimir as listas _(159345)_
 - Campo disabled fica required, após o abilitar e desabilitar _(158461)_
 - Custom delete de uma entidade não funciona _(153408)_
-</br>
+
 Bugs Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation 
-</br>
+
 - [Not a Bug] Aplicação recarrega após clicarmos na mensagem para validação dos logs (inline alerts) _(157846)_
 - [Duplicated] Erro ao descarregar o ficheiro modelo da Contabilidade e Inventário (Importações de Ficheiros) _(160959)_
 - [Not a Bug] Erro ao importar ficheiros _(157805)_
