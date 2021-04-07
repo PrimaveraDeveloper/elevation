@@ -227,6 +227,13 @@ NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo c
 - Campo disabled fica required, após o abilitar e desabilitar _(158461)_
 - Custom delete de uma entidade não funciona _(153408)_
 - Evento NewUserCreatedEvent não é disparado _(160569)_
+- [FIREFOX] Documento - cursor do rato errado na popup de envio por email _(153398)_
+- Status 400 ao utilizar atributo personalizado _(153193)_
+- Expander não carrega atributo personalizado _(153194)_
+- Impressão não obdece as alterações de configuração da modelação de um report _(159111)_
+- Status 500 ao aceder um layout (printing settings) _(159170)_
+- Falta novas entradas no setup document (invoicing engine) _(159628)_
+- View não carrega atributo criado via api _(155479)_
 
 Bugs Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation 
 
