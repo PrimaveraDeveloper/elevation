@@ -252,7 +252,7 @@ Bugs Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation
 ### Static Content
 
 - Para que as versões 10.1.0 e 11.1.0 possam coabitar numa infraestrutura é necessário fazer alguma alterações:
-   - Incluir as seguintes re-write rules nos respetivos ARR  _(comunicar ao CMS)_:
+   - Incluir a seguinte re-write rule nos respetivos ARR de cada ambiente, contendo os ficheiros _(comunicar ao CMS)_:
       - pace.min.js
       - loader.gif
       - interceptor.js
