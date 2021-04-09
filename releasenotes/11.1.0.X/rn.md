@@ -213,7 +213,7 @@ NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo c
   ```xml
   identity: {
    ...
-   callbackEndpoint: `${clientServerUrl}/**index**`,
+   callbackEndpoint: `${clientServerUrl}/index`,
    ... 
   },
   ```
