@@ -200,26 +200,6 @@ NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo c
    - de https://myproduct.com/myaccount/mysubscription/#/mypartialroute
    - para https://myproduct.com/#/mypartialroute?account=myacount&subscription=mysubscription
 
-### Static Content
-
-- Para que as versões 10.1.0 e 11.1.0 possam coabitar numa infraestrutura é necessário fazer alguma alterações:
-   - Incluir as seguintes re-write rules nos respetivos ARR  _(comunicar ao CMS)_:
-      - pace.min.js
-      - loader.gif
-      - interceptor.js
-      - env.js
-      - index
-- Nos ficheiros _environment_, na ClientApp, é necessário adicionar '/index' ao callbackEndpoint
-  ```xml
-  identity: {
-   ...
-   callbackEndpoint: `${clientServerUrl}/index`,
-   ... 
-  },
-  ```
-- No Identity, alterar as redirectUri do _client_ usado pela aplicação cliente, concatenando o sufixo '/index'
-[!](./images/redirectUris.JPG)
-
 ### Foram incçuídas as correções dos seguintes problemas:
 
 - "Perdeu-se" uma propriedade de uma classe de configuração para a outra _(158763)_
@@ -268,3 +248,23 @@ Bugs Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation
 
 - A criação de empresas está a navegar para a entidade (base), quando devia apontar para a extensão _(161010)_
 - Field do tipo Button fica disable em modo de visualização _(159406)_
+
+### Static Content
+
+- Para que as versões 10.1.0 e 11.1.0 possam coabitar numa infraestrutura é necessário fazer alguma alterações:
+   - Incluir a seguinte re-write rule nos respetivos ARR de cada ambiente, contendo os ficheiros _(comunicar ao CMS)_:
+      - pace.min.js
+      - loader.gif
+      - interceptor.js
+      - env.js
+      - index
+- Nos ficheiros _environment_, na ClientApp, é necessário adicionar '/index' ao callbackEndpoint
+  ```xml
+  identity: {
+   ...
+   callbackEndpoint: `${clientServerUrl}/index`,
+   ... 
+  },
+  ```
+- No Identity, alterar as redirectUri do _client_ usado pela aplicação cliente, concatenando o sufixo '/index'
+   <img src="./images/redirectUris.JPG" width="800">
