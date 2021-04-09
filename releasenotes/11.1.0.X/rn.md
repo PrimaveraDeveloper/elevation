@@ -267,4 +267,4 @@ Bugs Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation
   },
   ```
 - No Identity, alterar as redirectUri do _client_ usado pela aplicação cliente, concatenando o sufixo '/index'
-<img src="./images/redirectUris.JPG" width="800">
+<img src="./images/redirectUris.JPG" width="600">
