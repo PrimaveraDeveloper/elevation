@@ -218,7 +218,7 @@ NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo c
   },
   ```
 - No Identity, alterar as redirectUri do _client_ usado pela aplicação cliente, concatenando o sufixo '/index'
-[!](./images/redirectUris.JPG)
+<img src="./images/redirectUris.JPG" width="800">
 
 ### Foram incçuídas as correções dos seguintes problemas:
 
