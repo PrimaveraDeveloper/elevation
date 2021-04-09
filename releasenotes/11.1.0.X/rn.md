@@ -250,3 +250,9 @@ Bugs Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation
 - [Obsolete] Lista fica em loading após filtro rápido impedindo uso da opção de Export _(153746)_
 - [Obsolete] Página de erro do Rose não está correta _(154417)_
 
+## \#4 - 8 Abr 2021
+
+### Foram incluídas as correções dos seguintes problemas:
+
+- A criação de empresas está a navegar para a entidade (base), quando devia apontar para a extensão _(161010)_
+- Field do tipo Button fica disable em modo de visualização _(159406)_
