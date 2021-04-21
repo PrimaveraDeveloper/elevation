@@ -200,7 +200,7 @@ NOTA: É conveniente consolidar os packages nos módulos de produto, de acordo c
    - de https://myproduct.com/myaccount/mysubscription/#/mypartialroute
    - para https://myproduct.com/#/mypartialroute?account=myacount&subscription=mysubscription
 
-### Foram incçuídas as correções dos seguintes problemas:
+### Foram incluídas as correções dos seguintes problemas:
 
 - "Perdeu-se" uma propriedade de uma classe de configuração para a outra _(158763)_
 - Erro ao aceder à lista das tarefas _(160008)_
@@ -268,3 +268,14 @@ Bugs Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation
   ```
 - No Identity, alterar as redirectUri do _client_ usado pela aplicação cliente, concatenando o sufixo '/index'
    <img src="./images/redirectUris.JPG" width="800">
+
+## \#5 - 21 Abr 2021
+
+### Foram incluídas as correções dos seguintes problemas:
+
+- User não fica guardado na bd após primeiro login _([161689](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=161689&_a=edit))_
+- Users convidados adicionados como application no CMS _([161715](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems/edit/161715))_
+
+### Procedimentos necessários:
+
+ - Atualizar o package Primavera.Lithium.ServiceManagement para a versão 2.0.1.47
