@@ -275,6 +275,7 @@ Bugs Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation
 
 - User não fica guardado na bd após primeiro login _([161689](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=161689&_a=edit))_
 - Users convidados adicionados como application no CMS _([161715](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems/edit/161715))_
+- Support Chat - erro ao abrir _([162124](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems/edit/162124))_
 
 ### Procedimentos necessários:
 
