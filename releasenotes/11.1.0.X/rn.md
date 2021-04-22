@@ -280,3 +280,4 @@ Bugs Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation
 ### Procedimentos necessários:
 
  - Atualizar o package Primavera.Lithium.ServiceManagement para a versão 2.0.1.47
+ - Nos ficheiros _environment_, na ClientApp, é necessário remover a secção shell e todas as propriedades dessa secção passam para a raiz
