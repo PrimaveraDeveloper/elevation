@@ -6,12 +6,12 @@ Here you can find the Elevation FW technical information, all the Elevation Fram
 
 ## Technical Documentation _(elevation-docs)_
 
-<a href="https://devops.primaverabss.com/elevation-docs/" target="_blank"><img src="./images/elevationDocs.jpg" width="600"></a>
+<a href="https://devops.primaverabss.com/elevation-docs/" target="_blank"><img src="./images/elevationDocs.jpg" width="450"></a>
 <br/><br/>
 
 ## Release notes
 
-<a href="releasenotes/releaseNotes.md" target="_blank"><img src="./releasenotes/images/releasePlan2021.jpg" width="600"></a>
+<a href="releasenotes/releaseNotes.md" target="_blank"><img src="./releasenotes/images/releasePlan2021.jpg" width="450"></a>
 <br/><br/>
 
 ## Maintenance Dashboard
