@@ -2,16 +2,16 @@
 
 Welcome to the the **Elevation Framework** house.
 
-Here you can find the Elevation FW technical information, all the Elevation Framework Releases and, Maintenance and Quality dashboards and mush more.
+Here you can find the Elevation FW technical information, all the Elevation Framework Releases, Maintenance and Quality dashboards and mush more.
 
 ## Technical Documentation (elevation-docs)
 
-[Click here to access documentation](https://devops.primaverabss.com/elevation-docs/) 
+[Click here to view the documentation](https://devops.primaverabss.com/elevation-docs/) 
 <br/><br/>
 
 ## Release notes
 
-[11.1.0.X / mainline_11.1.0](./releasenotes.md)
+[Click here to view the release notes](./releasenotes.md)
 <br/><br/>
 
 ## Maintenance Dashboard
