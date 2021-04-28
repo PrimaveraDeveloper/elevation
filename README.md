@@ -16,7 +16,7 @@ Here you can find the Elevation FW technical information, all the Elevation Fram
 
 ## Maintenance Dashboard
 
-<a href="https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW?activeDashboardId=2e64cacd-a914-49a1-b029-f846d0d6b9bc" target="_blank"><img src="./images/maintenanceDashboard.jpg" width="600"></a>
+<a href="https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW?activeDashboardId=2e64cacd-a914-49a1-b029-f846d0d6b9bc" target="_blank"><img src="./images/maintenanceDashboard.jpg" width="450"></a>
 <br/><br/>
 
 ## Quality Dashboard
