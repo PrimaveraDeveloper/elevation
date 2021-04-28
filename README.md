@@ -11,7 +11,7 @@ Here you can find the Elevation FW technical information, all the Elevation Fram
 
 ## Release notes
 
-<a href="releasenotes/releaseNotes.md" target="_blank"><img src="./images/releaseNotes/releasePlan2021.jpg" width="600"></a>
+<a href="releasenotes/releaseNotes.md" target="_blank"><img src="./releasenotes/images/releasePlan2021.jpg" width="600"></a>
 <br/><br/>
 
 ## Maintenance Dashboard
