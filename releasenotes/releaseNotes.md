@@ -25,13 +25,13 @@ These Elevation FW versions are released approximately every 2 months, and are s
 
 | date | server version/client tag | semantic jump | support |
 | :---: | :---: | :---: | :---: |
-| 12 Fev 2021 | [11.1.0.X / mainline_11.1.0](./releasenotes/11.1.0.X/rn.md) | minor version | HSO |
+| 12 Fev 2021 | [11.1.0.X / mainline_11.1.0](./11.1.0.X/rn.md) | minor version | HSO |
 
 ### **2020**
 
 | date | server version/client tag | semantic jump | support |
 | :---: | :---: | :---: | :---: |
-| 07 Dez 2020 | [11.0.0.X / mainline_11.0](./releasenotes/11.0.0.X/rn.md)   | **major** version | HSO |
+| 07 Dez 2020 | [11.0.0.X / mainline_11.0](./11.0.0.X/rn.md)   | **major** version | HSO |
 | 12 Out 2020 | [10.1.0.X / mainline_10.1.0]                                | minor version | **LTS** |
 | 06 Ago 2020 | [10.0.0.X / mainline_10.0]                                  | **major** version | HSO |
 | 28 Jul 2020 | [9.5.0.X / mainline_9.5]                                    | minor version | HSO |
