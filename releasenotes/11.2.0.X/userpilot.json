@@ -1,0 +1,52 @@
+{
+    "counters": [
+        {
+            "values": [
+                {
+                    "name": "CompaniesCount",
+                    "valuePath": "count"
+                }
+            ],
+            "url": "api/corePatterns/companies/odata?$inlinecount=allpages&$top=0&$filter=IsSystem eq false and IsDeleted eq false and IsActive eq true"
+        },
+        {
+            "values": [
+                {
+                    "name": "LastInvoiceDate",
+                    "valuePath": "items[0].documentDate"
+                },
+                {
+                    "name": "LastInvoiceNote",
+                    "valuePath": "items[0].Note"
+                }
+            ],
+            "url": "api/billing/invoices/odata?$select=DocumentDate,Note&$top=1&$orderby=DocumentDate desc&$page=1&pageSize=1"
+        }
+    ],
+    "save": [
+        {
+            "eventName": "SaveInvoice",
+            "module": "billing",
+            "entity": "invoices",
+            "service": "invoices"
+        }
+    ],
+    "saveAndNew": [
+    ],
+    "saveAndSend": [
+    ],
+    "saveAndPrint": [
+    ],
+    "cancel": [],
+    "reset": [],
+    "import": [
+        {
+            "eventName": "ImportCustomers",
+            "templateKey": "Customers"
+        },
+        {
+            "eventName": "ImportItems",
+            "templateKey": "Items"
+        }
+    ]
+}
