@@ -119,7 +119,7 @@ telemetry: {
 } 
 ```
 
-### Customização da animação de loading no boot da aplicação cliente:
+### Customização da animação de loading no boot da aplicação cliente
 
 Deve ser incluído um ficheiro de estilo 'loader.scss”' juntamente com os demais ficheiros de estilo, na ClientApp:
 
@@ -127,7 +127,7 @@ Deve ser incluído um ficheiro de estilo 'loader.scss”' juntamente com os dema
 
 Este ficheiro pode ser inicialmente criado vazio, e deve ser usado para fazer override ao aspeto do loader. 
 
-### Desinstalar referências a projectos WEB de módulos de Framework:
+### Desinstalar referências a projectos WEB de módulos de Framework
 
 Os módulos de FW já não têm projetos WEB, pelo que podem ser desinstalados.
 
