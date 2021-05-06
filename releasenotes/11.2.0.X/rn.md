@@ -111,7 +111,7 @@ Adicionar entrada para uma rota adicional no ficheiro 'general.json'.
 } 
 ```
 
-Adicionar a seguinte entrada nos ficheiros environmnet, para ter suporte ao telemetry do lado do cliente. 
+Adicionar a seguinte entrada nos ficheiros _environment_, para ter suporte ao telemetry do lado do cliente. 
 ```xml
 telemetry: { 
   enabled: true, 
