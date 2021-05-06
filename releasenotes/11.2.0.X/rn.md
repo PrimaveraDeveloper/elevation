@@ -4,17 +4,18 @@ DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT
 | ---:               | :---                                                                       |
 | **Cliente tag**    | mainline_11.2.0                                                            |
 | **SDK**            | [**11.01.00.0524**](\\\storage\BUILDS\TFS\fw4\mainline\SDK\11.02.00.XXXX)  |
-| **Upgrade DB**     | [**scripts sql**](./XXXX.zip)                                        |
+| **Upgrade DB**     | [**scripts sql**](./db_upgrade.zip)                                        |
 <br/>
 
 # Resumo das funcionalidades mais relevantes
 
 - Possibilidade de configurar o tamanho e resolução usados no upload de imagens, incluíndo via API;
 - Melhorias de performance no boot da aplicação cliente;
-- Possibilidade de redifinir a animação de loading da aplicação;
-	- Carregamento da totalidade do menu num pedido apenas;
+    - Carregamento da totalidade do menu num pedido apenas;
 	- Menu guardado em cache no browser;
-	- Redução de pedidos ao servidor (get e create de drafts, etc...)
+	- Redução de pedidos ao servidor (get e create de drafts, etc...);
+	- Formly com deteção de alterações _on push_;
+- Possibilidade de redifinir a animação de loading da aplicação;
 - UserPilot
 	- Possibilidade de definir contadores UserPilot
 	- Possibilidade de definir eventos para as ações:
@@ -26,7 +27,11 @@ DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT
 		- Reset
 		- Import
 		- Import
-- Remoção de features obsoletas   
+- Remoção de features obsoletas;  
+- Melhorias no componente de lookup;
+- Possibilidade de visualizar campos do tipo data no formato ano/mês;
+- AppConfiguration: Leitura de settings usando labels hierarquicas, permitindo otimizar a gestão de settings;
+	- ver documentação aqui
 <br/><br/>
 
 # Resumo dos problemas resolvidos
@@ -154,5 +159,5 @@ Um exemplo de configuração pode ser encontrado [**aqui**](./userpilot.json)
 
 # Packages (nuget)
 
-Por forma a facilitar o uso do feed único, disponibilizamos [**aqui**](./packages.json), a lista de packages Elevation/CL/Lithium a importar.
+Por forma a facilitar o uso do feed único, disponibilizamos [**aqui**](./packages.config), a lista de packages Elevation/CL/Lithium a importar.
 <br/><br/>
