@@ -104,18 +104,18 @@ Alterar o 'type' da secção 'DataBaseUpgradeConfiguration':
 Adicionar entrada para uma rota adicional no ficheiro 'general.json'. 
 ```xml  
 { 
-	"id": "rootFullMenuUri", 
-	"baseUrl2": "/shell/menuDatas/getFullRootMenu", 
-	"baseUrl": "/app/{{AccountKey}}/{{SubscriptionKey}}/shell/menuDatas/getFullRootMenu", 
-	"description": "Root full menu" 
+  "id": "rootFullMenuUri", 
+  "baseUrl2": "/shell/menuDatas/getFullRootMenu", 
+  "baseUrl": "/app/{{AccountKey}}/{{SubscriptionKey}}/shell/menuDatas/getFullRootMenu", 
+  "description": "Root full menu" 
 } 
 ```
 
 Adicionar a seguinte entrada nos ficheiros environmnet, para ter suporte ao telemetry do lado do cliente. 
 ```xml
 telemetry: { 
-	enabled: true, 
-	instrumentationKey: 'ee040cdb-a1a4-45b5-9143-acec66c68633' 
+  enabled: true, 
+  instrumentationKey: 'ee040cdb-a1a4-45b5-9143-acec66c68633' 
 } 
 ```
 
