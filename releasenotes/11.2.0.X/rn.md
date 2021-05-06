@@ -122,8 +122,9 @@ telemetry: {
 ### Customização da animação de loading no boot da aplicação cliente:
 
 Deve ser incluído um ficheiro de estilo 'loader.scss”' juntamente com os demais ficheiros de estilo, na ClientApp:
+
 <img src="./images/loader.jpg" width="250">
-<br/>
+
 Este ficheiro pode ser inicialmente criado vazio, e deve ser usado para fazer override ao aspeto do loader. 
 
 ### Desinstalar referências a projectos WEB de módulos de Framework:
@@ -145,6 +146,7 @@ As entidades _Image_, _ImageFormatValidator_, _ImageResizer_, _Imageresizerforma
 ### Atualizar _UserPilot_
 
 Deve ser incluído um ficheiro de configuração 'userpilot.json' juntamente com os demais ficheiros de configuração, na ClientApp:
+
 <img src="./images/userpilot.png" width="250">
 
 Um exemplo de configuração pode ser encontrado [**aqui**](./userpilot.json)
