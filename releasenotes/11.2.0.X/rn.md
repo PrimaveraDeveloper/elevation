@@ -57,7 +57,7 @@ DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT
 - Exportação de listas para CSV desconfiguradas _([161011](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=161011&_a=edit))_
 - Merge remove imagens _([159723](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=159723&_a=edit))_
 
-## Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation 
+### Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation 
 - [Assumed as Limitation] View não carrega atributo criado via api _([155479](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=155479&_a=edit))_
 - [NPTR] O nome da coluna de uma lista não é traduzido se o campo não existir na lista _([159861](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=159861&_a=edit))_
 - [Duplicado] Status 500 ao fazer export da lista de uma entidade custom _([163043](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=163043&_a=edit))_
