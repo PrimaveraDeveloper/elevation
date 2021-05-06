@@ -123,6 +123,7 @@ telemetry: {
 
 Deve ser incluído um ficheiro de estilo 'loader.scss”' juntamente com os demais ficheiros de estilo, na ClientApp:
 <img src="./images/loader.jpg" width="250">
+<br/>
 Este ficheiro pode ser inicialmente criado vazio, e deve ser usado para fazer override ao aspeto do loader. 
 
 ### Desinstalar referências a projectos WEB de módulos de Framework:
