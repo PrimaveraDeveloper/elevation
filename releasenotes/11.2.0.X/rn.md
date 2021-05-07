@@ -1,9 +1,7 @@
-DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT
-
 | **Server version** | 11.2.0.X                                                                   |  
 | ---:               | :---                                                                       |
 | **Cliente tag**    | mainline_11.2.0                                                            |
-| **SDK**            | [**11.01.00.0524**](\\\storage\BUILDS\TFS\fw4\mainline\SDK\11.02.00.XXXX)  |
+| **SDK**            | [**11.02.00.0531**](\\\storage\BUILDS\TFS\fw4\mainline\SDK\11.02.00.0531)  |
 | **Upgrade DB**     | [**scripts sql**](./db_upgrade.zip)                                        |
 <br/>
 
@@ -26,12 +24,10 @@ DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT
 		- Cancel
 		- Reset
 		- Import
-		- Import
 - Remoção de features obsoletas;  
 - Melhorias no componente de lookup;
 - Possibilidade de visualizar campos do tipo data no formato ano/mês;
 - AppConfiguration: Leitura de settings usando labels hierarquicas, permitindo otimizar a gestão de settings;
-	- ver documentação aqui
 <br/><br/>
 
 # Resumo dos problemas resolvidos
@@ -48,7 +44,7 @@ DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT - DRAFT
 - Users convidados adicionados como application no CMS _([161715](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=161715&_a=edit))_
 - Expander - Ao abrir um expander sem dados default este fica em loading _([162112](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=162112&_a=edit))_
 - Support Chat - erro ao abrir _([162169](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=162169&_a=edit))_
-- Lookup - Ao remover um resultado e selecionando um novo, o input é limpo temporariamente e é mostrado o icon de alerta _(161689)_
+- Lookup - Ao remover um resultado e selecionando um novo, o input é limpo temporariamente e é mostrado o icon de alerta _([162169](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=162169&_a=edit))_
 - Depois de remover o valor de uma lookup e retirar foco do input, o valor apagado é mostrado novamente antes do input ser limpo _([162181](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=162181&_a=edit))_
 - Imprimir e predefinir não está a guardar o template selecionado _([162212](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=162212&_a=edit))_
 - Impressão em lote - o espaço que permite seleção à volta da checkbox deve ser maior _([162549](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=162549&_a=edit))_
