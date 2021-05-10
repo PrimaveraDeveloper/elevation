@@ -57,6 +57,7 @@
 - Correção de rotas de poupop _([161347](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=161347&_a=edit))_
 - Exportação de listas para CSV desconfiguradas _([161011](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=161011&_a=edit))_
 - Merge remove imagens _([159723](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=159723&_a=edit))_
+- Não é possível efetuar a navegação usando um link (_[159405](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=159723&_a=edit))_
 
 ### Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation 
 - [Assumed as Limitation] View não carrega atributo criado via api _([155479](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=155479&_a=edit))_
