@@ -156,5 +156,11 @@ Um exemplo de configuração pode ser encontrado [**aqui**](./userpilot.json)
 
 # Packages (nuget)
 
-Por forma a facilitar o uso do feed único, disponibilizamos [**aqui**](./packages/packages_fw.config), a lista de packages Elevation/CL/Lithium a importar.
+Por forma a facilitar o uso do feed único, aqui estão os respetivos ficheiros para importaçã de packages:
+
+- [**Elevation**](./packages/packages_fw.config)
+- [**CoreLib**](./packages/packages_corelib.config)
+- [**Lithium**](./packages/packages_lithium.config)
+
+Nota: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem ser entendidos como versões mínimas, podendo os produtos estar a utilizar vesões superiores por necessidades especificas de cada produto.
 <br/><br/>
