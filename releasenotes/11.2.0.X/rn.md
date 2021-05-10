@@ -164,5 +164,5 @@ Ficheiros com lista de dependências, para facilitar o uso do feed único:
 - [**CoreLib**](./packages/packages_corelib.config)
 - [**Lithium**](./packages/packages_lithium.config)
 
-Nota: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem ser entendidos como versões mínimas, podendo os produtos estar a utilizar vesões superiores por necessidades especificas de cada produto.
+NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem ser entendidos como versões mínimas, podendo os produtos estar a utilizar vesões superiores por necessidades especificas de cada produto.
 <br/><br/>
