@@ -68,7 +68,6 @@
 - [Duplicated] Validação inline altera/desformata campo _([159427](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=159427&_a=edit))_
 - [NPTR] A aplicação bloqueia após o envio de um Recibo por email _([161738](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=161738&_a=edit))_
 - [Obsolete] Rotas duplicadas (case sensitive) _([151338](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=151338&_a=edit))_
-
 <br/><br/>
 
 # Problemas conhecidos
