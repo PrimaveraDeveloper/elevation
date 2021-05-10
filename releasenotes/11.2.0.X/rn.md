@@ -156,5 +156,5 @@ Um exemplo de configuração pode ser encontrado [**aqui**](./userpilot.json)
 
 # Packages (nuget)
 
-Por forma a facilitar o uso do feed único, disponibilizamos [**aqui**](./packages.config), a lista de packages Elevation/CL/Lithium a importar.
+Por forma a facilitar o uso do feed único, disponibilizamos [**aqui**](./packages/packages_fw.config), a lista de packages Elevation/CL/Lithium a importar.
 <br/><br/>
