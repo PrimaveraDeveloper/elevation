@@ -137,7 +137,10 @@ Os módulos de FW já não têm projetos WEB, pelo que podem ser desinstalados.
 
 Este procedimento serve para fazer desaparecer o ‘Compartment’ vazio nas ListOperations (bug DSL/Microsoft)
 
-NOTA: Caso não queiram perder o layout atual do diagrama de serviços, podem abrir o ficheiro Services.Diagram com o editor de texto e apagar as linhas ```xml<elementListCompartment Id="id" absoluteBounds="1, 1, 1" name="Parameters" titleTextColor="Black" itemTextColor="Black" />``` nas ListOperations.
+NOTA: Caso não queiram perder o layout atual do diagrama de serviços, podem abrir o ficheiro Services.Diagram com o editor de texto e apagar as linhas nas ListOperations.
+```xml
+<elementListCompartment Id="id" absoluteBounds="1, 1, 1" name="Parameters" titleTextColor="Black" itemTextColor="Black" />
+``` 
 
 ### Refactoring do upload de imagens  
 
