@@ -1,7 +1,7 @@
 | **Server version** | 11.2.0.X                                                                   |  
 | ---:               | :---                                                                       |
 | **Cliente tag**    | mainline_11.2.0                                                            |
-| **SDK**            | [**11.02.00.0531**](\\\storage\BUILDS\TFS\fw4\mainline\SDK\11.02.00.0531)  |
+| **SDK**            | [**11.02.00.0535**](\\\storage\BUILDS\TFS\fw4\mainline\SDK\11.02.00.0535)  |
 | **Upgrade DB**     | [**scripts sql**](./db_upgrade.zip)                                        |
 <br/>
 
