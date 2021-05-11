@@ -157,7 +157,7 @@ Um exemplo de configuração pode ser encontrado [**aqui**](./userpilot.json).
 
 # Packages (nuget)
 
-Ficheiros com lista de dependências, para facilitar o uso do feed único:
+Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 - [**Elevation**](./packages/packages_fw.config)
 - [**CoreLib**](./packages/packages_corelib.config)
