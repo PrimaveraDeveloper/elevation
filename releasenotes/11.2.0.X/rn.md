@@ -152,7 +152,7 @@ Deve ser incluído um ficheiro de configuração 'userpilot.json' juntamente com
 
 <img src="./images/userpilot.png" width="250">
 
-Um exemplo de configuração pode ser encontrado [**aqui**](./userpilot.json)
+Um exemplo de configuração pode ser encontrado [**aqui**](./userpilot.json).
 <br/><br/>
 
 # Packages (nuget)
