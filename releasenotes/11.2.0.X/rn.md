@@ -89,6 +89,8 @@ Adicionar a rewrite rule:
 
 Adicionar a secção:
 ```xml
+<section name="fileUploadConfiguration" type="Primavera.Core.Domain.Configuration.FileUploadConfigurationSection, Primavera.Core, Version=3.0.0.0, Culture=neutral, PublicKeyToken=33086db60a481256" />
+
 <fileUploadConfiguration>
     <elements>
         <add name="default" imageMaxSizeMB="3" imageSizeFormat="vga" />
