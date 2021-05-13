@@ -86,6 +86,7 @@ Adicionar a rewrite rule:
     <action type="Rewrite" url="ClientApp/dist/index.html" /> 
 </rule> 
 ```
+NOTA: Deve ser adicionada depois da regra _(.*)\/(_)\/(.*)_
 
 Adicionar a secção:
 ```xml
