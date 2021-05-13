@@ -122,6 +122,8 @@ telemetry: {
 } 
 ```
 
+Adicionar a dependencia _"@microsoft/applicationinsights-web": "^2.5.11"_ na ClientApp.
+
 ### Customização da animação de loading no boot da aplicação cliente
 
 Deve ser incluído um ficheiro de estilo 'loader.scss”' juntamente com os demais ficheiros de estilo, na ClientApp:
