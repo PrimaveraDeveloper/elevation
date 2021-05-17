@@ -123,7 +123,17 @@ telemetry: {
 } 
 ```
 
+Adicionar a seguinte entrada nos ficheiros _environment_, para que os mecanismos de cache do lado do cliente funcionam. 
+```xml
+caching: {
+  version: "{definir _version_}",
+  isolationKey: {definir _isolationKey_}"
+}
+```
+
 Adicionar a dependencia _"@microsoft/applicationinsights-web": "^2.5.11"_ na ClientApp.
+
+
 
 ### Customização da animação de loading no boot da aplicação cliente
 
