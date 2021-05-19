@@ -187,6 +187,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 - Search fields don't work with "visibleExpression" _([163867](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=163867&_a=edit))_
 - Em extenções (customers e sales items) ao eliminar o registo logo após guardar é redirecionado para a lista Businesscore _([163975](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=163975&_a=edit))_
+- Alternar entre listas da mesma entidade, não carrega a segunda lista _([164200](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164200&_a=edit))_
 
 ### Procedimentos adicionais necessários
 
