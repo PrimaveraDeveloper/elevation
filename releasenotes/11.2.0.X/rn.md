@@ -106,7 +106,7 @@ Alterar o 'type' da secção 'DataBaseUpgradeConfiguration':
 ### Configurações da aplicação cliente
 
 Adicionar entrada para uma rota adicional no ficheiro 'general.json'. 
-```json  
+```xml  
 { 
   "id": "rootFullMenuUri", 
   "baseUrl2": "/shell/menuDatas/getFullRootMenu", 
@@ -116,7 +116,7 @@ Adicionar entrada para uma rota adicional no ficheiro 'general.json'.
 ```
 
 Adicionar a seguinte entrada nos ficheiros _environment_, para ter suporte ao telemetry do lado do cliente. 
-```json
+```xml
 telemetry: { 
   enabled: true, 
   instrumentationKey: 'ee040cdb-a1a4-45b5-9143-acec66c68633' 
@@ -124,7 +124,7 @@ telemetry: {
 ```
 
 Adicionar a seguinte entrada nos ficheiros _environment_, para que os mecanismos de cache do lado do cliente funcionam. 
-```json
+```xml
 caching: {
   version: "{definir version}",
   isolationKey: {definir isolationKey}"
@@ -132,8 +132,6 @@ caching: {
 ```
 
 Adicionar a dependencia _"@microsoft/applicationinsights-web": "^2.5.11"_ na ClientApp.
-
-
 
 ### Customização da animação de loading no boot da aplicação cliente
 
