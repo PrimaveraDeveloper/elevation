@@ -106,7 +106,7 @@ Alterar o 'type' da secção 'DataBaseUpgradeConfiguration':
 ### Configurações da aplicação cliente
 
 Adicionar entrada para uma rota adicional no ficheiro 'general.json'. 
-```xml  
+```json  
 { 
   "id": "rootFullMenuUri", 
   "baseUrl2": "/shell/menuDatas/getFullRootMenu", 
@@ -116,7 +116,7 @@ Adicionar entrada para uma rota adicional no ficheiro 'general.json'.
 ```
 
 Adicionar a seguinte entrada nos ficheiros _environment_, para ter suporte ao telemetry do lado do cliente. 
-```xml
+```json
 telemetry: { 
   enabled: true, 
   instrumentationKey: 'ee040cdb-a1a4-45b5-9143-acec66c68633' 
@@ -124,7 +124,7 @@ telemetry: {
 ```
 
 Adicionar a seguinte entrada nos ficheiros _environment_, para que os mecanismos de cache do lado do cliente funcionam. 
-```xml
+```json
 caching: {
   version: "{definir version}",
   isolationKey: {definir isolationKey}"
