@@ -108,10 +108,10 @@ Alterar o 'type' da secção 'DataBaseUpgradeConfiguration':
 Adicionar entrada para uma rota adicional no ficheiro 'general.json'. 
 ```xml  
 { 
-  "id": "rootFullMenuUri", 
-  "baseUrl2": "/shell/menuDatas/getFullRootMenu", 
-  "baseUrl": "/app/{{AccountKey}}/{{SubscriptionKey}}/shell/menuDatas/getFullRootMenu", 
-  "description": "Root full menu" 
+  "id": "rootFullMenuUri", 
+  "baseUrl2": "/shell/menuDatas/getFullRootMenu", 
+  "baseUrl": "/app/{{AccountKey}}/{{SubscriptionKey}}/shell/menuDatas/getFullRootMenu", 
+  "description": "Root full menu" 
 } 
 ```
 
