@@ -181,7 +181,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 # Erratas e Atualizações
 
-## HOTFIX 11.2.1 _(15 Mai 2021)_
+## HOTFIX 11.2.1 _(19 Mai 2021)_
 
 ### Foram incluídas as correções dos seguintes problemas:
 
@@ -193,3 +193,22 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 - Alterar a tag dos módulos de FW, na ClientApp, de "mainline_11.2.0" para **"hotfix_11.2.1"**
 - Substituir o atual feed npm de FW "elevation" pelo novo feed **"framework"** _(o namespace mantem-se @primavera)_
+
+## HOTFIX 11.2.2 _(24 Mai 2021)_
+
+### Foram incluídas as correções dos seguintes problemas:
+
+- Rotas em lower-case _([164295](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164295&_a=edit))_
+- Filtro de listas de entidade company dependent apresenta entidades da empresa errada _([164359](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164359&_a=edit))_
+- Clear e contador na impressão em lote não está visible _([164393](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164393&_a=edit))_
+- Ao correr uma tarefa que use um background worker o contexto é perdido (geração SAFT) _([164462](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164462&_a=edit))_
+- Model do lado de cliente não é atualizado _([164555](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164555&_a=edit))_
+- Na edição de tipo de documento a grelha fica com colunas a mais _([164449](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164449&_a=edit))_
+- Ações dos dashboards não estão a funcionar _([164495](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164495&_a=edit))_
+- Quando ocorre um erro a view fica sempre em loading _([164333](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164333&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.1" para **"hotfix_11.2.2"**
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_hotfix_11_2_2.config)
