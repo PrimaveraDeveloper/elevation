@@ -25,6 +25,7 @@ These Elevation FW versions are released approximately every 2 months, and are s
 
 | date | server version/client tag | semantic jump | support |
 | :---: | :---: | :---: | :---: |
+| 24 Mai 2021 | [11.2.2.X / hotfix_11.2.2](./11.2.0.X/rn.md#hotfix-1122-24-mai-2021)   | _patch_ version | _hotfix_ |
 | 19 Mai 2021 | [11.2.1.X / hotfix_11.2.1](./11.2.0.X/rn.md#hotfix-1121-15-mai-2021)   | _patch_ version | _hotfix_ |
 | 07 Mai 2021 | [11.2.0.X / mainline_11.2.0](./11.2.0.X/rn.md)                         | minor version   | HSO |
 | 12 Fev 2021 | [11.1.0.X / mainline_11.1.0](./11.1.0.X/README.md)                         | minor version   | HSO |
