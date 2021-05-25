@@ -207,6 +207,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Ações dos dashboards não estão a funcionar _([164495](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164495&_a=edit))_
 - Quando ocorre um erro a view fica sempre em loading _([164333](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164333&_a=edit))_
 - StaticContent: env.js é pedido sem account e subscription _([164731](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164731&_a=edit))_
+- Quando o token expira a aplicação deixa de responder _([164364](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164364&_a=edit))_
 
 ### Procedimentos adicionais necessários
 
