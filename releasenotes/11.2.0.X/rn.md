@@ -214,7 +214,6 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.1" para **"hotfix_11.2.2"**
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_2.config)
-- Garantir _(via re-write rule)_ que o ficheiro "interceptor.js" descarregado é o da versão mais recente.
 
 ## HOTFIX 11.2.3 _(25 Mai 2021)_
 
