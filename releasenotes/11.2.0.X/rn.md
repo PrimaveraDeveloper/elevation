@@ -215,3 +215,14 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_2.config)
 - Garantir _(via re-write rule)_ que o ficheiro "interceptor.js" descarregado é o da versão mais recente.
+
+## HOTFIX 11.2.3 _(25 Mai 2021)_
+
+### Foram incluídas as correções dos seguintes problemas:
+
+- Na lista de Unidades, o drilldown da dimensão está errado _([162697](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=162697&_a=edit))_
+- Many-to-many: Erro ao editar com uma grande quantidade de registos nas relações  _([158493](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=158493&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK:  "\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.2.0004**"
