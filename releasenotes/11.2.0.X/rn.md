@@ -206,6 +206,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Na edição de tipo de documento a grelha fica com colunas a mais _([164449](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164449&_a=edit))_
 - Ações dos dashboards não estão a funcionar _([164495](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164495&_a=edit))_
 - Quando ocorre um erro a view fica sempre em loading _([164333](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164333&_a=edit))_
+- StaticContent: env.js é pedido sem account e subscription _([164731](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164731&_a=edit))_
 
 ### Procedimentos adicionais necessários
 
