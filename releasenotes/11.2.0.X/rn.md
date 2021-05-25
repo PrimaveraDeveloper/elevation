@@ -224,4 +224,4 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 ### Procedimentos adicionais necessários
 
-- Atualizar o SDK:  "\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.2.0004**"
+- Atualizar o SDK:  "\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.3.0004**"
