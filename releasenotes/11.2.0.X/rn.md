@@ -227,4 +227,4 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 ### Procedimentos adicionais necessários
 
 - Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.2" para **"hotfix_11.2.3"**
-- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.3.0004**"
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.3.0004**"
