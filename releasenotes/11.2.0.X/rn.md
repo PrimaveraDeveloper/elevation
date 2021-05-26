@@ -193,6 +193,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 - Alterar a tag dos módulos de FW, na ClientApp, de "mainline_11.2.0" para **"hotfix_11.2.1"**
 - Substituir o atual feed npm de FW "elevation" pelo novo feed **"framework"** _(o namespace mantem-se @primavera)_
+- Ao alterar o tipo de resposta de uma Service Action existente para ArrayBuffer ou Blob, é necessário que no **Presentation Model** se elimine e volte a adicionar a service action onde esta é utilizada
 
 ## HOTFIX 11.2.2 _(24 Mai 2021)_
 
