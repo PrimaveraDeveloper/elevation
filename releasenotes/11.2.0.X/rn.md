@@ -219,8 +219,11 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 ### Foram incluídas as correções dos seguintes problemas:
 
-- Many-to-many: Erro ao editar com uma grande quantidade de registos nas relações  _([158493](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=158493&_a=edit))_
+- Many-to-many: Erro ao editar com uma grande quantidade de registos nas relações _([158493](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=158493&_a=edit))_
+- Ao alterar as "visible rows" elemina linhas em edição _([164705](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164705&_a=edit))_
+- Estilos das grelhas no produto errados _([162351](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=162351&_a=edit))_
 
 ### Procedimentos adicionais necessários
 
-- Atualizar o SDK:  "\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.3.0004**"
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.2" para **"hotfix_11.2.3"**
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.3.0004**"
