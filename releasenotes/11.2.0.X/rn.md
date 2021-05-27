@@ -224,7 +224,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Ao alterar as "visible rows" elemina linhas em edição _([164705](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164705&_a=edit))_
 - Estilos das grelhas no produto errados _([162351](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=162351&_a=edit))_
 - Custom drill down com rota duplicada _([164718](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164718&_a=edit))_
-- Context Actions com responseType fiderente de json falham em views com com campos de utilizador _([164857](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164857&_a=edit))_
+- Context Actions com responseType diferente de json falham em views com com campos de utilizador _([164857](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164857&_a=edit))_
 
 ### Procedimentos adicionais necessários
 
