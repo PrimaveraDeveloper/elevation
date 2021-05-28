@@ -70,11 +70,6 @@
 - [Obsolete] Rotas duplicadas (case sensitive) _([151338](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=151338&_a=edit))_
 <br/><br/>
 
-# Problemas conhecidos
-
-Os problemas estão reportados [**aqui**](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW?activeDashboardId=2e64cacd-a914-49a1-b029-f846d0d6b9bc).
-<br/><br/>
-
 # Procedimentos adicionais necessários
 
 ### Alterações ao Web.Config:
