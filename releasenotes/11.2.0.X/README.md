@@ -228,3 +228,15 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.3.0004**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_3.config)
+
+## HOTFIX 11.2.4 _(28 Mai 2021)_
+
+### Foram incluídas as correções dos seguintes problemas:
+
+- Product Warnings não são mostrados na barra superior _([164895](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164895&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_hotfix_11_2_4.config)
+  - [**Lithium**](./packages/packages_lithium_hotfix_11_2_4.config)
