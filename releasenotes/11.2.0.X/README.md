@@ -238,7 +238,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 ### Procedimentos adicionais necessários
 
-- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.3" para **"hotfix_11.2.4"**
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_4.config)
   - [**Lithium**](./packages/packages_lithium_hotfix_11_2_4.config)
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.3" para **"hotfix_11.2.4"**
