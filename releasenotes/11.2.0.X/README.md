@@ -233,10 +233,12 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 ### Foram incluídas as correções dos seguintes problemas:
 
-- Product Warnings não são mostrados na barra superior _([164895](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164895&_a=edit))_
+- Product Warnings não são mostrados na barra superior _([164895](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164895&_a=edit))_ 
+- Tipos de documento - é necessário fazer alguma alteração na linha para que o campo tipo de comunicação esteja desbloqueado _([164784](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164784&_a=edit))_
 
 ### Procedimentos adicionais necessários
 
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.3" para **"hotfix_11.2.4"**
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_4.config)
   - [**Lithium**](./packages/packages_lithium_hotfix_11_2_4.config)
