@@ -176,7 +176,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 # Erratas e Atualizações
 
-## HOTFIX 11.2.1 _(19 Mai 2021)_
+## HOTFIX 11.2.1 _(:calendar:19 Mai 2021)_
 
 ### Foram incluídas as correções dos seguintes problemas:
 
