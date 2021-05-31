@@ -192,7 +192,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 ## HOTFIX 11.2.2 _(24 Mai 2021)_
 
-### Foram incluídas as correções dos seguintes problemas:
+### Resumo dos problemas resolvidos
 
 - Rotas em lower-case _([164295](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164295&_a=edit))_
 - Filtro de listas de entidade company dependent apresenta entidades da empresa errada _([164359](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164359&_a=edit))_
@@ -213,7 +213,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 ## HOTFIX 11.2.3 _(25 Mai 2021)_
 
-### Foram incluídas as correções dos seguintes problemas:
+### Resumo dos problemas resolvidos
 
 - Many-to-many: Erro ao editar com uma grande quantidade de registos nas relações _([158493](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=158493&_a=edit))_
 - Ao alterar as "visible rows" elemina linhas em edição _([164705](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164705&_a=edit))_
@@ -231,7 +231,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 ## HOTFIX 11.2.4 _(28 Mai 2021)_
 
-### Foram incluídas as correções dos seguintes problemas:
+### Resumo dos problemas resolvidos
 
 - Product Warnings não são mostrados na barra superior _([164895](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164895&_a=edit))_ 
 - Tipos de documento - é necessário fazer alguma alteração na linha para que o campo tipo de comunicação esteja desbloqueado _([164784](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164784&_a=edit))_
