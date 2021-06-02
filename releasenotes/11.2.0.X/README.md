@@ -242,3 +242,19 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_4.config)
   - [**Lithium**](./packages/packages_lithium_hotfix_11_2_4.config)
 - Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.3" para **"hotfix_11.2.4"**
+
+## HOTFIX 11.2.5 _(2 Jun 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Campos desbloqueados depois de gravar entidade enquanto view está em loading _([165168](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=165168&_a=edit))_ 
+- Querie OData não funciona sem definir 'Select' em entidades com FK para entidades com Entity Thumbnail _([163870](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=163870&_a=edit))_ 
+- Erro a exportar ficheiros a partir do componente InlineAlertMessage _([164893](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164893&_a=edit))_ 
+
+### Procedimentos adicionais necessários
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.4" para **"hotfix_11.2.5"**
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.5.0005**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_hotfix_11_2_5.config)
+  
