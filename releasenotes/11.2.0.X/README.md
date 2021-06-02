@@ -257,5 +257,6 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.5.0005**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_5.config)
+  <br/>
   Nota: Como a funcionalidade de 'import' para o 'global feed' no portal DevOps não está a funcionar, podem, excessionalmente, encontrar estes packages no feed **private-elevation-fw**
   
