@@ -258,4 +258,16 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_5.config)
   <br/>_**Nota:** Como a funcionalidade de 'import' para o 'global feed' no portal DevOps não está a funcionar, podem, excessionalmente, encontrar estes packages no feed **private-elevation-fw**_
-  
+
+## HOTFIX 11.2.6 _(7 Jun 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Erro ao entrar na view de criação de entidade A que use uma sequência em que uma das partes depende de outra entidade B _([165551](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=165551&_a=edit))_ 
+- Erro ao abrir anexos do tipo PDF no método FW attachment _([165706](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=165706&_a=edit))_ 
+- Importação de ficheiros: view não é atualizada ao fazer importações _([164883](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164883&_a=edit))_ 
+
+### Procedimentos adicionais necessários
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.5" para **"hotfix_11.2.6"**
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.6.0006**"  
