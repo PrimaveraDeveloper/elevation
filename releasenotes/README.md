@@ -24,7 +24,7 @@ These Elevation FW versions are released approximately every 2 months, and are s
 ### **2021**
 
 | date | server version/client tag | semantic jump |
-| :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: |
 | 07 Mai 2021 | [11.2.6.X / hotfix_11.2.6](./11.2.0.X/README.md#hotfix-1126-07-jun-2021)   | _patch_ version |
 | 02 Mai 2021 | [11.2.5.X / hotfix_11.2.5](./11.2.0.X/README.md#hotfix-1125-02-jun-2021)   | _patch_ version |
 | 28 Mai 2021 | [11.2.4.X / hotfix_11.2.4](./11.2.0.X/README.md#hotfix-1124-28-mai-2021)   | _patch_ version |
@@ -37,7 +37,7 @@ These Elevation FW versions are released approximately every 2 months, and are s
 ### **2020**
 
 | date | server version/client tag | semantic jump |
-| :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: |
 | 07 Dez 2020 | [11.0.0.X / mainline_11.0](./11.0.0.X/README.md)           | **major** version |
 | 12 Out 2020 | 10.1.0.X / mainline_10.1.0                                 | minor version |
 | 06 Ago 2020 | 10.0.0.X / mainline_10.0                                   | **major** version |
@@ -52,7 +52,7 @@ These Elevation FW versions are released approximately every 2 months, and are s
 ### **2019**
 
 | date | server version/client tag | semantic jump |
-| :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: |
 | 27 Nov 2019 | 8.2.0.X / mainline_8.2                                     | minor version |
 | 13 Nov 2019 | 8.1.1.X / mainline_8.1                                     | _patch_ version |
 | 29 Out 2019 | 8.1.0.X / mainline_8.1                                     | minor version |
