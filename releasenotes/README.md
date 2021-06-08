@@ -13,7 +13,11 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 
 ## 2021 Release Plan
 
+<<<<<<< HEAD
 <img src="./images/releasePlan2021.JPG" width="800">
+=======
+<img src="../images/releasePlan2021.jpg" width="800">
+>>>>>>> 09267fcc056d0f82cf4d42f3a14d45bade3aece5
 
 ## Releases
 
