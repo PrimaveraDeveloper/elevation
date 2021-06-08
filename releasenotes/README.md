@@ -3,7 +3,7 @@
 Here you can find information about all the Elevation Framework Releases, as well as all published hotfixes.
 All release notes include information about the new features, the bugs resolved, and give indications of how the upgrade should be performed.
 
-Elevation FW ships new releases every two approximately. This releases correspond to major or minor versions.
+Elevation FW ships new releases every two months approximately. This releases correspond to major or minor versions.
 In addition, whenever necessary, hotfixes are published, corresponding to patch versions.
 
 ### Support
