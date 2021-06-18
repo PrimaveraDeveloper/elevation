@@ -266,6 +266,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Erro ao entrar na view de criação de entidade a que use uma sequência em que uma das partes depende de outra entidade B _([165551](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=165551&_a=edit))_ 
 - Erro ao abrir anexos do tipo PDF no método FW attachment _([165706](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=165706&_a=edit))_ 
 - Importação de ficheiros: view não é atualizada ao fazer importações _([164883](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164883&_a=edit))_ 
+- Picking que navega para ele próprio não atualiza _([166569](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=166569&_a=edit))_ 
 
 ### Procedimentos adicionais necessários
 
