@@ -279,7 +279,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 ### Resumo dos problemas resolvidos
 
-- Erro ao entrar na view de criação de entidade a que use uma sequência em que uma das partes depende de outra entidade B _([165551](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=165551&_a=edit))_ 
+- Custom attribute não é mostrado na extensão _([167622](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167622&_a=edit))_ 
 
 ### Procedimentos adicionais necessários
 
