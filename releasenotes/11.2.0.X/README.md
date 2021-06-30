@@ -274,3 +274,16 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 - Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.5" para **"hotfix_11.2.6"**
 - Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.6.0006**"  
+
+## HOTFIX 11.2.7 _(30 Jun 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Erro ao entrar na view de criação de entidade a que use uma sequência em que uma das partes depende de outra entidade B _([165551](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=165551&_a=edit))_ 
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.7.0007**" 
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_hotfix_11_2_7.config)
+
