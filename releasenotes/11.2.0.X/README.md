@@ -280,6 +280,8 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 ### Resumo dos problemas resolvidos
 
 - Custom attribute não é mostrado na extensão _([167622](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167622&_a=edit))_ 
+- Import Files - ficheiro inválido ao efetuar download do template _([167623](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167623&_a=edit))_ 
+- UserPilot não regista informação quando não existem counters definidos _([167562](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167562&_a=edit))_ 
 
 ### Procedimentos adicionais necessários
 
