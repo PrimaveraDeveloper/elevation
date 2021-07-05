@@ -269,7 +269,6 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Picking que navega para ele próprio não atualiza _([166569](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=166569&_a=edit))_ 
 - Import files - "IMPORT" fica sempre disable na importação de um segundo ficheiro _([166820](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=166820&_a=edit))_ 
 
-
 ### Procedimentos adicionais necessários
 
 - Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.5" para **"hotfix_11.2.6"**
@@ -291,3 +290,16 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_7.config)
 
+## HOTFIX 11.2.8 _(5 Jul 2021)_
+
+### Resumo dos problemas resolvidos
+
+- AdditionalItems não estão a ser mapeados _([167985](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167985&_a=edit))_ 
+- Impressão em lote não imprime os documentos que ainda não tenha sido impresso _([167555](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167555&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.6" para **"hotfix_11.2.7"**
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_hotfix_11_2_8.config)
+  - [**Lithium**](./packages/packages_lithium_hotfix_11_2_8.config)
