@@ -302,3 +302,16 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_8.config)
   - [**Lithium**](./packages/packages_lithium_hotfix_11_2_8.config)
+
+## HOTFIX 11.2.9 _(8 Jul 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Erro ao exportar listas para csv quando nome contém carateres especiais _([167741](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167741&_a=edit))_ 
+- FIREFOX: Picagem de artigos com o leitor de código de barras introduz artigo errado _([168125](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168125&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.7" para **"hotfix_11.2.9"**
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_hotfix_11_2_9.config)
