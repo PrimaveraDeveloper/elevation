@@ -21,9 +21,9 @@
   <img src="./images/calendar.png" width="600">
 - Possibilidade de incluir no 'user menu' uma entrada com informação sobre o produto:
   <br/>
-  <img src="./images/aboutOption.png" width="300">
+  <img src="./images/aboutOption.png" width="100">
   <br/>
-  <img src="./images/aboutModal.png" width="600">
+  <img src="./images/aboutModal.png" width="400">
 - Possibilidade de definir um 'response type' na modelação de service actions:
   - json
   - blob
