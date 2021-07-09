@@ -161,7 +161,7 @@ executados os seguintes passos:
 1. Instalar a versão “current” do NodeJs e garantir que é a versão de trabalho na linha de 
 comandos (executar node –version e garantir que a versão é a 16 ou superior.)
 - Estrutura “exemplo” para um módulo após a migração:
-<img src="./images/estruturaNG11.jpg" width="800">
+<img src="./images/estruturaNG11.jpg" width="100">
 
 2. Executar npm install
 4. Remover read-only de todos os ficheiros na pasta do modulo
