@@ -18,7 +18,7 @@
 - Reformulação do versionamento da aplicação cliente e gestão de conteúdos estáticos
 - Disponibilização de um novo componente client-side de calendário (vista anual)
   <br/>
-  <img src="./images/calendar.png" width="300">
+  <img src="./images/calendar.png" width="600">
 - Possibilidade de incluir no 'user menu' uma entrada com informação sobre o produto:
   <br/>
   <img src="./images/aboutOption.png" width="300">
