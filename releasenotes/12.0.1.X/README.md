@@ -163,6 +163,7 @@ executados os seguintes passos:
 comandos (executar node –version e garantir que a versão é a 16 ou superior.)
 
 Estrutura “exemplo” para um módulo após a migração:
+<br/>
 <img src="./images/estruturaNG11.jpg" width="100">
 
 2. Executar npm install
