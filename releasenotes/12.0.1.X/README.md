@@ -74,7 +74,7 @@
 ### Informação de versão de produto
 Para ativar a opção do user menu que permite consultar a versão do produto:
  - Adicionar o ficheiro about.json na ClientApp:
- <img src="./images/aboutFile.jpg" width="300">
+ <img src="./images/aboutFile.jpg" width="100">
   
   Um exemplo pode ser encontrado [**aqui**](./about.json).
  - No 'environment.json' habilitar a funcionalidade:
