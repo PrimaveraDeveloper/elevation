@@ -20,17 +20,18 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 
 | date | server version/client tag | semantic jump |
 | :---: | :---: | :---: |
-| 08 Jul 2021 | [11.2.9.X / hotfix_11.2.9](./11.2.0.X/README.md#hotfix-1129-8-jul-2021)     | _patch_ version |
-| 05 Jul 2021 | [11.2.8.X / hotfix_11.2.8](./11.2.0.X/README.md#hotfix-1128-5-jul-2021)     | _patch_ version |
-| 30 Jun 2021 | [11.2.7.X / hotfix_11.2.7](./11.2.0.X/README.md#hotfix-1127-30-jun-2021)    | _patch_ version |
-| 07 Mai 2021 | [11.2.6.X / hotfix_11.2.6](./11.2.0.X/README.md#hotfix-1126-07-jun-2021)    | _patch_ version |
-| 02 Mai 2021 | [11.2.5.X / hotfix_11.2.5](./11.2.0.X/README.md#hotfix-1125-02-jun-2021)    | _patch_ version |
-| 28 Mai 2021 | [11.2.4.X / hotfix_11.2.4](./11.2.0.X/README.md#hotfix-1124-28-mai-2021)    | _patch_ version |
-| 25 Mai 2021 | [11.2.3.X / hotfix_11.2.3](./11.2.0.X/README.md#hotfix-1123-25-mai-2021)    | _patch_ version |
-| 24 Mai 2021 | [11.2.2.X / hotfix_11.2.2](./11.2.0.X/README.md#hotfix-1122-24-mai-2021)    | _patch_ version |
-| 19 Mai 2021 | [11.2.1.X / hotfix_11.2.1](./11.2.0.X/README.md#hotfix-1121-15-mai-2021)    | _patch_ version |
-| **07 Mai 2021** | [11.2.0.X / mainline_11.2.0](./11.2.0.X/README.md)                      | minor version   |
-| **12 Fev 2021** | [11.1.0.X / mainline_11.1.0](./11.1.0.X/README.md)                      | minor version   |
+| 09 Jul 2021 | [12.0.1.X / release_12.0.1](./12.0.1.X/README.md)                           | **major** version |
+| 08 Jul 2021 | [11.2.9.X / hotfix_11.2.9](./11.2.0.X/README.md#hotfix-1129-8-jul-2021)     | _patch_ version   |
+| 05 Jul 2021 | [11.2.8.X / hotfix_11.2.8](./11.2.0.X/README.md#hotfix-1128-5-jul-2021)     | _patch_ version   |
+| 30 Jun 2021 | [11.2.7.X / hotfix_11.2.7](./11.2.0.X/README.md#hotfix-1127-30-jun-2021)    | _patch_ version   |
+| 07 Mai 2021 | [11.2.6.X / hotfix_11.2.6](./11.2.0.X/README.md#hotfix-1126-07-jun-2021)    | _patch_ version   |
+| 02 Mai 2021 | [11.2.5.X / hotfix_11.2.5](./11.2.0.X/README.md#hotfix-1125-02-jun-2021)    | _patch_ version   |
+| 28 Mai 2021 | [11.2.4.X / hotfix_11.2.4](./11.2.0.X/README.md#hotfix-1124-28-mai-2021)    | _patch_ version   |
+| 25 Mai 2021 | [11.2.3.X / hotfix_11.2.3](./11.2.0.X/README.md#hotfix-1123-25-mai-2021)    | _patch_ version   |
+| 24 Mai 2021 | [11.2.2.X / hotfix_11.2.2](./11.2.0.X/README.md#hotfix-1122-24-mai-2021)    | _patch_ version   |
+| 19 Mai 2021 | [11.2.1.X / hotfix_11.2.1](./11.2.0.X/README.md#hotfix-1121-15-mai-2021)    | _patch_ version   |
+| **07 Mai 2021** | [11.2.0.X / mainline_11.2.0](./11.2.0.X/README.md)                      | minor version     |
+| **12 Fev 2021** | [11.1.0.X / mainline_11.1.0](./11.1.0.X/README.md)                      | minor version     |
 
 ### **2020**
 
