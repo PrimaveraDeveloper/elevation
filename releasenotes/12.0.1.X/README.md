@@ -76,7 +76,7 @@ Para ativar a opção do user menu que permite consultar a versão do produto:
  - Adicionar o ficheiro about.json na ClientApp:
  <img src="./images/aboutFile.jpg" width="100">
   
-  Um exemplo pode ser encontrado [**aqui**](./about.json).
+  Exemplo de ficheiro [**aqui**](./about.json).
  - No 'environment.json' habilitar a funcionalidade:
 ```xml
 {
@@ -168,26 +168,26 @@ comandos (executar node –version e garantir que a versão é a 16 ou superior.
 4. Remover read-only de todos os ficheiros na pasta do modulo
 5. No package.json remover (se existir) "@angular/http": "^7.2.15"6. 
 6. Avaliar os passos/pontos de migração existentes no guia de migração do [**angular**] (https://update.angular.io/?l=2&v=8.0-11.0) em conjunto com as seguintes instruções:
-  - ng update
-  - ng update @angular/core@8 @angular/cli@8
-  - ng update @angular/core@9 @angular/cli@9
-  - Pesquisar por ModuleWithProviders e colocar ModuleWithProviders<Nome do módulo>
-  - Colocar dependências primavera a apontar para as novas builds(v11) 
-  - ng update @angular/core@10 @angular/cli@10
-  - ng update @angular/core @angular/cli
-  - Tendo por base o trabalho de migração já realizado nos módulos da FW e tendo por base um desses mesmos módulos deve-se replicar as configurações para os seguintes ficheiros
-    - Atualizar o ficheiro angular.json
-    - Criar ./src/tsconfig.lib.ts
-    - Criar ./src/tsconfig.lib.prod.ts
-    - Renomear ./src/index.ts para ./src/public-api.ts
-    - Criar ficheiro ./src/ng-package.json
-    - Colocar no packages.json como devDep "ng-packagr": "^11.0.0",
-    - Copiar de um dos módulos da FW os scripts de execução npm. 
-7. Remover a pasta node_modules e o ficheiro “package.lock.json”
-8. Verificar as dependências no ficheiro packages.json e avaliar a existência de dependências “deprecated” (moment.js, lodash, gulp, outras..) e realizar a atualização dependências para as versões mais recentes. Isto irá implicar correções ao código.
-9. Remover dead files (ficheiros que deixaram de fazer sentido após a migração)
-10. Executar npm i (sem o switch “—force”)
-11. Executar npm build
+	  - ng update
+	  - ng update @angular/core@8 @angular/cli@8
+	  - ng update @angular/core@9 @angular/cli@9
+	  - Pesquisar por ModuleWithProviders e colocar ModuleWithProviders<Nome do módulo>
+	  - Colocar dependências primavera a apontar para as novas builds(v11) 
+	  - ng update @angular/core@10 @angular/cli@10
+	  - ng update @angular/core @angular/cli
+	  - Tendo por base o trabalho de migração já realizado nos módulos da FW e tendo por base um desses mesmos módulos deve-se replicar as configurações para os seguintes ficheiros
+	    - Atualizar o ficheiro angular.json
+	    - Criar ./src/tsconfig.lib.ts
+	    - Criar ./src/tsconfig.lib.prod.ts
+	    - Renomear ./src/index.ts para ./src/public-api.ts
+	    - Criar ficheiro ./src/ng-package.json
+	    - Colocar no packages.json como devDep "ng-packagr": "^11.0.0",
+	    - Copiar de um dos módulos da FW os scripts de execução npm. 
+6. Remover a pasta node_modules e o ficheiro “package.lock.json”
+7. Verificar as dependências no ficheiro packages.json e avaliar a existência de dependências “deprecated” (moment.js, lodash, gulp, outras..) e realizar a atualização dependências para as versões mais recentes. Isto irá implicar correções ao código.
+8. Remover dead files (ficheiros que deixaram de fazer sentido após a migração)
+9. Executar npm i (sem o switch “—force”)
+10. Executar npm build
   - Neste passo é normal surgirem erros que devem ser corrigidos um a um até não existir qualquer erro.
 
 Nota: Deve ter-se em conta que estes passos são algo genéricos e dependendo das especificidades do módulo em questão podem ser necessários passos adicionais ou alternativos
