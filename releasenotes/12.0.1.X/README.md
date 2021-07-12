@@ -211,6 +211,10 @@ Nota: Deve ter-se em conta que estes passos são algo genéricos e dependendo da
 
 - Eliminar os ficheiros “Global.tt”, “Global.asax”, “Global.asax.tt” e “Global.asax.cs”, caso existam no projeto Host do produto.
 
+### Publicação de ClientApp em Static Web Site independente
+
+- Não existe nenhum procedimento adicional que tenha que ser feito pela equipa, contudo, esta separação, implica alinhamento com SWE e CMS, estando dependente da disponibilidade destas equipas.
+
 # Packages (nuget)
 
 Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
