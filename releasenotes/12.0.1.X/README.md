@@ -57,7 +57,13 @@
 - Mapas de exploração em modo dark não mostra os valores perceptíveis (colunas) _([160623](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=160623&_a=edit))_
 - Não é possível definir o valor da variavel kendo-grid-accent _([160077](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=160077&_a=edit))_
 - Lista não carrega o valor do atributo personalizado tipo money _([149987](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=149987&_a=edit))_
-
+- Lookup - no componente de utilizador nas tasks é apresentada uma linha em branco _([167149](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167149&_a=edit))_
+- Clicando nos links do dashboard, faz reload à app _([166931](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=166931&_a=edit))_
+- Campos selecionados de picking não são limpos ao filtrar novos dados _([166678](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=166678&_a=edit))_
+- Os webcomponents não estão a reagir direito em visualização _([166532](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=166532&_a=edit))_
+- Erro na consola quando não existem quick actions _([164274](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164274&_a=edit))_
+- Quando a chave é apenas um caratere não aparece no ecrã de edição _([149586](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=149586&_a=edit))_
+- Botão de Quick actions fica com aspeto de clicável mesmo quando não há quick actions definidas _([146291](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=146291&_a=edit))_
 
 ### Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation 
 
@@ -67,6 +73,7 @@
 - Adicionar um filtro a uma list operation custom source _([165731](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=165731&_a=edit))_
 - Lista de documentos não aparece na grelha no modal ao importar SAFT vendas _([165390](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=165390&_a=edit))_
 - Icone a alertar o utilizador fica desformatado na criação de contas da contabilidade _([161733](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=161733&_a=edit))_
+- Erro na utilização de custom web components em grids _([126061](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=126061&_a=edit))_
 <br/><br/>
 
 # Procedimentos adicionais necessários
