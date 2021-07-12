@@ -229,5 +229,5 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - [**Elevation**](./packages/packages_fw_12_0_1.config)
 - [**CoreLib**](./packages/packages_corelib_12_0_1.config)
 - [**Lithium**](./packages/packages_lithium_12_0_1.config)
-- [**ThirdParty**](./packages/packages_thirdparty_12_0_1.config) - outros packages que devem ser atualizados
+- [**ThirdParty**](./packages/packages_thirdparty_12_0_1.config) _- outros packages que devem ser atualizados_
 <br/><br/>
