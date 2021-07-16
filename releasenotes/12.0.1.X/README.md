@@ -71,6 +71,8 @@
 - BD partilhada - Erro ao executar upgrade de BD com dependência na Core quando a outra subscrição está down _([168889](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168889&_a=edit))_
 - BD partilhada - É executa upgrade de BD com dependência para a CORE mesmo se existem dependencias na versão inferior _([168937](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168937&_a=edit))_
 - BD partilhada - Não executa upgrade de BD com dependência para a ELEVATION _([168931](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168931&_a=edit))_
+- Na popup o Email é enviado apesar de um dos destinatários ter email inválido, quando emails separados por espaço _([169110](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169110&_a=edit))_
+- Campos em erro são limpos ao mudar de linha na grelha _([150002](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=150002&_a=edit))_
 
 ### Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation 
 
