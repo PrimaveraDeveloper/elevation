@@ -64,6 +64,13 @@
 - Erro na consola quando não existem quick actions _([164274](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164274&_a=edit))_
 - Quando a chave é apenas um caratere não aparece no ecrã de edição _([149586](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=149586&_a=edit))_
 - Botão de Quick actions fica com aspeto de clicável mesmo quando não há quick actions definidas _([146291](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=146291&_a=edit))_
+- BD partilhada - Upgrade BD não corre scripts de upgrade _([168470](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168470&_a=edit))_
+- BD partilhada - Upgrade de BD com script com erro não mostra mensagem clara ao utilizador _([168518](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168518&_a=edit))_
+- BD partilhada - Upgrade de bd apesar de falhar, dá sucesso (200 - true) via postman _([168536](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168536&_a=edit))_
+- BD partilhada - Erro ao executar upgrade de BD com dependência na Core _([168551](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168551&_a=edit))_
+- BD partilhada - Erro ao executar upgrade de BD com dependência na Core quando a outra subscrição está down _([168889](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168889&_a=edit))_
+- BD partilhada - É executa upgrade de BD com dependência para a CORE mesmo se existem dependencias na versão inferior _([168937](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168937&_a=edit))_
+- BD partilhada - Não executa upgrade de BD com dependência para a ELEVATION _([168931](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168931&_a=edit))_
 
 ### Obsolete, As Design, Not a Bug, Duplicated ou Assumed as Limitation 
 
