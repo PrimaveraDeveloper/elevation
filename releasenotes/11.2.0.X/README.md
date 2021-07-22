@@ -315,3 +315,13 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.7" para "**hotfix_11.2.9**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_9.config)
+
+## HOTFIX 11.2.10 _(22 Jul 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Erro na geração de Código do controller API base _([169535](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169535&_a=edit))_ 
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.10.0009**" 
