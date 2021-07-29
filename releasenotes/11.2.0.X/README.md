@@ -321,7 +321,9 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 ### Resumo dos problemas resolvidos
 
 - Erro na geração de Código do controller API base _([169535](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169535&_a=edit))_ 
+- Refresh dos totais nos extratos não é atualizado quando aplicados filtros _([169784](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169784&_a=edit))_
 
 ### Procedimentos adicionais necessários
 
 - Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.10.0009**" 
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.9" para "**hotfix_11.2.10**"
