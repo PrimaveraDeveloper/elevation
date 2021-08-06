@@ -159,6 +159,7 @@ Para ativar a opção do user menu que permite consultar a versão do produto:
   - O último 'add' é sempre referente ao próprio produto e a propriedade name deve ser configurada com o 'productAlias'.
     - Quando não há dependências é a única entrada que deve ser declarada.
 - Remover a propriedade 'databaseVersionValidation'.
+- Adicionar uma feature chamada "ProductUrl" em todas as AppInstancies com o valor da url base do produto (ex: https://app-rose.primaverabs.com)
 
 NOTA: Para cada dependencia declarada, existe também uma entrada na tabela Operations.DBVersions representando o versionamento atual de uma determinada subscrição (AppInstance)
 
