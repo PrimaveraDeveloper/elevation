@@ -242,3 +242,25 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - [**Lithium**](./packages/packages_lithium_12_0_1.config)
 - [**ThirdParty**](./packages/packages_thirdparty_12_0_1.config) _(outros packages que devem ser atualizados)_
 <br/><br/>
+
+# Erratas e Atualizações
+
+## HOTFIX 12.0.3 _(9 Ago 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Drilldown em popup - erro ao fazer drilldown dentro dum create inline _([169851](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169851&_a=edit))_
+- Refresh dos totais nos extratos não é atualizado quando aplicados filtros _([169784](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169784&_a=edit))_
+- Erro de draft ao aceder ao create de uma entidade company dependent _([170522](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=170522&_a=edit))_
+- Num detail criar um registo que não respeita a regra de lookup e introduzir _([141977](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=141977&_a=edit))_
+- Create inline - popup não abre quando é feito create inline dentro de outro create inline _([168805](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168805&_a=edit))_
+- Erro na geração de Código do controller API base _([169535](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169535&_a=edit))_
+- Refresh dos totais nos extratos não é atualizado quando aplicados filtros _([169784](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169784&_a=edit))_
+- Database dependencies - ProductAlias está a ser usado no GetDependencies e a feature Route deveria ser usada _([170658](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=170658&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.3.0006**" 
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.1" para "**release_12.0.2**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_3.config)

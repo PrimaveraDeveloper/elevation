@@ -327,3 +327,17 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 - Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.10.0009**" 
 - Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.9" para "**hotfix_11.2.10**"
+
+## HOTFIX 11.2.11 _(9 Ago 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Drilldown em popup - erro ao fazer drilldown dentro dum create inline _([169851](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169851&_a=edit))_
+- Refresh dos totais nos extratos não é atualizado quando aplicados filtros _([169784](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169784&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\hotfix-11.2\sdk\\**11.2.11.0010**" 
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.9" para "**hotfix_11.2.11**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_hotfix_11_2_11.config)
