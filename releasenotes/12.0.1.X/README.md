@@ -102,6 +102,21 @@ Para ativar a opção do user menu que permite consultar a versão do produto:
   ...
 }
 ```
+Alterar as rewrite rule:
+```xml
+<rule name="woff">
+  <match url="(.*.woff.*)" />
+  <action type="Rewrite" url="/ClientApp/dist/{R:1}" />
+</rule>
+<rule name="eot">
+  <match url="(.*.eot)" />
+  <action type="Rewrite" url="/ClientApp/dist/{R:1}" />
+</rule>
+<rule name="ttf">
+  <match url="(.*.ttf)" />
+  <action type="Rewrite" url="/ClientApp/dist/{R:1}" />
+</rule>
+```
 
 ### Dependências na atualização de BDs:
 
