@@ -257,6 +257,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Erro na geração de Código do controller API base _([169535](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169535&_a=edit))_
 - Refresh dos totais nos extratos não é atualizado quando aplicados filtros _([169784](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169784&_a=edit))_
 - Database dependencies - ProductAlias está a ser usado no GetDependencies e a feature Route deveria ser usada _([170658](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=170658&_a=edit))_
+- Quando um convite expira, não é possível convidar novamente porque o user já existe na BD do produto _([170461](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=170461&_a=edit))_
 
 ### Procedimentos adicionais necessários
 
