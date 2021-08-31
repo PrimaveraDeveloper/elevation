@@ -334,6 +334,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 - Drilldown em popup - erro ao fazer drilldown dentro dum create inline _([169851](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169851&_a=edit))_
 - Refresh dos totais nos extratos não é atualizado quando aplicados filtros _([169784](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=169784&_a=edit))_
+- Reporting - falta a tabela na querie _([171542](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171542&_a=edit))_
 
 ### Procedimentos adicionais necessários
 
