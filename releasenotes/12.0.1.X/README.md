@@ -259,6 +259,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Database dependencies - ProductAlias está a ser usado no GetDependencies e a feature Route deveria ser usada _([170658](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=170658&_a=edit))_
 - Quando um convite expira, não é possível convidar novamente porque o user já existe na BD do produto _([170461](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=170461&_a=edit))_
 - Reporting - falta a tabela na querie _([171542](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171542&_a=edit))_
+- Não é possivel marcar um campo memo como localizable _([172130](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172130&_a=edit))_
 
 
 ### Procedimentos adicionais necessários
