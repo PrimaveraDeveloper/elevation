@@ -268,3 +268,19 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.1" para "**release_12.0.2**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_3.config)
+
+## HOTFIX 12.0.4 _(3 Set 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Na impressão de reports do tipo standard, as colunas e títulos das grelhas não são imprimidas de acordo com a cultura. _([167654](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167654&_a=edit))_
+- Erro ao imprimir report do tipo Standard _([168173](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168173&_a=edit))_
+- Erro 401 ao tentar apresentar imagens no componente do calendário _([172199](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172199&_a=edit))_
+
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.4.0010**" 
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.2" para "**release_12.0.4**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_4.config)
