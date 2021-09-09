@@ -342,3 +342,15 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.9" para "**hotfix_11.2.11**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_11.config)
+
+## HOTFIX 11.2.12 _(9 Set 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Problemas com lock e unlock dos campos construtores _([172419](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172419&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.11" para "**hotfix_11.2.12**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_hotfix_11_2_12.config)
