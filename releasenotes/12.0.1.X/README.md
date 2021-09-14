@@ -284,3 +284,22 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.3" para "**release_12.0.4**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_4.config)
+
+## HOTFIX 12.0.5 _(13 Set 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Inserir valores na grelha com problemas para idioma EN _([157111](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=157111&_a=edit))_
+- Página em branco quando erro 500 _([171535](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171535&_a=edit))_
+- Perda do contexto da subscrição quando perda de sessão. _([171536](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171536&_a=edit))_
+- Erro 401 ao tentar apresentar imagens no componente do calendário _([172199](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172199&_a=edit))_
+- Tooltips - não são apresentadas corretamente no componente de dimensões _([168952](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168952&_a=edit))_
+- Dropdown de erros sem mensagem quando se verifica um erro numa lookup, num detalhe _([171066](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171066&_a=edit))_
+- Painel de controlo não apresenta os Context Pages de forma ordenada _([153117](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=153117&_a=edit))
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.5.0015**" 
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.4" para "**release_12.0.5**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_5.config)
