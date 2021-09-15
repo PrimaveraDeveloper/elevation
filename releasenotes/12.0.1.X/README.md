@@ -296,6 +296,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Tooltips - não são apresentadas corretamente no componente de dimensões _([168952](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168952&_a=edit))_
 - Dropdown de erros sem mensagem quando se verifica um erro numa lookup, num detalhe _([171066](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171066&_a=edit))_
 - Painel de controlo não apresenta os Context Pages de forma ordenada _([153117](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=153117&_a=edit))
+- Problemas com lock e unlock dos campos construtores _([172419](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172419&_a=edit))
 
 ### Procedimentos adicionais necessários
 
