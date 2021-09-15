@@ -298,6 +298,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Painel de controlo não apresenta os Context Pages de forma ordenada _([153117](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=153117&_a=edit))
 - Problemas com lock e unlock dos campos construtores _([172419](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172419&_a=edit))
 - Não é possível fazer override à lógica de impressão nos Controllers App, para implementar um padrão diferente do default. _([172931](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172931&_a=edit))
+- A operação corepatterns/importDataInfos/changeDataImport devolve sempre 404 _([172644](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172644&_a=edit))
 
 ### Procedimentos adicionais necessários 
 
