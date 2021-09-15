@@ -297,10 +297,11 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Dropdown de erros sem mensagem quando se verifica um erro numa lookup, num detalhe _([171066](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171066&_a=edit))_
 - Painel de controlo não apresenta os Context Pages de forma ordenada _([153117](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=153117&_a=edit))
 - Problemas com lock e unlock dos campos construtores _([172419](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172419&_a=edit))
+- Não é possível fazer override à lógica de impressão nos Controllers App, para implementar um padrão diferente do default. _([172931](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172931&_a=edit))
 
 ### Procedimentos adicionais necessários
 
-- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.5.0015**" 
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.5.0016**" 
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.4" para "**release_12.0.5**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_5.config)
