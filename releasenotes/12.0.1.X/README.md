@@ -299,7 +299,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Problemas com lock e unlock dos campos construtores _([172419](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172419&_a=edit))
 - Não é possível fazer override à lógica de impressão nos Controllers App, para implementar um padrão diferente do default. _([172931](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172931&_a=edit))
 
-### Procedimentos adicionais necessários
+### Procedimentos adicionais necessários 
 
 - Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.5.0016**" 
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.4" para "**release_12.0.5**"
