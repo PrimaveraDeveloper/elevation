@@ -302,6 +302,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### Procedimentos adicionais necessários 
 
+- Nos módulos em que existem Context Pages (Dashboards de Contexto), é necessário abrir o modelo de apresentação e validar que os índices de ordenação estão corretos (na relação Operation>Context Page e ContextPage > Widget). _(caso isto não seja feito, poderá dar erro na obtenção da view-definition)._ 
 - Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.5.0016**" 
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.4" para "**release_12.0.5**"
 - Promover os seguintes packages para o feed de produto:
