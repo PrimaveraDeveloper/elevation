@@ -306,3 +306,9 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.4" para "**release_12.0.5**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_5.config)
+
+
+### PROBLEMAS CONHECIDOS (IMPORTANTE!)
+
+As operações de impressão estão a devolver 404. 
+Estamos a trabalhar na correção e será publicada ASAP.
