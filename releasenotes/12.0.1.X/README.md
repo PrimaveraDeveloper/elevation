@@ -313,3 +313,41 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 As operações de impressão estão a devolver 404. 
 Estamos a trabalhar na correção e será publicada ASAP.
+
+## HOTFIX 12.0.6 _(27 Set 2021)_
+
+# Resumo das funcionalidades mais relevantes
+
+- Possibilidade de excluir Roles por configuração
+
+### Resumo dos problemas resolvidos
+
+- Problemas com lock e unlock dos campos construtores _([172419](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172419&_a=edit))_
+- Erro ao fazer download de documentos a partir da landing page _([173044](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173044&_a=edit))_
+- Quando os dias diponíveis é igual a zero, permite marcar dias infinitos _([172248](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172248&_a=edit)_
+- O componente do calendário não permite carregar diferentes NotWorkingDays _([171800](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171800&_a=edit)_
+- History dropdown não apresenta a data e hora da modificação _([173390](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173390&_a=edit)_
+- Não é possível construír um url com o wildcard HelpcenterBaseUrl _([173733](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173733&_a=edit)_
+- QRCode - espaços em branco devido ao posicionamento do QRcode nos documentos impressos _([172603](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172603&_a=edit)_
+- Na impressão de reports do tipo standard, títulos das grelhas repetem-se. _([171994](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171994&_a=edit)_
+- Na impressão de reports do tipo standard, atributos do tipo ValueListItem não são impressos nas grelhas _([172005](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172005&_a=edit)_
+- Setting databaseUpgradeConfiguration não faz overwrite do app configuration (falta validar) _([173080](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173080&_a=edit)_
+- Erro ao fazer drill down de um atributo numa view referenciada em outra view _([173535](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173535&_a=edit)_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.6.0020**" 
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.5" para "**release_12.0.6**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_6.config)
+  - [**CoreLib**](./packages/packages_corelib_12_0_6.config)
+- Para excluir roles do produto, é necessário incluir a seguinte secção no web.config:
+```xml
+<section name="rolesConfiguration" type="Primavera.Identity.Api.RolesConfigurationSection, Primavera.Identity.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=33086db60a481256" />
+
+<rolesConfiguration>
+    <elements>
+      <add name="default" excludeRoles="vendedor,contabilista" />
+    </elements>
+  </rolesConfiguration>
+```
