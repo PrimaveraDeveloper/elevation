@@ -355,7 +355,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_12.config)
 
-  ## HOTFIX 11.2.13 _(27 Set 2021)_
+## HOTFIX 11.2.13 _(27 Set 2021)_
 
 ### Resumo dos problemas resolvidos
 
