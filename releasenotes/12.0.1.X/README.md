@@ -337,7 +337,7 @@ Estamos a trabalhar na correção e será publicada ASAP.
 
 ### Procedimentos adicionais necessários 
 
-- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.6.0020**" 
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.6.0021**" 
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.5" para "**release_12.0.6**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_6.config)
