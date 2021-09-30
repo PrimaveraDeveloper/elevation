@@ -311,7 +311,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### PROBLEMAS CONHECIDOS (IMPORTANTE!)
 
-As operações de impressão estão a devolver 404. 
+> As operações de impressão estão a devolver 404. 
 Estamos a trabalhar na correção e será publicada ASAP.
 
 ## HOTFIX 12.0.6 _(27 Set 2021)_
