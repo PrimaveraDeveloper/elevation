@@ -329,7 +329,7 @@ Estamos a trabalhar na correção e será publicada ASAP.
 - History dropdown não apresenta a data e hora da modificação _([173390](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173390&_a=edit)_
 - Não é possível construír um url com o wildcard HelpcenterBaseUrl _([173733](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173733&_a=edit)_
 - QRCode - espaços em branco devido ao posicionamento do QRcode nos documentos impressos _([172603](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172603&_a=edit)_
-- Na impressão de reports do tipo standard, títulos das grelhas repetem-se. _([171994](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171994&_a=edit)_
+- Na impressão de reports do tipo standard, títulos das grelhas repetem-se _([171994](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171994&_a=edit)_
 - Na impressão de reports do tipo standard, atributos do tipo ValueListItem não são impressos nas grelhas _([172005](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172005&_a=edit)_
 - Setting databaseUpgradeConfiguration não faz overwrite do app configuration _([173080](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173080&_a=edit)_
 - Erro ao fazer drill down de um atributo numa view referenciada em outra view _([173535](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173535&_a=edit)_
