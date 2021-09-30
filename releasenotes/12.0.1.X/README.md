@@ -309,7 +309,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
   - [**Elevation**](./packages/packages_fw_12_0_5.config)
 
 
-### PROBLEMAS CONHECIDOS <span style="color:red">(IMPORTANTE!)</spam>
+### PROBLEMAS CONHECIDOS <span style="color:red">(IMPORTANTE!)</span>
 
 - As operações de impressão estão a devolver 404.
 
