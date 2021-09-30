@@ -324,15 +324,15 @@ Estamos a trabalhar na correção e será publicada ASAP.
 
 - Problemas com lock e unlock dos campos construtores _([172419](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172419&_a=edit))_
 - Erro ao fazer download de documentos a partir da landing page _([173044](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173044&_a=edit))_
-- Quando os dias diponíveis é igual a zero, permite marcar dias infinitos _([172248](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172248&_a=edit)_
-- O componente do calendário não permite carregar diferentes NotWorkingDays _([171800](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171800&_a=edit)_
-- History dropdown não apresenta a data e hora da modificação _([173390](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173390&_a=edit)_
-- Não é possível construír um url com o wildcard HelpcenterBaseUrl _([173733](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173733&_a=edit)_
-- QRCode - espaços em branco devido ao posicionamento do QRcode nos documentos impressos _([172603](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172603&_a=edit)_
-- Na impressão de reports do tipo standard, títulos das grelhas repetem-se _([171994](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171994&_a=edit)_
-- Na impressão de reports do tipo standard, atributos do tipo ValueListItem não são impressos nas grelhas _([172005](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172005&_a=edit)_
-- Setting databaseUpgradeConfiguration não faz overwrite do app configuration _([173080](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173080&_a=edit)_
-- Erro ao fazer drill down de um atributo numa view referenciada em outra view _([173535](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173535&_a=edit)_
+- Quando os dias diponíveis é igual a zero, permite marcar dias infinitos _([172248](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172248&_a=edit))_
+- O componente do calendário não permite carregar diferentes NotWorkingDays _([171800](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171800&_a=edit))_
+- History dropdown não apresenta a data e hora da modificação _([173390](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173390&_a=edit))_
+- Não é possível construír um url com o wildcard HelpcenterBaseUrl _([173733](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173733&_a=edit))_
+- QRCode - espaços em branco devido ao posicionamento do QRcode nos documentos impressos _([172603](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172603&_a=edit))_
+- Na impressão de reports do tipo standard, títulos das grelhas repetem-se _([171994](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171994&_a=edit))_
+- Na impressão de reports do tipo standard, atributos do tipo ValueListItem não são impressos nas grelhas _([172005](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172005&_a=edit))_
+- Setting databaseUpgradeConfiguration não faz overwrite do app configuration _([173080](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173080&_a=edit))_
+- Erro ao fazer drill down de um atributo numa view referenciada em outra view _([173535](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173535&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
