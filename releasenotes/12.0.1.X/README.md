@@ -352,3 +352,5 @@ Estamos a trabalhar na correção e será publicada ASAP.
     </elements>
   </rolesConfiguration>
 ```
+
+<span style="color:red">some **This is Red Bold.** text</span>
