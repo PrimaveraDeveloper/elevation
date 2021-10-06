@@ -352,3 +352,22 @@ Estamos a trabalhar na correção e será publicada ASAP.
     </elements>
   </rolesConfiguration>
 ```
+
+## HOTFIX 12.0.7 _(1 Out 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Na impressão de reports do tipo standard, atributos do tipo ValueListItem não são impressos nas grelhas _([172005](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172005&_a=edit))_
+- Atributos lookup de uma entidade quando do tipo Money ou ValueListItem vêm a vazio na lista _([144334](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=144334&_a=edit))_
+- Ao adicionar uma linha no plano contratual é possivel escolher o estado _([167089](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167089&_a=edit))_
+- Entrada de menu com custom URL não navega _([173762](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173762&_a=edit))_
+- Imagens não carregam no dashboard de contexto _([173634](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173634&_a=edit))_
+- Roles - Seletor desaparece porque não há nenhuma role marcada como default _([174484](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=174484&_a=edit))_
+- Roles - No envio de um convite, caso o user já exista na BD, não é adicionada a nova role _([174485](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=174485&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.7.0024**" 
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.6" para "**release_12.0.7**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_7.config)
