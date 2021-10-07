@@ -353,7 +353,7 @@ Estamos a trabalhar na correção e será publicada ASAP.
   </rolesConfiguration>
 ```
 
-## HOTFIX 12.0.7 _(1 Out 2021)_
+## HOTFIX 12.0.7 _(6 Out 2021)_
 
 ### Resumo dos problemas resolvidos
 
