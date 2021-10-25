@@ -372,7 +372,7 @@ Estamos a trabalhar na correção e será publicada ASAP.
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_7.config)
 
-  ## HOTFIX 12.0.8 _(25 Out 2021)_
+## HOTFIX 12.0.8 _(25 Out 2021)_
 
 ### Resumo dos problemas resolvidos
 
