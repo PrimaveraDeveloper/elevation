@@ -377,6 +377,8 @@ Estamos a trabalhar na correção e será publicada ASAP.
 ### Resumo dos problemas resolvidos
 
 - SAFT Vendas - A view não é atualizada automaticamente, ficando sempre visível o estado "A verificar..." _([175511](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175511&_a=edit))_
+- SAFT Vendas - Não carrega os Artigos e Clientes na grelha ao fazer scroll _([175594](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175594&_a=edit))_
+- SAFT Vendas - Navegar entre passos do stepper (Avançar e Retroceder) regra de UI deixa de funcionar _([175588](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175588&_a=edit))_
 - DateTime mal formatado quando tem um fuso horário diferente _([175572](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175572&_a=edit))_
 
 ### Procedimentos adicionais necessários 
