@@ -379,6 +379,7 @@ Estamos a trabalhar na correção e será publicada ASAP.
 - SAFT Vendas - A view não é atualizada automaticamente, ficando sempre visível o estado "A verificar..." _([175511](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175511&_a=edit))_
 - SAFT Vendas - Navegar entre passos do stepper (Avançar e Retroceder) regra de UI deixa de funcionar _([175588](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175588&_a=edit))_
 - DateTime mal formatado quando tem um fuso horário diferente _([175572](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175572&_a=edit))_
+- Ao criar CustomEntities a soluçao dá 404 not found _([175920](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175920&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
