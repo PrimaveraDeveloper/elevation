@@ -371,3 +371,15 @@ Estamos a trabalhar na correção e será publicada ASAP.
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.6" para "**release_12.0.7**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_7.config)
+
+  ## HOTFIX 12.0.8 _(25 Out 2021)_
+
+### Resumo dos problemas resolvidos
+
+- SAFT Vendas - A view não é atualizada automaticamente, ficando sempre visível o estado "A verificar..." _([175511](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175511&_a=edit))_
+- DateTime mal formatado quando tem um fuso horário diferente _([175572](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175572&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.7" para "**release_12.0.8**"
+
