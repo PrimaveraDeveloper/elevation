@@ -385,4 +385,6 @@ Estamos a trabalhar na correção e será publicada ASAP.
 ### Procedimentos adicionais necessários 
 
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.7" para "**release_12.0.8**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_8.config)
 
