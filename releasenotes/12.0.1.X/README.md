@@ -402,4 +402,4 @@ Estamos a trabalhar na correção e será publicada ASAP.
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_9.config)
 - Foi adicionada a propriedade 'TemplateKey' ao interface 'IFileImportReverterService'. 
-  - Caso utilizem a funcionalidade de Reversão de Importações, é necessário acrescentar a propriedade nos serviços de regressão.
+  - Caso utilizem a funcionalidade de Reversão de Importações, é necessário acrescentar e preencher a propriedade nos serviços de reversão.
