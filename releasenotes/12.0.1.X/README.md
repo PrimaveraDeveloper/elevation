@@ -394,7 +394,12 @@ Estamos a trabalhar na correção e será publicada ASAP.
 
 - Erro 404 em ficheiros *.lang.json quando o user tem cultura diferente de es-ES, pt-PT ou en-US _([176150](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=176150&_a=edit))_
 - SAFT Vendas - URL das notificações está a ser mal construído _([175716](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175716&_a=edit))_
+- A seleção do IFileImportReverterService está errada quando há mais que um serviço registado _([176325](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=176325&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.8" para "**release_12.0.9**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_9.config)
+- Foi adicionada a propriedade 'TemplateKey' ao interface 'IFileImportReverterService'. 
+  - Caso utilizem a funcionalidade de Reversão de Importações, é necessário acrescentar a propriedade nos serviços de regressão.
