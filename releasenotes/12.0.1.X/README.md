@@ -388,3 +388,13 @@ Estamos a trabalhar na correção e será publicada ASAP.
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_8.config)
 
+## HOTFIX 12.0.9 _(29 Out 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Erro 404 em ficheiros *.lang.json quando o user tem cultura diferente de es-ES, pt-PT ou en-US _([176150](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=176150&_a=edit))_
+- SAFT Vendas - URL das notificações está a ser mal construído _([175716](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175716&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.8" para "**release_12.0.9**"
