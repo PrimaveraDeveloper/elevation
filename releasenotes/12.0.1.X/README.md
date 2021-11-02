@@ -403,3 +403,33 @@ Estamos a trabalhar na correção e será publicada ASAP.
   - [**Elevation**](./packages/packages_fw_12_0_9.config)
 - Foi adicionada a propriedade 'TemplateKey' ao interface 'IFileImportReverterService'. 
   - Caso utilizem a funcionalidade de Reversão de Importações, é necessário acrescentar e preencher a propriedade nos serviços de reversão.
+
+## HOTFIX 12.0.10 _(2 Nov 2021)_
+
+# Resumo das funcionalidades mais relevantes
+
+- Melhorias na impresão:
+  - Otimização do espaço entre linhas
+  - Inclusão da data de impressão
+  - Inclusão do número de página
+  - Inclusão de NIF e nome da empresa em listas comapny-dependent
+  - Inclusão de informação de copyright
+  - Otimização do espaço nos filtros
+  - Impressão agrupada
+  - Impressão a refletir as alterações em runtime (sem necessidade de guardar a lista)
+
+### Resumo dos problemas resolvidos
+
+- Export de lista para CSV - Exportar de lista para CSV quando o nome tem um" ( " _([175109](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175109&_a=edit))_
+- Entidades Master com 2 Many-to-Many - Alterações não são guardadas quando o número de registos ultrapassa os 2000 _([173299](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173299&_a=edit))_
+- Alterar configuração das listas as configurações de ordenação são perdidas _([155765](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=155765&_a=edit))_
+- Export para CSV desformatado quando inclui campos tipo memo _([171998](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171998&_a=edit))_
+- Falha na pesquisa dos registos de uma custom entity _([172128](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172128&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.9" para "**release_12.0.10**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_10.config)
+- Incluír a  ([script](.database/escape_backslash.sql), no upgrade das BDs 
+- Subsctituir o stored procedure ([V4-Complex-Update](.documentDB/V4-Complex-Update.js)) na cosmos DB.
