@@ -431,5 +431,5 @@ Estamos a trabalhar na correção e será publicada ASAP.
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.9" para "**release_12.0.10**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_10.config)
-- Incluír a  ([script](.database/escape_backslash.sql), no upgrade das BDs 
-- Subsctituir o stored procedure ([V4-Complex-Update](.documentDB/V4-Complex-Update.js)) na cosmos DB.
+- Incluír a  [script](./database/escape_backslash.sql), no upgrade das BDs 
+- Subsctituir o stored procedure [V4-Complex-Update](./documentDB/V4-Complex-Update.js) na cosmos DB.
