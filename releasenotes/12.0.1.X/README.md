@@ -435,3 +435,13 @@ Estamos a trabalhar na correção e será publicada ASAP.
   - [**Elevation**](./packages/packages_fw_12_0_10.config)
 - Incluír a  [script](./database/escape_backslash.sql), no upgrade das BDs 
 - Subsctituir o stored procedure [V4-Complex-Update](./documentDB/V4-Complex-Update.js) na cosmos DB.
+
+## HOTFIX 12.0.11 _(5 Nov 2021)_
+
+### Resumo dos problemas resolvidos
+
+Na pesquisa por campos do tipo money, é sempre considerado o separador '.', independentemente do idioma do utilizador _([176504](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=176504&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.10" para "**release_12.0.11**"
