@@ -364,6 +364,7 @@ Estamos a trabalhar na correção e será publicada ASAP.
 - Imagens não carregam no dashboard de contexto _([173634](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173634&_a=edit))_
 - Roles - Seletor desaparece porque não há nenhuma role marcada como default _([174484](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=174484&_a=edit))_
 - Roles - No envio de um convite, caso o user já exista na BD, não é adicionada a nova role _([174485](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=174485&_a=edit))_
+- Aplicação recarrega ao aceder a determinada opção no menu (Role de Accountant) _([174807](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=174807&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
