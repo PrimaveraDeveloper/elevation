@@ -445,3 +445,17 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
 ### Procedimentos adicionais necessários 
 
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.10" para "**release_12.0.11**"
+
+## HOTFIX 12.0.12 _(8 Nov 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Erro na criação de empresa quando o user logado é um técnico _([176775](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=176775&_a=edit))_
+- A informação da AppInstance é guardada em cache demasiado tempo, ficando obsoleta (no SM a duração é mais curta) _([176776](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=176776&_a=edit))_
+- Status 500 ao clicar em manager custom attribute _([176306](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=176306&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_12.config)
+  - [**Lithium**](./packages/packages_lithium_12_0_12.config)
