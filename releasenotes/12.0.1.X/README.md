@@ -425,7 +425,6 @@ Estamos a trabalhar na correção e será publicada ASAP.
 - Entidades Master com 2 Many-to-Many - Alterações não são guardadas quando o número de registos ultrapassa os 2000 _([173299](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173299&_a=edit))_
 - Alterar configuração das listas as configurações de ordenação são perdidas _([155765](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=155765&_a=edit))_
 - Export para CSV desformatado quando inclui campos tipo memo _([171998](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171998&_a=edit))_
-- Falha na pesquisa dos registos de uma custom entity _([172128](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172128&_a=edit))_
 - Download de anexos - Erro no nome do ficheiro quando este contém carateres especiais ou espaços _([171040](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171040&_a=edit))_
 
 ### Procedimentos adicionais necessários 
