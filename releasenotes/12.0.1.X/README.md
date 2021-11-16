@@ -458,9 +458,8 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_12.config)
   - [**Lithium**](./packages/packages_lithium_12_0_12.config)
-<<<<<<< HEAD
 
-## HOTFIX 12.0.13 _(XXX Nov 2021)_
+## HOTFIX 12.0.13 _(16 Nov 2021)_
 
 # Resumo das funcionalidades mais relevantes
 
@@ -495,10 +494,8 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
     </elements>
   </databaseUpgradeConfiguration>
 ```
-NOTA: Os valores possíveis para a 'versionCompatibility' são:
-  - 'Major': é compativel com alterações até à _'minor version'_ da dependência,
-  - 'Minor': é compativel com alterações até à _'patch version'_ da dependência,
-  - 'Patch': é compativel com alterações até à _'build version'_ da dependência,
-  - 'Build' (ou 'None' ou omitir): não é compativel com nenhuma alteração (comportamento atual)
-=======
->>>>>>> 4b885f8dd1061318cfe31b71afc8d37c5fd51e3d
+  NOTA: Os valores possíveis para a _'versionCompatibility'_ são:
+    - 'Major': é compativel com alterações até à _'minor version'_ da dependência,
+    - 'Minor': é compativel com alterações até à _'patch version'_ da dependência,
+    - 'Patch': é compativel com alterações até à _'build version'_ da dependência,
+    - 'Build' (ou 'None' ou omitir): não é compativel com nenhuma alteração (comportamento atual)
