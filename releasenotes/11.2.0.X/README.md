@@ -366,3 +366,13 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 - Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.12" para "**hotfix_11.2.13**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_hotfix_11_2_13.config)
+
+## HOTFIX 11.2.14 _(12 Set 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Quando a chave é apenas um caratere não aparece no ecrã de edição _([149586](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=149586&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.13" para "**hotfix_11.2.14**"
