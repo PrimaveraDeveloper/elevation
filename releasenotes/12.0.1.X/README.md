@@ -494,7 +494,7 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
     </elements>
   </databaseUpgradeConfiguration>
 ```
-  NOTA: Os valores possíveis para a _'versionCompatibility'_ são:
+  - NOTA: Os valores possíveis para a _'versionCompatibility'_ são:
     - 'Major': é compativel com alterações até à _'minor version'_ da dependência,
     - 'Minor': é compativel com alterações até à _'patch version'_ da dependência,
     - 'Patch': é compativel com alterações até à _'build version'_ da dependência,
