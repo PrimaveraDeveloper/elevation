@@ -424,8 +424,8 @@ Estamos a trabalhar na correção e será publicada ASAP.
 - Export de lista para CSV - Exportar de lista para CSV quando o nome tem um" ( " _([175109](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=175109&_a=edit))_
 - Entidades Master com 2 Many-to-Many - Alterações não são guardadas quando o número de registos ultrapassa os 2000 _([173299](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173299&_a=edit))_
 - Alterar configuração das listas as configurações de ordenação são perdidas _([155765](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=155765&_a=edit))_
-- Export para CSV desformatado quando inclui campos tipo memo _([171998](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171998&_a=edit))_
 - Falha na pesquisa dos registos de uma custom entity _([172128](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172128&_a=edit))_
+- Export para CSV desformatado quando inclui campos tipo memo _([171998](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171998&_a=edit))_
 - Download de anexos - Erro no nome do ficheiro quando este contém carateres especiais ou espaços _([171040](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=171040&_a=edit))_
 
 ### Procedimentos adicionais necessários 
@@ -459,6 +459,7 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_12.config)
   - [**Lithium**](./packages/packages_lithium_12_0_12.config)
+<<<<<<< HEAD
 
 ## HOTFIX 12.0.13 _(XXX Nov 2021)_
 
@@ -500,3 +501,5 @@ NOTA: Os valores possíveis para a 'versionCompatibility' são:
   - 'Minor': é compativel com alterações até à _'patch version'_ da dependência,
   - 'Patch': é compativel com alterações até à _'build version'_ da dependência,
   - 'Build' (ou 'None' ou omitir): não é compativel com nenhuma alteração (comportamento atual)
+=======
+>>>>>>> 4b885f8dd1061318cfe31b71afc8d37c5fd51e3d
