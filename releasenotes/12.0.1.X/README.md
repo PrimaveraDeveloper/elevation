@@ -433,7 +433,7 @@ Estamos a trabalhar na correção e será publicada ASAP.
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.9" para "**release_12.0.10**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_10.config)
-- Incluír a  [script](./database/escape_backslash.sql), no upgrade das BDs 
+- Incluír a  [script](./database/escape_backslash_12_0_10.sql), no upgrade das BDs 
 - Subsctituir o stored procedure [V4-Complex-Update](./documentDB/V4-Complex-Update.js) na cosmos DB.
 
 ## HOTFIX 12.0.11 _(5 Nov 2021)_
@@ -459,3 +459,44 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_12.config)
   - [**Lithium**](./packages/packages_lithium_12_0_12.config)
+
+## HOTFIX 12.0.13 _(XXX Nov 2021)_
+
+# Resumo das funcionalidades mais relevantes
+
+- Upgrade de BD: Possibilidade de definir o grau de compatibilidade entre dependencias (BUILD, PATCH, MINOR, MAJOR)
+
+### Resumo dos problemas resolvidos
+
+- Com a configuração 'ValidateRoleOnClientCredentials' ativada, pedidos à API com clientes sem role definita dão 500 _([177060](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177060&_a=edit))_
+- Impressão e exportação de lista agrupada por mais que um parâmetro não é impressa corretamente _([163842](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=163842&_a=edit))_
+- Guardar 'DefaultUserRole' em cache (memória) gera problemas quando se troca de role em cenários com multiplos hosts _([177114](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177114&_a=edit))_
+- UI Rules não funcionam ao editar registos de uma entidade com relação many-to-many _([177018](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177018&_a=edit))_
+- CustomDeleteAction não funciona para entidades modeladas com DeleteEnabled=True _([177211](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177211&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.11" para "**release_12.0.13**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_13.config)
+- Incluír a  [script](./database/bug_datetime_12_0_13.sql), no upgrade das BDs 
+- Alterar o web.config, adicionando o parâmetro _'versionCompatibility'_ à secção de configuração _'databaseUpgradeConfiguration'_:
+```xml
+<databaseUpgradeConfiguration>
+    <elements>
+      ...        
+          <add name="CORE" version="1.00.0000.0001" versionCompatibility="Patch">
+            ...
+          </add>
+          <add name="ELEVATION" version="2.00.0000.0001">
+            ...
+          </add>
+      ...       
+    </elements>
+  </databaseUpgradeConfiguration>
+```
+NOTA: Os valores possíveis para a 'versionCompatibility' são:
+  - 'Major': é compativel com alterações até à _'minor version'_ da dependência,
+  - 'Minor': é compativel com alterações até à _'patch version'_ da dependência,
+  - 'Patch': é compativel com alterações até à _'build version'_ da dependência,
+  - 'Build' (ou 'None' ou omitir): não é compativel com nenhuma alteração (comportamento atual)
