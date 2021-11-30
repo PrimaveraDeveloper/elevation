@@ -519,7 +519,7 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
 
 ### Procedimentos adicionais necessários 
 
-- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.14.0027**" 
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.14.0029**" 
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.13" para "**release_12.0.14**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_14.config)
