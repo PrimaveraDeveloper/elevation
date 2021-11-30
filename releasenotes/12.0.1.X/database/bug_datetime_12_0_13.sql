@@ -35,6 +35,14 @@ BEGIN
 END
 GO
 
+IF EXISTS ( SELECT  1
+            FROM    Information_schema.Routines
+            WHERE   Specific_schema = 'CorePatterns' AND 
+                    specific_name = 'GetCustomAttributeObject'
+                    AND Routine_Type = 'FUNCTION' )
+    DROP Function [CorePatterns].[GetCustomAttributeObject]
+GO
+
 CREATE FUNCTION  [CorePatterns].[GetCustomAttributeObject]
 (@json NVARCHAR(1000), @jsonPath NVARCHAR(100), @domainType NVARCHAR(20))
 RETURNS sql_variant
