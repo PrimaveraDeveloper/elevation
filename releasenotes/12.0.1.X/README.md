@@ -499,3 +499,32 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
     - **'Minor'**: é compativel com alterações até à _'patch version'_ da dependência,
     - **'Patch'**: é compativel com alterações até à _'build version'_ da dependência,
     - **'Build'** (ou 'None' ou omitir): não é compativel com nenhuma alteração (comportamento atual)
+
+## HOTFIX 12.0.14 _(19 Nov 2021)_
+
+# Resumo das funcionalidades mais relevantes
+
+- Possibilidade de exportar listas para excell (.xlsx)
+- Melhorias no seletor de subscrição/empresa
+- Possibilidade de identificar a linha onde um erro ocorreu
+
+### Resumo dos problemas resolvidos
+
+- Refresh dos totais da lista e agrupamentos não são atualizados quando são aplicados filtros rápidos _([177130](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177130&_a=edit))_
+- Erro ao imprimir lista com valores nulos e totais _([177765](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177765&_a=edit))_
+- Incorreta geração de “Services.Controllers.Api.cs” quando resource tem atributo ValueListItem de outro módulo _([136786](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=136786&_a=edit))_
+- Upgrade de BD falha quando a currentVersion (database) é maior que a target version (web.config) _([177869](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177869&_a=edit))_
+- O interceptor de http não faz a destinção entre maiúsculas e minúsculas _([178406](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=178406&_a=edit))_
+- Linhas em branco na criação de linhas em novo resporte fiscal DPIVA _([177689](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177689&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.14.0027**" 
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.13" para "**release_12.0.14**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_14.config)
+  - [**ThirdParty**](./packages/packages_thirdparty_12_0_14.config)
+- Instalar no Host, o seguinte package:
+```xml
+  <package id="SemanticVersioning" version="2.0.0" targetFramework="net472" />
+```

@@ -371,7 +371,7 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 
 ### Resumo dos problemas resolvidos
 
-- Quando a chave é apenas um caratere não aparece no ecrã de edição _([149586](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=149586&_a=edit))_
+- Quando a chave é apenas um caractere não aparece no ecrã de edição _([149586](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=149586&_a=edit))_
 
 ### Procedimentos adicionais necessários
 
