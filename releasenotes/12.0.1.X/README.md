@@ -528,3 +528,15 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
 ```xml
   <package id="SemanticVersioning" version="2.0.0" targetFramework="net472" />
 ```
+
+## HOTFIX 12.0.15 _(30 Nov 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Recibos sao impressos com valores a zero _([178658](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=178658&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.14" para "**release_12.0.15**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_15.config)
