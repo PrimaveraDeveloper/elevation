@@ -500,7 +500,7 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
     - **'Patch'**: é compativel com alterações até à _'build version'_ da dependência,
     - **'Build'** (ou 'None' ou omitir): não é compativel com nenhuma alteração (comportamento atual)
 
-## HOTFIX 12.0.14 _(4 Dez 2021)_
+## HOTFIX 12.0.14 _(30 Nov 2021)_
 
 # Resumo das funcionalidades mais relevantes
 
@@ -529,7 +529,7 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
   <package id="SemanticVersioning" version="2.0.0" targetFramework="net472" />
 ```
 
-## HOTFIX 12.0.15 _(30 Nov 2021)_
+## HOTFIX 12.0.15 _(4 Dez 2021)_
 
 ### Resumo dos problemas resolvidos
 
