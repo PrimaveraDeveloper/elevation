@@ -30,7 +30,7 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 | 25 Out 2021 | [12.0.8.X / release_12.0.8](./12.0.1.X/README.md#hotfix-1208-25-out-2021)       | _patch_ version   |
 | 06 Out 2021 | [12.0.7.X / release_12.0.7](./12.0.1.X/README.md#hotfix-1207-6-out-2021)        | _patch_ version   |
 | 13 Set 2021 | [12.0.6.X / release_12.0.6](./12.0.1.X/README.md#hotfix-1206-27-set-2021)       | _patch_ version   |
-| 12 Set 2021 | [12.0.14.X / release_12.0.14](./12.0.1.X/README.md#hotfix-11214-12-set-2021)    | _patch_ version   |
+| 12 Set 2021 | [11.0.14.X / release_11.0.14](./11.2.0.X/README.md#hotfix-11214-12-set-2021)    | _patch_ version   |
 | 27 Set 2021 | [11.2.13.X / hotfix_11.2.13](./11.2.0.X/README.md#hotfix-11213-27-set-2021)     | _patch_ version   |
 | 13 Set 2021 | [12.0.5.X / release_12.0.5](./12.0.1.X/README.md#hotfix-1205-13-set-2021)       | _patch_ version   |
 | 09 Set 2021 | [11.2.12.X / hotfix_11.2.12](./11.2.0.X/README.md#hotfix-11212-9-set-2021)      | _patch_ version   |
