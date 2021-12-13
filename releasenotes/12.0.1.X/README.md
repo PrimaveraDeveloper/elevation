@@ -540,3 +540,20 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.14" para "**release_12.0.15**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_15.config)
+
+## HOTFIX 12.0.16 _(13 Dez 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Erro 500 ao aceder a uma history dropdown de uma view de sistema _([177266](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177266&_a=edit))_
+- Erros 500 na chamada a shell/clientContextValues/getClientContext _([178804](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=178804&_a=edit))_
+- Limitações do gmail no uso de imagens em base64 _([178281](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=178281&_a=edit))_
+- Erro no upgradeApplication usando do Service Management _([179184](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=179184&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.15" para "**release_12.0.16**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_16.config)
+  - [**CoreLib**](./packages/packages_corelib_12_0_16.config)
+  - [**ThirdParty**](./packages/packages_thirdparty_12_0_16.config)
