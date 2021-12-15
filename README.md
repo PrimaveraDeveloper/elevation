@@ -2,7 +2,7 @@
 
 Welcome to the the **Elevation Framework** house.
 
-Here you can find the Elevation FW technical information, all the Elevation Framework Releases, Maintenance and Quality dashboards and mush more.
+Here you can find the Elevation FW technical information, all the Elevation Framework Releases, Maintenance and Quality dashboards and much more.
 
 ## Technical Documentation _(elevation-docs)_
 
