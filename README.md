@@ -26,7 +26,7 @@ Here you can find the Elevation FW technical information, all the Elevation Fram
 
 ## Contributing and Feedback
 
-Contribution is limited to the INT.BIZ, INT.CORE and INT.CORE2 teams.
+Contribution is limited to the INT.S, INT.C, INT.E and INT.I teams.
 Any problem found in the documentation or any other suggestion should be reported to those Teams.
 <br/><br/>
 
