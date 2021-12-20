@@ -376,3 +376,14 @@ NOTA: Os packages CoreLib e Lithium listados, são os usados no prototipo. Devem
 ### Procedimentos adicionais necessários
 
 - Alterar a tag dos módulos de FW, na ClientApp, de "hotfix_11.2.13" para "**hotfix_11.2.14**"
+
+## HOTFIX 11.2.15 _(20 Dez 2021)_
+
+### Resumo dos problemas resolvidos
+
+- QRCode - espaços em branco devido ao posicionamento do QRcode nos documentos impressos _([172603](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172603&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_hotfix_11_2_15.config)
