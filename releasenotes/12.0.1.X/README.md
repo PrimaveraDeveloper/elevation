@@ -557,3 +557,20 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
   - [**Elevation**](./packages/packages_fw_12_0_16.config)
   - [**CoreLib**](./packages/packages_corelib_12_0_16.config)
   - [**ThirdParty**](./packages/packages_thirdparty_12_0_16.config)
+
+## HOTFIX 12.0.17 _(23 Dez 2021)_
+
+### Resumo dos problemas resolvidos
+
+- Na impressão do Mapa de Lançamentos de Imposto, totais (somas) aparecem a "zeros" _([180082](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180082&_a=edit))_
+- Reporting - Impressão de uma lista custom com muitas colunas, gerada automaticamente, não é legível _([179328](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=179328&_a=edit))_
+- Na impressão de reports standard, as colunas com valores do tipo decimal nao apresentam separador dos milhares _([179918](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=179918&_a=edit))_
+- Descrição do placeholder no search da subscrição está errado _([178559](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=178559&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.16" para "**release_12.0.17**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_17.config)
+  
+  
