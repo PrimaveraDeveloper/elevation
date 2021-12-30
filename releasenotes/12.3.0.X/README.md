@@ -32,7 +32,7 @@
     - Possibilidade de se utilizar logo da company nas impressões das listas
     - Alterações de agrupamento, ordem das colunas e ordem dos dados impressas no pdf, sem necessidade de ir ao configurador das listas
   - Reports Standard
-    - Suporte para numero de cópias para reports standard
+    - Suporte para número de cópias para reports standard
     - Valores boleanos passam a ser representados com sim/não
     - Possibilidade de adicionar informação de licenciamento no footer
     - Otimização do espaço das linhas nas grelhas
