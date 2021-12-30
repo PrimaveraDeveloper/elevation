@@ -2,7 +2,7 @@
 | ---:               | :---                                                                               |
 | **Cliente tag**    | release_12.3.0                                                                     |
 | **SDK**            | [**12.03.00.0012**](\\storage\BUILDS\TFS\framework\release-12.3\sdk\12.3.0.0012)   |
-| **Upgrade DB**     | [**scripts sql**](./database/db_upgrade.zip)                                                |
+| **Upgrade DB**     | [**scripts sql**](./database/db_upgrade.zip)                                       |
 <br/>
 
 # Resumo das funcionalidades mais relevantes
@@ -49,7 +49,7 @@
 - Status 400 ao editar custom attribute no contexto padrao company dependente _([180196](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180196&_a=edit))_
 - Não guardou alteração checkbox striped rows _([180044](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180044&_a=edit))_
 - Falha no comportamento das lista no contexto de custom entity e custom atribute _([180206](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180206&_a=edit))_
-Status 400 ao editar custom entity aplicando o checkbox is company dependent _([180200](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180200&_a=edit))_
+- Status 400 ao editar custom entity aplicando o checkbox is company dependent _([180200](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180200&_a=edit))_
 - Alterações em registos de uma picking não são refletidos após alterar o paginador _([178515](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=178515&_a=edit))_
 - CTRL + ALT+ N não funciona em modo de visualização _([178215](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=178215&_a=edit))_
 - Calendário - nomes com maiúscula e acento não são mostrados corretamente na linha do calendário _([168794](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=168794&_a=edit))_
@@ -58,7 +58,7 @@ Status 400 ao editar custom entity aplicando o checkbox is company dependent _([
 - Erro ao fazer download de documentos a partir da landing page _([173044](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173044&_a=edit))_
 - Erros em pedidos OData para entidades com relação many-to-many _([146923](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=146923&_a=edit))_
 - Thumbnail image - quando o ecrã não está maximizado campo com thumbnail image encosta ao campo adjacente _([145810](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=145810&_a=edit))_
-Imagens não carregam no dashboard de contexto _([173634](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173634&_a=edit))_
+- Imagens não carregam no dashboard de contexto _([173634](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173634&_a=edit))_
 - Botões de ação estão disponíveis em entidades company dependent quando não há empresa criada _([126422](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=126422&_a=edit))_
 - Context pages - informação relacionada mantem-se no dashboard de contexto depois de apagar linha de document _([174206](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=174206&_a=edit))_
 - Create company - View não fica em modo create depois de criar company num documento company dependent _([142931](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=142931&_a=edit))_
@@ -104,7 +104,7 @@ Imagens não carregam no dashboard de contexto _([173634](https://tfs.primaverab
 - 404 criar customer através de um attribute custom tipo view _([172998](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172998&_a=edit))_
 - Não gera draft para custom entity _([172352](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=172352&_a=edit))_
 - API de Reporting - Esconder Atributo _([170116](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=170116&_a=edit))_
-- Seletor de subscrições/empresas não deve ter animação nem seta com apenas uma subscrição e empresa_([177935](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177935&_a=edit))_
+- Seletor de subscrições/empresas não deve ter animação nem seta com apenas uma subscrição e empresa _([177935](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177935&_a=edit))_
 
 # Procedimentos adicionais necessários
 
