@@ -38,7 +38,7 @@
     - Otimização do espaço das linhas nas grelhas
     - Possibilidade de modelar campos sem espaço entre label e valor (“email: xpto@primaverabss.com”, em vez de “Email xpto@primaverabss.com”)
   - Conformidade com CIUS.PT 
-    - Possibilidade de associar código 'unecerec20'
+    - Possibilidade de associar código 'unecerec20' às unidades
   - Fallback nos templates de importação por idioma _('template.pt-PT' > 'template.pt')_
   - Suporte para o idioma Catalão
 <br/><br/>
