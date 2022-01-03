@@ -45,7 +45,6 @@
 
 # Resumo dos problemas resolvidos
 
-- AdditionalItems não estão a ser mapeados _([167985](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167985&_a=edit))_
 - Status 400 ao editar custom attribute no contexto padrao company dependente _([180196](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180196&_a=edit))_
 - Não guardou alteração checkbox striped rows _([180044](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180044&_a=edit))_
 - Falha no comportamento das lista no contexto de custom entity e custom atribute _([180206](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180206&_a=edit))_
