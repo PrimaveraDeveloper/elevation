@@ -124,11 +124,13 @@ Instalar, nos projetos 'Domain' os seguintes packages:
  
 ### PROBLEMAS CONHECIDOS
 
-- Picking Basic - Subscrições não atualiza o número de companies quando aponta para o APP's _([180293](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180293&_a=edit))_
-- Picking Basic - Reset no "generate invoice with Totals" _([180290](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180290&_a=edit))_
-- Picking Basic - Percentagens só aparecem quando as linhas estão selecionadas _([180278](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180278&_a=edit))_
-- Picking Basic - Ao fazer filtro pelo customer com uma linha selecionada dá erro _([180276](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180276&_a=edit))_
-- Picking Basic - Seletor de subscrições/empresas não trás subscrições quando aponta para o CMS _([180080](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180080&_a=edit))_
+  # Picking
+  - Picking Basic - Erro no reset _([180290](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180290&_a=edit))_
+  - Picking Basic - Ao fazer filtro pelo customer com uma linha selecionada dá erro _([180276](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180276&_a=edit))_
+
+  # Seletor de subscrições/empresa
+  Subscrições não atualiza o número de companies quando aponta para o APP's _([180293](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180293&_a=edit))_
+  Seletor de subscrições/empresas não trás subscrições quando aponta para o CMS _([180080](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180080&_a=edit))_
 
 # Packages (nuget)
 
