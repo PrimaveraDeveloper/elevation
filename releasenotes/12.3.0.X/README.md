@@ -124,7 +124,6 @@ Instalar, nos projetos 'Domain' os seguintes packages:
  
 ### PROBLEMAS CONHECIDOS
 
-  # Picking
   - Picking Basic - Erro no reset _([180290](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180290&_a=edit))_
   - Picking Basic - Ao fazer filtro pelo customer com uma linha selecionada dá erro _([180276](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180276&_a=edit))_
 
