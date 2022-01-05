@@ -122,7 +122,7 @@ Na modelação, aceder ao report e ativar a funcionalidade alterando a proprieda
 Instalar, nos projetos 'Domain' os seguintes packages:
  - Primavera.Lithium.SearchEngine.Client.Rest _(version="1.0.1)_
  
-### PROBLEMAS CONHECIDOS
+# PROBLEMAS CONHECIDOS
 
   - Picking Basic - Erro no reset _([180290](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180290&_a=edit))_
   - Picking Basic - Ao fazer filtro pelo customer com uma linha selecionada dá erro _([180276](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180276&_a=edit))_
