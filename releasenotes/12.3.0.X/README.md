@@ -127,6 +127,13 @@ Na modelação, aceder ao report e ativar a funcionalidade alterando a proprieda
 Instalar, nos projetos 'Domain' os seguintes packages:
  - Primavera.Lithium.SearchEngine.Client.Rest _(version="1.0.1)_
  
+### Atualização do web.config
+
+Alterar a declaração secção "serviceManagementConfiguration" para ficar da seguinte forma:
+```xml
+<section name="serviceManagementConfiguration" type="Primavera.Core.Patterns.Api.ServiceManagementConfigurationSection, Primavera.Core.Patterns.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=33086db60a481256" />
+```
+
 # PROBLEMAS CONHECIDOS
 
   - Picking Basic - Erro no reset _([180290](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180290&_a=edit))_
