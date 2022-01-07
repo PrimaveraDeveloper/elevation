@@ -148,9 +148,9 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 ### Resumo dos problemas resolvidos
 
 - Picking Basic - Erro no reset _([180290](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180290&_a=edit))_
+- Picking Basic - Reset depois de "bulk edit" com "select all" dá erro _([180888](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180888&_a=edit))_
 - Picking Basic - Ao fazer filtro pelo customer com uma linha selecionada dá erro _([180276](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180276&_a=edit))_
 - Picking Basic - Dark theme _([180685](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180685&_a=edit))_
-- Subscrições não atualiza o número de companies quando aponta para o APP's _([180293](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180293&_a=edit))_
 - Seletor de subscrições/empresas não trás subscrições quando aponta para o CMS _([180080](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180080&_a=edit))_
 - View da empresa com os contactos desformatados _([177068](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177068&_a=edit))_
 - No configurador de colunas de uma lista de uma entidade com um atributo list, ao expandir as opções não são mostradas _([167783](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=167783&_a=edit))_
