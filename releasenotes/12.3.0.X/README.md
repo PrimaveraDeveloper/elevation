@@ -143,7 +143,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - [**ThirdParty**](./packages/packages_thirdparty_12_3_0.config) _(outros packages que devem ser atualizados)_
 <br/><br/>
 
-## HOTFIX 12.3.1 _(7 Jan 2021)_
+## HOTFIX 12.3.1 _(7 Jan 2022)_
 
 ### Resumo dos problemas resolvidos
 
