@@ -174,7 +174,6 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### Resumo das funcionalidades mais relevantes
 
-- Suporte para o idioma Italiano
 - Tracing relativo a gestão de Menus e Quick actions melhorado
 
 ### Resumo dos problemas resolvidos
