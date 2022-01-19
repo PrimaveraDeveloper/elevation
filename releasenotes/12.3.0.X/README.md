@@ -169,4 +169,35 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_1.config)
   - [**Lithium**](./packages/packages_lithium_12_3_1.config)
+
+## HOTFIX 12.3.2 _(19 Jan 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Suporte para o idioma Italiano
+- Tracing relativo a gestão de Menus e Quick actions melhorado
+
+### Resumo dos problemas resolvidos
+
+- Campos disable com fundo branco como se estivessem enable _([182035](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182035&_a=edit))_
+- Ao fazer redirect num picking para um draft com o mesmo id o cabecalho nao carrega filtros _([182620](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182620&_a=edit))_
+- Ao editar um registo de uma entidade Master-detail-detail e adicionar nova linha, coluna editada assume valor anterior _([180814](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180814&_a=edit))_
+- Atributos do tipo Combo cujo Data Source é um endpoint modelado, não apresentam na view os dados persistidos em entidades detail _([181587](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=181587&_a=edit))_
+- Documentos entram em modo de edição quando a comunicação webservice falha e é selecionado o botão comunicar _([182424](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182424&_a=edit))_
+- Após uma mensagem de erro os editores ficam em modo editado _([182503](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182503&_a=edit))_
+- Campo do tipo link no cabeçalho de uma view não está a redirecionar _([154615](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=154615&_a=edit))_
+- O Importador consegue atualizar o registo importado no produto _([182499](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182499&_a=edit))_
+- Impressão em talão - texto das linhas fica sobreposto _([182021](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182021&_a=edit))_
+- Reports standard: borders dos títulos de grelhas não aparecem _([182714](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182714&_a=edit))_
+- Push notifications - No início do novo ano as notificações do final do ano anterior não são apresentadas nos grupos de data _([181923](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=181923&_a=edit))_
+- Campos disable com fundo branco como se estivessem enable _([182035](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182035&_a=edit))_
+- Campos decimal com mais de duas casas decimais em modo de edição _([182044](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182044&_a=edit))_
+- Search - utilizador encaminhado para o seletor de subscrições depois de efetuar uma pesquisa _([164289](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=164289&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.3.2.18**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.1" para "**release_12.3.2**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_3_2.config)
   
