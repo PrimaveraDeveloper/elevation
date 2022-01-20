@@ -175,6 +175,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 ### Resumo das funcionalidades mais relevantes
 
 - Tracing relativo a gestão de Menus e Quick actions melhorado
+- Possibilidate de ativar o refrescamento de dados nos widgets do dashboard
 
 ### Resumo dos problemas resolvidos
 
