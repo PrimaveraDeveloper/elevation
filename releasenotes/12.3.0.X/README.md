@@ -200,4 +200,17 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.1" para "**release_12.3.2**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_2.config)
+
+## HOTFIX 12.3.3 _(25 Jan 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Erro ao criar companies localmente _([182760](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182760&_a=edit))_
+- Aceder às opções rápidas dá toast no draft _([177483](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177483&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.2" para "**release_12.3.3**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_3_3.config)
   
