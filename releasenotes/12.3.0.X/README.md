@@ -205,7 +205,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### Resumo dos problemas resolvidos
 
-- Erro ao criar companies localmente _([182760](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182760&_a=edit))_
+- Erro ao criar companies localmente (localhost usando ficheiro subscriptions.json com SM) _([182760](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182760&_a=edit))_
 - Aceder às opções rápidas dá toast no draft _([177483](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177483&_a=edit))_
 
 ### Procedimentos adicionais necessários 
