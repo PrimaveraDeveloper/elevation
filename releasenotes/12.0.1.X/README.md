@@ -577,7 +577,7 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
 
 ### Resumo das funcionalidades mais relevantes
 
-- Suporte ao idioma 'italiano'
+- Suporte para o idioma 'italiano'
 
 ### Resumo dos problemas resolvidos
 
