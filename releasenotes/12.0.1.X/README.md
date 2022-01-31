@@ -573,4 +573,19 @@ Na pesquisa por campos do tipo money, é sempre considerado o separador '.', ind
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_0_17.config)
   
-  
+## HOTFIX 12.0.18 _(31 Jan 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Suporte ao idioma 'italiano'
+
+### Resumo dos problemas resolvidos
+
+- SDK - Geração das scripts SQL não está a fazer escape de caracteres especiais _([180898](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180898&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.0.18.0038**" 
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.0.17" para "**release_12.0.18**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_0_18.config)

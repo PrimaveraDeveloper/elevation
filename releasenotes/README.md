@@ -20,6 +20,8 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 
 | date | server version/client tag | semantic jump |
 | :---: | :---: | :---: |
+| 31 Jan 2022 | [12.3.4.X / release_12.3.4](./12.3.0.X/README.md#hotfix-1234-31-jan-2022)       | _patch_ version   |
+| 31 Jan 2022 | [12.0.18.X / release_12.0.18](./12.0.1.X/README.md#hotfix-12018-31-jan-2022)    | _patch_ version   |
 | 25 Jan 2022 | [12.3.3.X / release_12.3.3](./12.3.0.X/README.md#hotfix-1233-25-jan-2022)       | _patch_ version   |
 | 19 Jan 2022 | [12.3.2.X / release_12.3.2](./12.3.0.X/README.md#hotfix-1232-19-jan-2022)       | _patch_ version   |
 | 07 Jan 2022 | [12.3.1.X / release_12.3.1](./12.3.0.X/README.md#hotfix-1231-7-jan-2022)        | _patch_ version   |

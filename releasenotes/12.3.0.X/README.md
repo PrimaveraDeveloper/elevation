@@ -196,7 +196,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### Procedimentos adicionais necessários 
 
-- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.0\sdk\\**12.3.2.18**
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.2.18**
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.1" para "**release_12.3.2**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_2.config)
@@ -213,4 +213,32 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.2" para "**release_12.3.3**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_3.config)
+
+## HOTFIX 12.3.4 _(31 Jan 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Suporte ao idioma 'italiano'.
+
+### Resumo dos problemas resolvidos
+
+- User Pilot - links fazem refresh na APP _([182790](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182790&_a=edit))_
+- Tooltip de alerta posicionada por baixo do componente da aba lateral _([177005](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=177005&_a=edit))_
+- Visibilityclaims não são consideradas nas opções de contexto _([183545](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=183545&_a=edit))_
+- API - mensagens de erro pouco claras em detalhes de entidade _([180848](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180848&_a=edit))_
+- Possibilidade de criar um artigo de Vendas com um código de imposto permitido apenas para Compras, via API _([183667](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=183667&_a=edit))_
+- Totais em extratos não perceptíveis em modo dark _([176062](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=176062&_a=edit))_
+- Não permite criar atributo tipo view na entidade line aplicando para entidade quotation _([182457](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182457&_a=edit))_
+- Upper na criação (insert) de uma role _([182031](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182031&_a=edit))_
+- SDK - Geração das scripts SQL não está a fazer escape de caracteres especiais _([180898](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180898&_a=edit))_
+- API - Pedidos OData com queries erradas devolvem 500 em vez de 400 _([183454](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=183454&_a=edit))_
+- O Importador não consegue atualizar o registo importado no produto _([182499](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182499&_a=edit))_
+- Erro 500 em listas agrupadas, ao ordenar colunas que fazem parte do agrupamento _([176202](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=176202&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.4.0022**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.3" para "**release_12.3.4**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_3_4.config)
   
