@@ -218,7 +218,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### Resumo das funcionalidades mais relevantes
 
-- Suporte ao idioma 'italiano'.
+- Suporte para o idioma 'italiano'.
 
 ### Resumo dos problemas resolvidos
 
