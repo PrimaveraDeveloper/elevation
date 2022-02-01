@@ -237,7 +237,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### Procedimentos adicionais necessários 
 
-- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.4.0022**
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.4.0023**
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.3" para "**release_12.3.4**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_4.config)
