@@ -266,5 +266,4 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_5.config)
 - Scripts de upgrade: [**scripts sql**](./database/db_upgrade_12.3.5.X.zip)       
-
-- NOTA: Se pretenderem otimizar as TVFs de lookup nas BDs dos clientes existentes, é necessário juntar aos scripts de upgrade, os sql _"004.<module>.lookups.sqlserver.sql"_ gerados de cada um dos módulos de produto.
+- **NOTA:** Se pretenderem otimizar as TVFs de lookup nas BDs dos clientes existentes, é necessário juntar aos scripts de upgrade, os sql _"004.<module>.lookups.sqlserver.sql"_ gerados de cada um dos módulos de produto.
