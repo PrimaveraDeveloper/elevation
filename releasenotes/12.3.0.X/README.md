@@ -242,3 +242,29 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_4.config)
   
+## HOTFIX 12.3.5 _(18 Fev 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Performance - TVFs de Lookup simplificadas;
+- Picking - Envio de Ids nos atributos do tipo View;
+
+### Resumo dos problemas resolvidos
+
+- Tradução errada de items (EN) _([184103](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184103&_a=edit))_
+- Caractere das tooltips descentrado quando o campo tem checkbox associada _([182660](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182660&_a=edit))_
+- Na picking dos pagamentos após escolher 1 registo, aparece a opção "Edição em lote" _([182815](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182815&_a=edit))_
+- Quando se faz uma pesquisa no search da barra de topo, a animação de pesquisa não desaparece, mesmo depois de ter efectuado a pesquisa _([184188](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184188&_a=edit))_
+- Drill down na coluna Modelo não funciona _([184092](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184092&_a=edit))_
+- Não apresenta descrição na coluna Modelo _([184091](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184091&_a=edit))_
+- Valor do "Total de Impostos" e "Total" não atualiza _([184099](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184099&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.5.0026**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.4" para "**release_12.3.5**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_3_5.config)
+- Scripts de upgrade: [**scripts sql**](./database/db_upgrade_12.3.5.X.zip)       
+
+- NOTA: Se pretenderem otimizar as TVFs de lookup nas BDs dos clientes existentes, é necessário juntar aos scripts de upgrade, os sql _"004.<module>.lookups.sqlserver.sql"_ gerados de cada um dos módulos de produto.
