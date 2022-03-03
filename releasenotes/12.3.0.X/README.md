@@ -258,6 +258,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Drill down na coluna Modelo não funciona _([184092](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184092&_a=edit))_
 - Não apresenta descrição na coluna Modelo _([184091](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184091&_a=edit))_
 - Valor do "Total de Impostos" e "Total" não atualiza _([184099](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184099&_a=edit))_
+- Não há fallback para a variavel "theme" quando o valor encontrado não é válido ("dark") _([186792](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186792&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
