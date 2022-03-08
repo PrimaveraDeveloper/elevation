@@ -290,3 +290,20 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.6.0033**
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_6.config)
+
+## HOTFIX 12.3.7 _(8 Mar 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Edição de template de impressão - alterações no cabeçalho não são gravadas _([186608](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186608&_a=edit))_
+- A empresa do contexto é alterada automaticamente _([186947](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186947&_a=edit))_
+- Erro de Draft ao editar Extensão _([186914](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186914&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.7.0037**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.5" para "**release_12.3.7**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_3_7.config)
+- Adicionar o SP DocumentDB nas bases de dados dos vários ambientes [**V4-IsSimpleDraft**](./database/V4-IsSimpleDraft.js)       
+**NOTA:** Este SP **tem que ser** adicionado nas DocumentDBs antes da publicação do HOTFIX.
