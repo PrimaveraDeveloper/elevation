@@ -306,4 +306,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_7.config)
 - Adicionar o SP DocumentDB nas bases de dados dos vários ambientes [**V4-IsSimpleDraft**](./database/V4-IsSimpleDraft.js)       
-```diff - Este SP **tem que ser** adicionado nas DocumentDBs antes da publicação do HOTFIX.```
+```diff
+- Este SP **tem que ser** adicionado nas DocumentDBs antes da publicação do HOTFIX.
+```
+<mark >Highlighted text</mark>  
