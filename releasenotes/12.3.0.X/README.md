@@ -134,7 +134,7 @@ Alterar a declaração secção "serviceManagementConfiguration" para ficar da s
 <section name="serviceManagementConfiguration" type="Primavera.Core.Patterns.Api.ServiceManagementConfigurationSection, Primavera.Core.Patterns.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=33086db60a481256" />
 ```
 
-# PROBLEMAS CONHECIDOS
+# Problemas Conhecidos
 
   - Picking Basic - Erro no reset _([180290](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180290&_a=edit))_
   - Picking Basic - Ao fazer filtro pelo customer com uma linha selecionada dá erro _([180276](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180276&_a=edit))_
@@ -260,7 +260,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Valor do "Total de Impostos" e "Total" não atualiza _([184099](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184099&_a=edit))_
 - Não há fallback para a setting "theme" quando o valor encontrado não é válido ("dark") _([186792](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186792&_a=edit))_
 
-### PROBLEMAS CONHECIDOS
+### Problemas Conhecidos
 
 - Versionamento da aplicação cliente falha com mais de 3 digitos _([187268](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187268&_a=edit))_
   
@@ -280,7 +280,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Quando se invoca um endpoint /print ou /printoriginal /reprint com um guid que não existe, a API devolve 200 com PDF branco em vez de devolver 404 _([185772](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=185772&_a=edit))_
 - Validação de Email não é feita corretamente _([186233](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186233&_a=edit))_
 
-### PROBLEMAS CONHECIDOS
+### Problemas Conhecidos
 
 - Versionamento da aplicação cliente falha com mais de 3 digitos _([187268](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187268&_a=edit))_
 
