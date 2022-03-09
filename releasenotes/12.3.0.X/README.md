@@ -260,6 +260,10 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Valor do "Total de Impostos" e "Total" não atualiza _([184099](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184099&_a=edit))_
 - Não há fallback para a setting "theme" quando o valor encontrado não é válido ("dark") _([186792](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186792&_a=edit))_
 
+# PROBLEMAS CONHECIDOS
+
+- Versionamento da aplicação cliente falha com mais de 3 digitos _([187268](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187268&_a=edit))_
+  
 ### Procedimentos adicionais necessários 
 
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.5.0026**
@@ -276,6 +280,9 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Quando se invoca um endpoint /print ou /printoriginal /reprint com um guid que não existe, a API devolve 200 com PDF branco em vez de devolver 404 _([185772](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=185772&_a=edit))_
 - Validação de Email não é feita corretamente _([186233](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186233&_a=edit))_
 
+# PROBLEMAS CONHECIDOS
+
+- Versionamento da aplicação cliente falha com mais de 3 digitos _([187268](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187268&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
@@ -298,6 +305,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Edição de template de impressão - alterações no cabeçalho não são gravadas _([186608](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186608&_a=edit))_
 - A empresa do contexto é alterada automaticamente _([186947](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186947&_a=edit))_
 - Erro de Draft ao editar Extensão _([186914](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186914&_a=edit))_
+- Versionamento da aplicação cliente falha com mais de 3 digitos _([187268](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187268&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
