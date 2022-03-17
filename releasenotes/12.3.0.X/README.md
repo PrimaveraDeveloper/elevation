@@ -307,3 +307,26 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
   - [**Elevation**](./packages/packages_fw_12_3_7.config)
 - Adicionar o SP DocumentDB nas bases de dados dos vários ambientes [**V4-IsSimpleDraft**](./database/V4-IsSimpleDraft.js)       
 **NOTA:** Este SP **tem que ser** adicionado nas DocumentDBs antes da publicação do HOTFIX.
+
+## HOTFIX 12.3.8 _(17 Mar 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Performance - Melhorias nas validações do SDK
+
+### Resumo dos problemas resolvidos
+
+- Picking - Erro ao selecionar o campo data no EFatura (Edição em lote) _([187097](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187097&_a=edit))_
+- Picking - Carregar e limpar campo no Efatura não remove a descrição do campo anteriormente carregado _([187086](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187086&_a=edit))_
+- Picking - O cliente consegue clicar em aplicar mais rápido do que a resposta do side-effect _([187583](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187583&_a=edit))_
+- Erro ao aceder a uma lista com filtro após upgrade/renovação com draft prévio dessa lista _([187810](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187810&_a=edit))_
+- Erro 503 ao entrar na configuração de template de impressão quando não existe imagem e a checkbox Usar logo da empresa está ativa _([186605](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186605&_a=edit))_
+- Erro ao aceder a uma lista com filtro após upgrade/renovação com draft prévio dessa lista _([187810](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187810&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.8.0040**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.7" para "**release_12.3.8**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_3_8.config)
+- Atualizar o SP DocumentDB nas bases de dados dos vários ambientes [**V4-IsSimpleDraft**](./database/V4-IsSimpleDraft.js)
