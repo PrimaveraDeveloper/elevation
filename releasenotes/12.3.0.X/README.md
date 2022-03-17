@@ -134,7 +134,7 @@ Alterar a declaração secção "serviceManagementConfiguration" para ficar da s
 <section name="serviceManagementConfiguration" type="Primavera.Core.Patterns.Api.ServiceManagementConfigurationSection, Primavera.Core.Patterns.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=33086db60a481256" />
 ```
 
-# PROBLEMAS CONHECIDOS
+# Problemas Conhecidos
 
   - Picking Basic - Erro no reset _([180290](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180290&_a=edit))_
   - Picking Basic - Ao fazer filtro pelo customer com uma linha selecionada dá erro _([180276](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=180276&_a=edit))_
@@ -259,7 +259,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Não apresenta descrição na coluna Modelo _([184091](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184091&_a=edit))_
 - Valor do "Total de Impostos" e "Total" não atualiza _([184099](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184099&_a=edit))_
 - Não há fallback para a setting "theme" quando o valor encontrado não é válido ("dark") _([186792](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186792&_a=edit))_
-
+ 
 ### Procedimentos adicionais necessários 
 
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.5.0026**
@@ -269,13 +269,16 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Scripts de upgrade: [**scripts sql**](./database/db_upgrade_12.3.5.X.zip)       
 **NOTA:** Se pretenderem otimizar as TVFs de lookup nas BDs dos clientes existentes, é necessário juntar aos scripts de upgrade, os sql _"004.'module'.lookups.sqlserver.sql"_ gerados de cada um dos módulos de produto.
 
+### Problemas Conhecidos
+
+- Versionamento da aplicação cliente falha com mais de 3 digitos _([187268](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187268&_a=edit))_
+
 ## HOTFIX 12.3.6 _(28 Fev 2022)_
 
 ### Resumo dos problemas resolvidos
 
 - Quando se invoca um endpoint /print ou /printoriginal /reprint com um guid que não existe, a API devolve 200 com PDF branco em vez de devolver 404 _([185772](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=185772&_a=edit))_
 - Validação de Email não é feita corretamente _([186233](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186233&_a=edit))_
-
 
 ### Procedimentos adicionais necessários 
 
@@ -291,6 +294,10 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_6.config)
 
+### Problemas Conhecidos
+
+- Versionamento da aplicação cliente falha com mais de 3 digitos _([187268](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187268&_a=edit))_
+
 ## HOTFIX 12.3.7 _(8 Mar 2022)_
 
 ### Resumo dos problemas resolvidos
@@ -298,6 +305,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Edição de template de impressão - alterações no cabeçalho não são gravadas _([186608](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186608&_a=edit))_
 - A empresa do contexto é alterada automaticamente _([186947](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186947&_a=edit))_
 - Erro de Draft ao editar Extensão _([186914](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186914&_a=edit))_
+- Versionamento da aplicação cliente falha com mais de 3 digitos _([187268](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187268&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
@@ -305,28 +313,4 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.5" para "**release_12.3.7**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_7.config)
-- Adicionar o SP DocumentDB nas bases de dados dos vários ambientes [**V4-IsSimpleDraft**](./database/V4-IsSimpleDraft.js)       
-**NOTA:** Este SP **tem que ser** adicionado nas DocumentDBs antes da publicação do HOTFIX.
-
-## HOTFIX 12.3.8 _(17 Mar 2022)_
-
-### Resumo dos problemas resolvidos
-
-- Performance - Melhorias nas validações do SDK
-
-### Resumo dos problemas resolvidos
-
-- Picking - Erro ao selecionar o campo data no EFatura (Edição em lote) _([187097](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187097&_a=edit))_
-- Picking - Carregar e limpar campo no Efatura não remove a descrição do campo anteriormente carregado _([187086](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187086&_a=edit))_
-- Picking - O cliente consegue clicar em aplicar mais rápido do que a resposta do side-effect _([187583](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187583&_a=edit))_
-- Erro ao aceder a uma lista com filtro após upgrade/renovação com draft prévio dessa lista _([187810](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187810&_a=edit))_
-- Erro 503 ao entrar na configuração de template de impressão quando não existe imagem e a checkbox Usar logo da empresa está ativa _([186605](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186605&_a=edit))_
-- Erro ao aceder a uma lista com filtro após upgrade/renovação com draft prévio dessa lista _([187810](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187810&_a=edit))_
-
-### Procedimentos adicionais necessários 
-
-- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.8.0040**
-- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.7" para "**release_12.3.8**"
-- Promover os seguintes packages para o feed de produto:
-  - [**Elevation**](./packages/packages_fw_12_3_8.config)
-- Atualizar o SP DocumentDB nas bases de dados dos vários ambientes [**V4-IsSimpleDraft**](./database/V4-IsSimpleDraft.js)
+- Adicionar o SP DocumentDB nas bases de dados dos vários ambientes [**V4-IsSimpleDraft**](./database/V4-IsSimpleDraft.js)
