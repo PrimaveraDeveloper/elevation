@@ -329,6 +329,8 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Picking - O cliente consegue clicar em aplicar mais rápido do que a resposta do side-effect _([187583](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187583&_a=edit))_
 - Erro ao aceder a uma lista com filtro após upgrade/renovação com draft prévio dessa lista _([187810](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187810&_a=edit))_
 - Erro 503 ao entrar na configuração de template de impressão quando não existe imagem e a checkbox Usar logo da empresa está ativa _([186605](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186605&_a=edit))_
+- Status 500 ao criar/selecionar registo in line _([188179](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=188179&_a=edit))_
+- Parametro limite nos templates report não grava o valor alterado _([187965](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187965&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
