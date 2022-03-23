@@ -9,7 +9,7 @@
 
 - Client SDK V1 _(Tooling disponível para execução de tarefas de gestão da client app)_
   - Criação de novas aplicações utilizando a shell como template 
-  - Criação client libs para api's que tenham uma especificação OPENAPI definida e acessível
+  - Criação de 'Client Libs' para API's que tenham uma especificação OPENAPI definida e acessível
   - Suporte a migrações da client app
 - Uniformização com o PRIMAVERA DESIGN SYSTEM (PDS) 
   - Reestruturação da solução de styles 
