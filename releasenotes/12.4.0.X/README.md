@@ -32,7 +32,7 @@
 - Parametro limite nos templates report não grava o valor alterado _([187965](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187965&_a=edit))_
 - Sublinhado sobrepoe o texto "Original" alinhado a esquerda do report _([187963](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187963&_a=edit))_
 - Balão informativo fica oculto por barra superior _([187761](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187761&_a=edit))_
-- Notificações - Não é possível ler o título quando este é mais extenso (187578) _([188179](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=188179&_a=edit))_
+- Notificações - Não é possível ler o título quando este é mais extenso _([187578](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187578&_a=edit))_
 - Status 500 ao fazer create em uma entitidade custom _([187445](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187445&_a=edit))_
 - Filtros das listas custom - está a ser colocado o drill down para a entidade _([187362](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187362&_a=edit))_
 - API - erro 500 ao criar uma fatura _([186961](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186961&_a=edit))_
