@@ -69,7 +69,7 @@
 
 ### Client App
 
-**As alterações à aplicação de cliente devem ser acompanhadas por um elemento da equipa de cliente **
+**As alterações à aplicação de cliente devem ser acompanhadas por um elemento da equipa de cliente**
 
 #### A migração de uma client app para a primeira versão do SDK exige: 
 
