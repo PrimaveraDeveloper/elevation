@@ -71,7 +71,12 @@
 
 - Alterar o custom code relacionado com o PrintAsync _(ver exemplo no changeset [2280407](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW/_versionControl/changeset/2280407))_
 - Adicionar referência para o modelo de entidades nos tt's 'Business.Managers.Base.tt' e 'Services.Managers.Base.tt' _(ver exemplo no changeset [2280443](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW/_versionControl/changeset/2280443))_
-- Construir um script de upgrade para atualizar o valor da coluna 'Description' da tabela SchemaAttributes, a partir das diferenças geradas nos ficheiros de sql 'XXXX.Entities.Schema.sqlserver.sql', para todos os módulos de produto. Os módulos de FW já estão tratados no script de upgrade em anexo.
+- Construir um script de upgrade para atualizar o valor da coluna 'Description' da tabela SchemaAttributes, a partir das diferenças geradas nos ficheiros de sql 'XXXX.Entities.Schema.sqlserver.sql', para todos os módulos de produto. Os módulos de FW já estão tratados no script de upgrade em anexo
+
+### Packages
+
+- Instalar os packages 'Z.EntityFramework.Plus.EF6', 'Z.EntityFramework.Extensions' e 'Z.Expressions.Eval' nos projetos 'Data' de todos os módulos
+- Adicionar referência para o package 'System.runtime.caching' nos projetos 'Data' de todos os módulos
 
 # Packages (nuget)
 
