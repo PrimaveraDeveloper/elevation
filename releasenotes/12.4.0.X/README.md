@@ -83,4 +83,5 @@
 Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 - [**Elevation**](./packages/packages_fw_12_4_0.config)
+- [**ThirdParty**](./packages/packages_thirdparty_12_4_0.config) _(outros packages que devem ser atualizados)_
 <br/><br/>
