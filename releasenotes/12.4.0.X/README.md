@@ -71,7 +71,7 @@
 
 **As alterações à aplicação de cliente devem ser acompanhadas por um elemento da equipa de cliente **
 
-####A migração de uma client app para a primeira versão do SDK exige: 
+#### A migração de uma client app para a primeira versão do SDK exige: 
 
 - criação do ficheiro primavera-sdk.json 
 - atualização do script postinstall no package.json 
@@ -79,7 +79,7 @@
 - adicionar nas devDependencies @primavera/schematics [npm i @primavera/schematics@release_12.4.0 --save-dev] 
 - remoção do package das devDependencies client-app-core 
 
-####As alterações realizadas ao nível da estrutura da solução de css's e temas irá implicar alterações nas css's custom existentes nas aplicações ou módulos de produto.
+#### As alterações realizadas ao nível da estrutura da solução de css's e temas irá implicar alterações nas css's custom existentes nas aplicações ou módulos de produto.
 
 - Nos componentes custom colocar a referência para scss do próprio componente, exemplo; 
 
