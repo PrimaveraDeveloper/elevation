@@ -127,7 +127,7 @@
 
 ### Packages
 
-- Instalar os packages 'Z.EntityFramework.Plus.EF6', 'Z.EntityFramework.Extensions' e 'Z.Expressions.Eval' nos projetos 'Data' de todos os módulos
+- Instalar os packages 'Z.EntityFramework.Plus.EF6' nos projetos 'Data' de todos os módulos
 - Adicionar referência para o package 'System.Runtime.Caching' nos projetos 'Data' de todos os módulos
 
 # Packages (nuget)
