@@ -22,6 +22,7 @@
   - Introdução de Query Caching (EFPlus) no acesso a dados em código gerado
   - Possibilidade de utilização de Query Caching também em código custom _(API disponível no 'EntityContext')_
   - SDK: Melhorias nas validações de modelos
+  - SDK: Melhorias na transformação de tt's que manipulam resources
 - Single sign out
   - O estado da sessão do utilizador no Identity é partilhado entre Produto e AMS
 <br/><br/>
