@@ -334,6 +334,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### Procedimentos adicionais necessários 
 
+- Adicionar referência para o modelo de apresentação no tt's 'Service.Managers.Base.tt'
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.8.0040**
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.7" para "**release_12.3.8**"
 - Promover os seguintes packages para o feed de produto:

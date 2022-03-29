@@ -22,6 +22,7 @@
   - Introdução de Query Caching (EFPlus) no acesso a dados em código gerado
   - Possibilidade de utilização de Query Caching também em código custom _(API disponível no 'EntityContext')_
   - SDK: Melhorias nas validações de modelos
+  - SDK: Melhorias na transformação de tt's que manipulam resources
 - Single sign out
   - O estado da sessão do utilizador no Identity é partilhado entre Produto e AMS
 <br/><br/>
@@ -67,6 +68,58 @@
 
 # Procedimentos adicionais necessários
 
+### Client App
+
+**As alterações à aplicação de cliente devem ser acompanhadas por um elemento da equipa de cliente**
+
+#### A migração de uma client app para a primeira versão do SDK exige: 
+
+- criação do ficheiro primavera-sdk.json 
+- atualização do script postinstall no package.json 
+- "postinstall": "ng g @primavera/schematics:generated-code && ngcc –create ivy-entry-points --properties es2015 browser module main" 
+- adicionar nas devDependencies @primavera/schematics [npm i @primavera/schematics@release_12.4.0 --save-dev] 
+- remoção do package das devDependencies client-app-core 
+
+#### As alterações realizadas ao nível da estrutura da solução de css's e temas irá implicar alterações nas css's custom existentes nas aplicações ou módulos de produto.
+
+- Nos componentes custom colocar a referência para scss do próprio componente, exemplo; 
+
+```js
+@Component({ 
+  selector: 'pri-circle-count', 
+  templateUrl: 'circle-count.component.html', 
+  styleUrls: ['circle-count.component.scss'], 
+  encapsulation: ViewEncapsulation.None 
+}) 
+``` 
+
+- No ficheiro product.scss é necessario acrescentar as variaveis de cor do produto e do header (ver com equipa de ux) 
+
+- No angular.json é necessário acrescentar o caminho para os css 
+
+```json
+"styles": [ 
+              { 
+                "input": "src/generated-code/styles/loader.scss", 
+                "inject": true, 
+                "bundleName": "loader" 
+              }, 
+              "@angular/material/prebuilt-themes/deeppurple-amber.css", 
+              "@primavera/themes/index.scss", 
+              "@primavera/components/styles/toasts.scss", 
+              { 
+                "input": "src/generated-code/styles/theme.light.scss", 
+                "inject": false, 
+                "bundleName": "light.theme" 
+              }, 
+              { 
+                "input": "src/generated-code/styles/theme.dark.scss", 
+                "inject": false, 
+                "bundleName": "dark.theme" 
+              } 
+            ], 
+```
+
 ### Bug Fixing
 
 - Alterar o custom code relacionado com o PrintAsync _(ver exemplo no changeset [2280407](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/INT-FW/_versionControl/changeset/2280407))_
@@ -75,7 +128,7 @@
 
 ### Packages
 
-- Instalar os packages 'Z.EntityFramework.Plus.EF6', 'Z.EntityFramework.Extensions' e 'Z.Expressions.Eval' nos projetos 'Data' de todos os módulos
+- Instalar os packages 'Z.EntityFramework.Plus.EF6' nos projetos 'Data' de todos os módulos
 - Adicionar referência para o package 'System.Runtime.Caching' nos projetos 'Data' de todos os módulos
 
 # Packages (nuget)
