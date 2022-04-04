@@ -14,7 +14,7 @@ function isSimpleFunc(draftId, subscriptionId, documentId) {
     if (!subscriptionId) throw new Error("The subscriptionId is undefined or null.");
     if (!documentId) throw new Error("The rootId is undefined or documentId.");
     var query = {
-        query: "select COUNT(r.documentType) as count from root r where r.draftId = @draftId and r.documentId = @documentId and r.subscriptionId = @subscriptionId GROUP BY r.documentType",
+        query: "select COUNT(r.documentType) as count from root r where r.draftId = @draftId and r.rootId = @documentId and r.subscriptionId = @subscriptionId GROUP BY r.documentType",
         parameters: [{ name: "@draftId", value: draftId }, { name: "@documentId", value: documentId }, { name: "@subscriptionId", value: subscriptionId }]
     };
     // Query documents and take 1st item.
