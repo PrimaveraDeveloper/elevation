@@ -138,3 +138,17 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - [**Elevation**](./packages/packages_fw_12_4_0.config)
 - [**ThirdParty**](./packages/packages_thirdparty_12_4_0.config) _(outros packages que devem ser atualizados)_
 <br/><br/>
+
+## HOTFIX 12.4.1 _(4 Abr 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Performance - Melhorias nas validações do SDK
+
+### Resumo dos problemas resolvidos
+
+- Não surgem as propriedades de uma coluna de uma List View do Presentation Model _([189027](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189027&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.4\sdk\\**12.4.1.0015**
