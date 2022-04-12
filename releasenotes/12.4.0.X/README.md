@@ -157,7 +157,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### Resumo das funcionalidades mais relevantes
 
-- Integração com a plataforma de _user engagement_ ([heap.io](https://heap.io/)
+- Integração com a plataforma de _user engagement_ [heap.io](https://heap.io/)
 - Simplificação dos métodos de print (reutilizando o 'PrintById')
 
 ### Resumo dos problemas resolvidos
