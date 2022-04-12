@@ -356,6 +356,15 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### Procedimentos adicionais necessários 
 
+- Para ativar a integração com o heap.io, adicionar na configuração de _environment_:
+```json
+"userEngagement": {
+    ...
+    "heap": {
+      "accountId": "?????"
+    }
+    ...
+```
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.9.0041**
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.7" para "**release_12.3.9**"
 - Promover os seguintes packages para o feed de produto:
