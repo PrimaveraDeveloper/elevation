@@ -141,7 +141,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ## HOTFIX 12.4.1 _(4 Abr 2022)_
 
-### Resumo dos problemas resolvidos
+### Resumo das funcionalidades mais relevantes
 
 - Performance - Melhorias nas validações do SDK
 
@@ -152,3 +152,30 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 ### Procedimentos adicionais necessários 
 
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.4\sdk\\**12.4.1.0015**
+
+## HOTFIX 12.4.2 _(12 Abr 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Simplificação dos métodos de print (reutilizando o 'PrintById')
+
+### Resumo dos problemas resolvidos
+
+- Grid - ENTER não passa para linha seguinte _([187473](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187473&_a=edit))_
+- Lookup - quando pesquisamos artigos por números não é carregada FK _([189762](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189762&_a=edit))_
+- Ao fazer "Tab" entre campos com lookup seleciona primeiro registo da dropdown _([188596](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=188596&_a=edit))_
+- Filtro da data final desaparece nas entradas de diário _([187132](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187132&_a=edit))_
+- Não surgem as propriedades de uma coluna de uma List View do Presentation _([189027](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189027&_a=edit))_
+- Lable não é traduzível _([182772](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=182772&_a=edit))_
+- Erro ao fazer drilldown enquanto a informação está a ser carregada _([186795](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186795&_a=edit))_
+- Alterando o contexto de empresa o seletor de empresa/subscrição não reflete o mesmo _([188016](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=188016&_a=edit))_
+- Icon de alerta - icon continua visível sem mensagem não permitindo gravar a entidade _([184639](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184639&_a=edit))_
+- Quick actions - com hover não é muito perceptível o texto _([188953](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=188953&_a=edit))_
+- Campo data no expander desalinhado _([189066](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189066&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.4\sdk\\**12.4.2.0016**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.0" para "**release_12.4.2**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_4_2.config)

@@ -340,3 +340,19 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_8.config)
 - Atualizar o SP DocumentDB nas bases de dados dos vários ambientes [**V4-IsSimpleDraft**](./database/V4-IsSimpleDraft.js)
+
+## HOTFIX 12.3.9 _(12 Abr 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Grid - ENTER não passa para linha seguinte _([187473](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187473&_a=edit))_
+- Lookup - quando pesquisamos artigos por números não é carregada FK _([189762](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189762&_a=edit))_
+- Ao fazer "Tab" entre campos com lookup seleciona primeiro registo da dropdown _([188596](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=188596&_a=edit))_
+- Filtro da data final desaparece nas entradas de diário _([187132](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187132&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.9.0041**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.7" para "**release_12.3.9**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_3_9.config)
