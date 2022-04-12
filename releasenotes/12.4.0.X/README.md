@@ -159,7 +159,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 - Integração com a plataforma de _user engagement_ [heap.io](https://heap.io/)
 - Simplificação dos métodos de print (reutilizando o 'PrintById')
-- Reformulação das pagina de erro, de acordo com o Primavera design System
+- Reformulação das pagina de erro, de acordo com o Primavera Design System
 - Menus automaticamente expandidos quando existe apenas um item
 - Melhorias na gestão de cache client-side
 
