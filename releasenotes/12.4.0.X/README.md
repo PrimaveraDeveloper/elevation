@@ -159,6 +159,9 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 - Integração com a plataforma de _user engagement_ [heap.io](https://heap.io/)
 - Simplificação dos métodos de print (reutilizando o 'PrintById')
+- Reformulação das pagina de erro, de acordo com o Primavera design System
+- Menus automaticamente expandidos quando existe apenas um item
+- Melhorias na gestão de cache client-side
 
 ### Resumo dos problemas resolvidos
 
@@ -173,6 +176,8 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Icon de alerta - icon continua visível sem mensagem não permitindo gravar a entidade _([184639](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184639&_a=edit))_
 - Quick actions - com hover não é muito perceptível o texto _([188953](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=188953&_a=edit))_
 - Campo data no expander desalinhado _([189066](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189066&_a=edit))_
+- Create inline num campo master provoca erro "toLowerCase" nos detalhes _([189932](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189932&_a=edit))_
+- Notificações - view desformatada _([190124](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190124&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
