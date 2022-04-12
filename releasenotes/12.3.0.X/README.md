@@ -343,6 +343,10 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ## HOTFIX 12.3.9 _(12 Abr 2022)_
 
+### Resumo das funcionalidades mais relevantes
+
+- Integração com a plataforma de _user engagement_ ([heap.io](https://heap.io/)
+
 ### Resumo dos problemas resolvidos
 
 - Grid - ENTER não passa para linha seguinte _([187473](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=187473&_a=edit))_
