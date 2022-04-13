@@ -174,11 +174,6 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Erro ao fazer drilldown enquanto a informação está a ser carregada _([186795](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186795&_a=edit))_
 - Alterando o contexto de empresa o seletor de empresa/subscrição não reflete o mesmo _([188016](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=188016&_a=edit))_
 - Icon de alerta - icon continua visível sem mensagem não permitindo gravar a entidade _([184639](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=184639&_a=edit))_
-- Quick actions - com hover não é muito perceptível o texto _([188953](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=188953&_a=edit))_
-- Campo data no expander desalinhado _([189066](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189066&_a=edit))_
-- Create inline num campo master provoca erro "toLowerCase" nos detalhes _([189932](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189932&_a=edit))_
-- Notificações - view desformatada _([190124](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190124&_a=edit))_
-- Mensagem é despoletada na view sem informação [object Blob] _([186578](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186578&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
@@ -194,3 +189,17 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.0" para "**release_12.4.2**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_4_2.config)
+
+## HOTFIX 12.4.3 _(13 Abr 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Quick actions - com hover não é muito perceptível o texto _([188953](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=188953&_a=edit))_
+- Campo data no expander desalinhado _([189066](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189066&_a=edit))_
+- Create inline num campo master provoca erro "toLowerCase" nos detalhes _([189932](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189932&_a=edit))_
+- Notificações - view desformatada _([190124](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190124&_a=edit))_
+- Mensagem é despoletada na view sem informação [object Blob] _([186578](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186578&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.2" para "**release_12.4.3**"
