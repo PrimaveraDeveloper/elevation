@@ -178,6 +178,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Campo data no expander desalinhado _([189066](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189066&_a=edit))_
 - Create inline num campo master provoca erro "toLowerCase" nos detalhes _([189932](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189932&_a=edit))_
 - Notificações - view desformatada _([190124](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190124&_a=edit))_
+- Mensagem é despoletada na view sem informação [object Blob] _([186578](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186578&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
