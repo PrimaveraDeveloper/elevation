@@ -181,7 +181,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 ```json
 "userEngagement": {
     "heap": {
-      "accountId": "?????"
+      "applicationId": "?????"
     }
 }
 ```
