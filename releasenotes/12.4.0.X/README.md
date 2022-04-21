@@ -203,3 +203,32 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 ### Procedimentos adicionais necessários 
 
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.2" para "**release_12.4.3**"
+
+## HOTFIX 12.4.4 _(21 Abr 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Atualização da lista de 'icons' disponível _(pollen)_
+
+### Resumo dos problemas resolvidos
+
+- Erro ao abrir views que usem o componente pri-formly-detail-form-section _([190355](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190355&_a=edit))_
+- Erro ao eliminar registos dentro do componente pri-formly-detail-form-section _([190421](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190421&_a=edit))_
+- Componente pri-formly-detail-form-section sobrepõem-se quando adicionamos mais que um _([190508](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190508&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.3" para "**release_12.4.4**"
+
+## HOTFIX 12.4.5 _(21 Abr 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Stopfield do tipo data dá erro ao sair com o TAB ou ENTER em PT e ES _([190599](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190599&_a=edit))_
+- Picagem de artigos com o leitor de código de barras não faz pesquisa e não seleciona artigo _([189553](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189553&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.4" para "**release_12.4.5**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_4_5.config)

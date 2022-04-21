@@ -368,3 +368,27 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.7" para "**release_12.3.9**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_9.config)
+
+## HOTFIX 12.3.10 _(21 Abr 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Atualização da versão da ClientLib 'Lithium Settings' para a versão 3 _(que corrige um memory leak)_
+
+### Resumo dos problemas resolvidos
+
+- Erro ao abrir views que usem o componente pri-formly-detail-form-section _([190355](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190355&_a=edit))_
+- Erro ao eliminar registos dentro do componente pri-formly-detail-form-section _([190421](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190421&_a=edit))_
+- Componente pri-formly-detail-form-section sobrepõem-se quando adicionamos mais que um _([190508](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190508&_a=edit))_
+- Stopfield do tipo data dá erro ao sair com o TAB ou ENTER em PT e ES _([190599](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190599&_a=edit))_
+- Picagem de artigos com o leitor de código de barras não faz pesquisa e não seleciona artigo _([189553](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189553&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Substituir o package 'Primavera.Lithium.Settings' pelo package 'Primavera.Lithium.Settings.Client.Rest' em todos os projetos que tenham essa dependencia.
+  - IMPORTANTE: Existem pequenas quebras de contrato que terão de ser corrigidas.
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.3\sdk\\**12.3.10.0042**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.3.9" para "**release_12.3.10**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_3_10.config)
+  - [**Lithium**](./packages/lithium_12_3_10.config)
