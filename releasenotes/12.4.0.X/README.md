@@ -232,3 +232,13 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.4" para "**release_12.4.5**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_4_5.config)
+
+## HOTFIX 12.4.6 _(4 Mai 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Código gerado atribuiu o mesmo nome ao parâmetro e a variável _([191680](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=191680&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.4\sdk\\**12.4.6.0019**
