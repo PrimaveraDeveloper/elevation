@@ -18,25 +18,26 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 
 ### **2022**
 
-| date | server version/client tag | semantic jump |
+| date | version | server updated | client updated | SDK updated | semantic jump |
 | :---: | :---: | :---: |
-| 21 Abr 2022 | [12.4.5.X / release_12.4.5](./12.4.0.X/README.md#hotfix-1245-21-abr-2022)       | _patch_ version   |
-| 21 Abr 2022 | [12.4.2.X / release_12.4.4](./12.4.0.X/README.md#hotfix-1244-21-abr-2022)       | _patch_ version   |
-| 21 Abr 2022 | [12.3.10.X / release_12.3.10](./12.3.0.X/README.md#hotfix-12310-21-abr-2022)    | _patch_ version   |
-| 13 Abr 2022 | [12.4.2.X / release_12.4.3](./12.4.0.X/README.md#hotfix-1243-13-abr-2022)       | _patch_ version   |
-| 12 Abr 2022 | [12.4.2.X / release_12.4.2](./12.4.0.X/README.md#hotfix-1242-12-abr-2022)       | _patch_ version   |
-| 12 Abr 2022 | [12.3.9.X / release_12.3.9](./12.3.0.X/README.md#hotfix-1239-12-abr-2022)       | _patch_ version   |
-| 23 Mar 2022 | [12.4.1.X / release_12.4.1](./12.4.0.X/README.md#hotfix-1241-4-abr-2022)        | _patch_ version   |
-| 23 Mar 2022 | [12.4.0.X / release_12.4.0](./12.4.0.X/README.md#hotfix-1240-23-mar-2022)       | minor version     |
-| 17 Mar 2022 | [12.3.8.X / release_12.3.8](./12.3.0.X/README.md#hotfix-1238-17-mar-2022)       | _patch_ version   |
-| 08 Mar 2022 | [12.3.7.X / release_12.3.7](./12.3.0.X/README.md#hotfix-1237-8-mar-2022)        | _patch_ version   |
-| 28 Fev 2022 | [12.3.6.X / release_12.3.5](./12.3.0.X/README.md#hotfix-1236-28-fev-2022)       | _patch_ version   |
-| 18 Fev 2022 | [12.3.5.X / release_12.3.5](./12.3.0.X/README.md#hotfix-1235-18-fev-2022)       | _patch_ version   |
-| 31 Jan 2022 | [12.3.4.X / release_12.3.4](./12.3.0.X/README.md#hotfix-1234-31-jan-2022)       | _patch_ version   |
-| 31 Jan 2022 | [12.0.18.X / release_12.0.18](./12.0.1.X/README.md#hotfix-12018-31-jan-2022)    | _patch_ version   |
-| 25 Jan 2022 | [12.3.3.X / release_12.3.3](./12.3.0.X/README.md#hotfix-1233-25-jan-2022)       | _patch_ version   |
-| 19 Jan 2022 | [12.3.2.X / release_12.3.2](./12.3.0.X/README.md#hotfix-1232-19-jan-2022)       | _patch_ version   |
-| 07 Jan 2022 | [12.3.1.X / release_12.3.1](./12.3.0.X/README.md#hotfix-1231-7-jan-2022)        | _patch_ version   |
+| 04 Abr 2022 | [12.4.6](./12.4.0.X/README.md#hotfix-1246-4-mai-2022)      | _no_ | _no_ | yes  | _patch_ version  |
+| 21 Abr 2022 | [12.4.5](./12.4.0.X/README.md#hotfix-1245-21-abr-2022)     | yes  | yes  | _no_ | _patch_ version  |
+| 21 Abr 2022 | [12.4.4](./12.4.0.X/README.md#hotfix-1244-21-abr-2022)     | _no_ | yes  | _no_ | _patch_ version  |
+| 21 Abr 2022 | [12.3.10](./12.3.0.X/README.md#hotfix-12310-21-abr-2022)   | yes  | yes  | yes  | _patch_ version  |
+| 13 Abr 2022 | [12.4.3](./12.4.0.X/README.md#hotfix-1243-13-abr-2022)     | _no_ | yes  | _no_ | _patch_ version  |
+| 12 Abr 2022 | [12.4.2](./12.4.0.X/README.md#hotfix-1242-12-abr-2022)     | yes  | yes  | yes  | _patch_ version  |
+| 12 Abr 2022 | [12.3.9](./12.3.0.X/README.md#hotfix-1239-12-abr-2022)     | yes  | yes  | yes  | _patch_ version  |
+| 23 Mar 2022 | [12.4.1](./12.4.0.X/README.md#hotfix-1241-4-abr-2022)      | _no_ | _no_ | yes  | _patch_ version  |
+| 23 Mar 2022 | [12.4.0](./12.4.0.X/README.md#hotfix-1240-23-mar-2022)     | yes  | yes  | yes  | minor version    |
+| 17 Mar 2022 | [12.3.8](./12.3.0.X/README.md#hotfix-1238-17-mar-2022)     | yes  | yes  | yes  | _patch_ version  |
+| 08 Mar 2022 | [12.3.7](./12.3.0.X/README.md#hotfix-1237-8-mar-2022)      | yes  | yes  | yes  | _patch_ version  |
+| 28 Fev 2022 | [12.3.6](./12.3.0.X/README.md#hotfix-1236-28-fev-2022)     | yes  | _no_ | yes  | _patch_ version  |
+| 18 Fev 2022 | [12.3.5](./12.3.0.X/README.md#hotfix-1235-18-fev-2022)     | yes  | yes  | yes  | _patch_ version  |
+| 31 Jan 2022 | [12.3.4](./12.3.0.X/README.md#hotfix-1234-31-jan-2022)     | yes  | yes  | yes  | _patch_ version  |
+| 31 Jan 2022 | [12.0.18](./12.0.1.X/README.md#hotfix-12018-31-jan-2022)   | yes  | yes  | yes  | _patch_ version  |
+| 25 Jan 2022 | [12.3.3](./12.3.0.X/README.md#hotfix-1233-25-jan-2022)     | yes  | yes  | _no_ | _patch_ version  |
+| 19 Jan 2022 | [12.3.2](./12.3.0.X/README.md#hotfix-1232-19-jan-2022)     | yes  | yes  | yes  | _patch_ version  |
+| 07 Jan 2022 | [12.3.1](./12.3.0.X/README.md#hotfix-1231-7-jan-2022)      | yes  | yes  | yes  | _patch_ version  |
 
 ### **2021**
 
