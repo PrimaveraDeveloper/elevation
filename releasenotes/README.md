@@ -18,7 +18,7 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 
 ### **2022**
 
-#### **RELEASE 12.4**
+#### **12.4**
 
 | date | version | server | client | SDK | semantic jump |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -30,7 +30,7 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 | 23 Mar 2022 | [12.4.1](./12.4.0.X/README.md#hotfix-1241-4-abr-2022)      |   |   | x | _patch_ version  |
 | 23 Mar 2022 | [12.4.0](./12.4.0.X/README.md#hotfix-1240-23-mar-2022)     | x | x | x | minor version    |
 
-#### **RELEASE 12.3**
+#### **12.3**
 
 | date | version | server | client | SDK | semantic jump |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -45,7 +45,7 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 | 19 Jan 2022 | [12.3.2](./12.3.0.X/README.md#hotfix-1232-19-jan-2022)     | x | x | x | _patch_ version  |
 | 07 Jan 2022 | [12.3.1](./12.3.0.X/README.md#hotfix-1231-7-jan-2022)      | x | x | x | _patch_ version  |
 
-#### **RELEASE 12.0**
+#### **12.0**
 
 | date | version | server | client | SDK | semantic jump |
 | :---: | :---: | :---: | :---: | :---: | :---: |
