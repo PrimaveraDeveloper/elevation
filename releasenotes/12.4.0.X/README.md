@@ -241,3 +241,26 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 ### Procedimentos adicionais necessários 
 
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.4\sdk\\**12.4.6.0026**
+
+## HOTFIX 12.4.7 _(11 Mai 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Picking Basic: alterações persistidas em memória no browser
+- Possibilidade de fechar os popups, no caso do stepper
+  
+### Resumo dos problemas resolvidos
+
+- Abertura de ponto de menu após pesquisa não carrega dados _([191355](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=191355&_a=edit))_
+- Rota por defeito Onboarding não está a ser obtida _([189589](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189589&_a=edit))_
+- Setting do Theme - user não tem theme definido quando acede pela 1ª vez à aplicação _([191147](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=191147&_a=edit))_
+- Links das mensagens dos insights fazem reload da app antes de navegarem para a respetiva operação _([191163](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=191163&_a=edit))_
+- A opção Profile não está a abrir a página correta do identity _([191204](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=191204&_a=edit))_
+- Valores negativos são incrementados em 1 (campos totalizadores) _([192282](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192282&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.4\sdk\\**12.4.7.0030**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.5" para "**release_12.4.7**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_4_7.config)
