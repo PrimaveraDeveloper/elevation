@@ -257,6 +257,8 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Links das mensagens dos insights fazem reload da app antes de navegarem para a respetiva operação _([191163](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=191163&_a=edit))_
 - A opção Profile não está a abrir a página correta do identity _([191204](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=191204&_a=edit))_
 - Valores negativos são incrementados em 1 (campos totalizadores) _([192282](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192282&_a=edit))_
+- Coachmarks - disponíveis em views que não deveria _([186846](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=186846&_a=edit))_
+- Registos de uma custom list apenas aparecem movendo o scroll _([173734](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=173734&_a=edit))_
 
 ### Procedimentos adicionais necessários 
 
