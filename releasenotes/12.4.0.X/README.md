@@ -247,7 +247,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 ### Resumo das funcionalidades mais relevantes
 
 - Picking Basic: alterações persistidas em memória no browser
-- Possibilidade de fechar os popups, no caso do stepper
+- Possibilidade de fechar os steppers (em popup)
   
 ### Resumo dos problemas resolvidos
 
