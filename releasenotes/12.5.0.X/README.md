@@ -12,6 +12,10 @@
 - Atualização automática de base de dados
   - Reformulação do mecanismo de atualização de base de dados
 
+# Resumo dos problemas resolvidos
+
+- Múltiplos convites para subscrições diferentes e o mesmo user, gera IDs diferentes _([192469](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192469))_
+
 # Procedimentos adicionais necessários
 
 ### Assinatura digital
@@ -72,12 +76,6 @@ Nota: Deverão ser utilizados os diretórios/markets que façam sentido para cad
   - Se IsPrinted = false, IsReprinted = false    
   - IsSigned = false
   - PrintedReportName = NULL ou ''
-
-### Bug Fixing
-
-- Múltiplos convites para subscrições diferentes e o mesmo user, gera IDs diferentes _(ver exemplo no changeset [2280407](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/Diffie/_versionControl/changeset/192469))_
-
-Bug 192469:
 
 ### Packages
 
