@@ -18,6 +18,12 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 
 ### **2022**
 
+#### **Version 12.5**
+
+| date | version | server | client | SDK | semantic jump |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 12 Mai 2022 | [12.5.0](./12.5.0.X/README.md#hotfix-1250-12-mai-2022)      | x | x | x | minor version    |
+
 #### **Version 12.4**
 
 | date | version | server | client | SDK | semantic jump |
