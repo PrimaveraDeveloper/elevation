@@ -20,44 +20,44 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 
 #### **Version 12.5**
 
-| date | version | server | client | SDK | semantic jump | products |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 12 Mai 2022 | [12.5.0](./12.5.0.X/README.md#hotfix-1250-12-mai-2022)      | x | x | x | minor version   | |
+| date | version | server | client | SDK | semantic jump | 
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 12 Mai 2022 | [12.5.0](./12.5.0.X/README.md#hotfix-1250-12-mai-2022)      | x | x | x | minor version   | 
 
 #### **Version 12.4**
 
-| date | version | server | client | SDK | semantic jump | products |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 13 Mai 2022 | [12.4.8](./12.4.0.X/README.md#hotfix-1248-13-mai-2022)     | x |   | x | _patch_ version  | |
-| 11 Mai 2022 | [12.4.7](./12.4.0.X/README.md#hotfix-1247-11-mai-2022)     | x | x | x | _patch_ version  | |
-| 04 Mai 2022 | [12.4.6](./12.4.0.X/README.md#hotfix-1246-4-mai-2022)      |   |   | x | _patch_ version  | |
-| 21 Abr 2022 | [12.4.5](./12.4.0.X/README.md#hotfix-1245-21-abr-2022)     | x | x |   | _patch_ version  | |
-| 21 Abr 2022 | [12.4.4](./12.4.0.X/README.md#hotfix-1244-21-abr-2022)     |   | x |   | _patch_ version  | | 
-| 13 Abr 2022 | [12.4.3](./12.4.0.X/README.md#hotfix-1243-13-abr-2022)     |   | x |   | _patch_ version  | |
-| 12 Abr 2022 | [12.4.2](./12.4.0.X/README.md#hotfix-1242-12-abr-2022)     | x | x | x | _patch_ version  | |
-| 23 Mar 2022 | [12.4.1](./12.4.0.X/README.md#hotfix-1241-4-abr-2022)      |   |   | x | _patch_ version  | |
-| 23 Mar 2022 | [12.4.0](./12.4.0.X/README.md#hotfix-1240-23-mar-2022)     | x | x | x | minor version    | |
+| date | version | server | client | SDK | semantic jump | 
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 13 Mai 2022 | [12.4.8](./12.4.0.X/README.md#hotfix-1248-13-mai-2022)     | x |   | x | _patch_ version  | 
+| 11 Mai 2022 | [12.4.7](./12.4.0.X/README.md#hotfix-1247-11-mai-2022)     | x | x | x | _patch_ version  | 
+| 04 Mai 2022 | [12.4.6](./12.4.0.X/README.md#hotfix-1246-4-mai-2022)      |   |   | x | _patch_ version  | 
+| 21 Abr 2022 | [12.4.5](./12.4.0.X/README.md#hotfix-1245-21-abr-2022)     | x | x |   | _patch_ version  | 
+| 21 Abr 2022 | [12.4.4](./12.4.0.X/README.md#hotfix-1244-21-abr-2022)     |   | x |   | _patch_ version  |  
+| 13 Abr 2022 | [12.4.3](./12.4.0.X/README.md#hotfix-1243-13-abr-2022)     |   | x |   | _patch_ version  | 
+| 12 Abr 2022 | [12.4.2](./12.4.0.X/README.md#hotfix-1242-12-abr-2022)     | x | x | x | _patch_ version  | 
+| 23 Mar 2022 | [12.4.1](./12.4.0.X/README.md#hotfix-1241-4-abr-2022)      |   |   | x | _patch_ version  | 
+| 23 Mar 2022 | [12.4.0](./12.4.0.X/README.md#hotfix-1240-23-mar-2022)     | x | x | x | minor version    | 
 
 #### **Version 12.3**
 
-| date | version | server | client | SDK | semantic jump | products |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 21 Abr 2022 | [12.3.10](./12.3.0.X/README.md#hotfix-12310-21-abr-2022)   | x | x | x | _patch_ version  | <img src="./images/jasmin.png" width="50" height="25"> |
-| 12 Abr 2022 | [12.3.9](./12.3.0.X/README.md#hotfix-1239-12-abr-2022)     | x | x | x | _patch_ version  | |
-| 17 Mar 2022 | [12.3.8](./12.3.0.X/README.md#hotfix-1238-17-mar-2022)     | x | x | x | _patch_ version  | <img src="./images/rose.png" width="50" height="25"> <img src="./images/payroll.png" width="50" height="25">|
-| 08 Mar 2022 | [12.3.7](./12.3.0.X/README.md#hotfix-1237-8-mar-2022)      | x | x | x | _patch_ version  | |
-| 28 Fev 2022 | [12.3.6](./12.3.0.X/README.md#hotfix-1236-28-fev-2022)     | x |   | x | _patch_ version  | |
-| 18 Fev 2022 | [12.3.5](./12.3.0.X/README.md#hotfix-1235-18-fev-2022)     | x | x | x | _patch_ version  | |
-| 31 Jan 2022 | [12.3.4](./12.3.0.X/README.md#hotfix-1234-31-jan-2022)     | x | x | x | _patch_ version  | |
-| 25 Jan 2022 | [12.3.3](./12.3.0.X/README.md#hotfix-1233-25-jan-2022)     | x | x |   | _patch_ version  | |
-| 19 Jan 2022 | [12.3.2](./12.3.0.X/README.md#hotfix-1232-19-jan-2022)     | x | x | x | _patch_ version  | |
-| 07 Jan 2022 | [12.3.1](./12.3.0.X/README.md#hotfix-1231-7-jan-2022)      | x | x | x | _patch_ version  | |
+| date | version | server | client | SDK | semantic jump | 
+| :---: | :---: | :---: | :---: | :---: | :---: | 
+| 21 Abr 2022 | [12.3.10](./12.3.0.X/README.md#hotfix-12310-21-abr-2022)   | x | x | x | _patch_ version  | _JASMIN_
+| 12 Abr 2022 | [12.3.9](./12.3.0.X/README.md#hotfix-1239-12-abr-2022)     | x | x | x | _patch_ version  | 
+| 17 Mar 2022 | [12.3.8](./12.3.0.X/README.md#hotfix-1238-17-mar-2022)     | x | x | x | _patch_ version  | _ROSE_ & _ROSE PAYROLL_
+| 08 Mar 2022 | [12.3.7](./12.3.0.X/README.md#hotfix-1237-8-mar-2022)      | x | x | x | _patch_ version  | 
+| 28 Fev 2022 | [12.3.6](./12.3.0.X/README.md#hotfix-1236-28-fev-2022)     | x |   | x | _patch_ version  | 
+| 18 Fev 2022 | [12.3.5](./12.3.0.X/README.md#hotfix-1235-18-fev-2022)     | x | x | x | _patch_ version  | 
+| 31 Jan 2022 | [12.3.4](./12.3.0.X/README.md#hotfix-1234-31-jan-2022)     | x | x | x | _patch_ version  | 
+| 25 Jan 2022 | [12.3.3](./12.3.0.X/README.md#hotfix-1233-25-jan-2022)     | x | x |   | _patch_ version  | 
+| 19 Jan 2022 | [12.3.2](./12.3.0.X/README.md#hotfix-1232-19-jan-2022)     | x | x | x | _patch_ version  | 
+| 07 Jan 2022 | [12.3.1](./12.3.0.X/README.md#hotfix-1231-7-jan-2022)      | x | x | x | _patch_ version  | 
 
 #### **Version 12.0**
 
-| date | version | server | client | SDK | semantic jump | products |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 31 Jan 2022 | [12.0.18](./12.0.1.X/README.md#hotfix-12018-31-jan-2022)   | x | x | x | _patch_ version  | <img src="./images/valuekeep.png" width="50" height="25"> |
+| date | version | server | client | SDK | semantic jump | 
+| :---: | :---: | :---: | :---: | :---: | :---: | 
+| 31 Jan 2022 | [12.0.18](./12.0.1.X/README.md#hotfix-12018-31-jan-2022)   | x | x | x | _patch_ version  | _VALUEKEEP_
 
 ### **2021**
 
