@@ -42,9 +42,9 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 
 | date | version | server | client | SDK | semantic jump | 
 | :---: | :---: | :---: | :---: | :---: | :---: | 
-| 21 Abr 2022 | [12.3.10](./12.3.0.X/README.md#hotfix-12310-21-abr-2022)   | x | x | x | _patch_ version  | _JASMIN_
+| 21 Abr 2022 | [12.3.10](./12.3.0.X/README.md#hotfix-12310-21-abr-2022)   | x | x | x | _patch_ version  | 
 | 12 Abr 2022 | [12.3.9](./12.3.0.X/README.md#hotfix-1239-12-abr-2022)     | x | x | x | _patch_ version  | 
-| 17 Mar 2022 | [12.3.8](./12.3.0.X/README.md#hotfix-1238-17-mar-2022)     | x | x | x | _patch_ version  | _ROSE_ & _ROSE PAYROLL_
+| 17 Mar 2022 | [12.3.8](./12.3.0.X/README.md#hotfix-1238-17-mar-2022)     | x | x | x | _patch_ version  | 
 | 08 Mar 2022 | [12.3.7](./12.3.0.X/README.md#hotfix-1237-8-mar-2022)      | x | x | x | _patch_ version  | 
 | 28 Fev 2022 | [12.3.6](./12.3.0.X/README.md#hotfix-1236-28-fev-2022)     | x |   | x | _patch_ version  | 
 | 18 Fev 2022 | [12.3.5](./12.3.0.X/README.md#hotfix-1235-18-fev-2022)     | x | x | x | _patch_ version  | 
@@ -57,7 +57,7 @@ It's up to each product team to keep updating the FW. No fixes will be made for 
 
 | date | version | server | client | SDK | semantic jump | 
 | :---: | :---: | :---: | :---: | :---: | :---: | 
-| 31 Jan 2022 | [12.0.18](./12.0.1.X/README.md#hotfix-12018-31-jan-2022)   | x | x | x | _patch_ version  | _VALUEKEEP_
+| 31 Jan 2022 | [12.0.18](./12.0.1.X/README.md#hotfix-12018-31-jan-2022)   | x | x | x | _patch_ version  | 
 
 ### **2021**
 
