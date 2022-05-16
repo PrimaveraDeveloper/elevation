@@ -392,3 +392,14 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_3_10.config)
   - [**Lithium**](./packages/lithium_12_3_10.config)
+
+## HOTFIX 12.3.11 _(16 Mai 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Bug :Valores negativos são incrementados em 1 (campos totalizadores) _([192282](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192282&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_3_11.config)
