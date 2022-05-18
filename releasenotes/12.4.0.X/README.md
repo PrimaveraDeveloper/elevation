@@ -288,3 +288,4 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 ### Procedimentos adicionais necessários
 
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.4\sdk\\**12.4.9.0034**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.7" para "**release_12.4.9**"
