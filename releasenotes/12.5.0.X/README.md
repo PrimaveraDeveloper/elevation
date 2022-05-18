@@ -21,13 +21,10 @@
 ### Assinatura digital
 
 1. No modelo de entidades, reimplantar interface `IReportableDocument` (serão adicionadas as novas propriedades da interface: `IsReprint`, `IsSigned`, `PrintedReportName`)
-2. No modelo de entidades, definir os atributos das propriedades, adicionadas no passo anterior, da seguinte forma: 
-   - Default Value = false 
-   - Cloneable = false  
-3. Adicionar entrada de menu para entidade ElectronicCertificates 
-4. No web.config (e app configuration), na secção `digitalCertificateConfiguration` deve ser removida a propriedade certificateName. 
-5. Para produtos que usem o Apps, o client definido na `digitalCertificateConfiguration` deve ter “FullAccess” na Access Control List do Apps (para funcionamento da lógica de webhooks). 
-6. Subscrições que necessitem de comunicar com o ambiente de testes do provider externo (Digital Sign) devem ter a subscription claim “claim_setting_certificatesprovidertestenvironment”. 
+2. Adicionar entrada de menu para entidade ElectronicCertificates 
+3. No web.config (e app configuration), na secção `digitalCertificateConfiguration` deve ser removida a propriedade certificateName. 
+4. Para produtos que usem o Apps, o client definido na `digitalCertificateConfiguration` deve ter “FullAccess” na Access Control List do Apps (para funcionamento da lógica de webhooks). 
+5. Subscrições que necessitem de comunicar com o ambiente de testes do provider externo (Digital Sign) devem ter a subscription claim “claim_setting_certificatesprovidertestenvironment”. 
 
 ### Atualização automática de base de dados
 
@@ -79,8 +76,8 @@ Nota: Deverão ser utilizados os diretórios/markets que façam sentido para cad
 
 ### Packages
 
-- Remover package Primavera.Lithium.Certificates 
-- Adicionar package Primavera.Lithium.Certificates.Client.Rest.SingleAssembly (4.0.12) 
+- Substituir package Primavera.Lithium.Certificates por Primavera.Lithium.Certificates.Client.Rest.SingleAssembly (4.0.12) 
+- Substituir package Primavera.IdentityServer por Primavera.IdentityServer.Client.Rest.SingleAssembly (6.0.12) 
 
 # Packages (nuget)
 
@@ -89,3 +86,18 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - [**Elevation**](./packages/packages_fw_12_5_0.config)
 - [**Lithium**](./packages/packages_lithium_12_5_0.config) _(outros packages que devem ser atualizados)_
 <br/><br/>
+
+## HOTFIX 12.5.1 _(18 Mai 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Erro 404 - Não é possível cancelar uma empresa _([192511](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192511))_
+- Erro 500 ao alterar estado da configuração de uma empresa desativada (isActive=false) _([192509](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192509))_
+- Falha ao enviar documentos via email quando temos um template pré-definido _([192556](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192556))_
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.5\sdk\\**12.5.1.0101**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.1" para "**release_12.5.1**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_5_1.config)
