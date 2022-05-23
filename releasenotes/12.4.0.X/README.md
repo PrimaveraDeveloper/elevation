@@ -289,3 +289,22 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.4\sdk\\**12.4.9.0034**
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.7" para "**release_12.4.9**"
+
+## HOTFIX 12.4.10 _(23 Mai 2022)_
+ 
+### Resumo dos problemas resolvidos
+
+- EFPlus - AsNoTracking() erradamente utilizado em pedidos GET no EntityContext com QueryCaching ligado _([193140](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=193140&_a=edit))_
+- Numa lista que seja possível configurar as colunas e que tenha filtros os filtros ficam desconfigurados _([190681](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190681&_a=edit))_
+- Adicionar um novo registo numa lista de detalhe _([192470](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192470&_a=edit))_
+- O componente InlineAlertMessage fica visivel quando é enviada uma mensagem em branco _([192439](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192439&_a=edit))_
+- Reset no configurador de listas deixa app em loading infinito _([192979](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192979&_a=edit))_
+- Overlay ao aplicar filtros no picking default _([193090](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=193090&_a=edit))_
+- Não existe scroll quando menus de primeiro nível não cabem na view _([192464](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192464&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.4\sdk\\**12.4.10.0042**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.9" para "**release_12.4.10**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_4_10.config)
