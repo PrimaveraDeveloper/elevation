@@ -26,6 +26,8 @@
 4. Para produtos que usem o Apps, o client definido na `digitalCertificateConfiguration` deve ter “FullAccess” na Access Control List do Apps (para funcionamento da lógica de webhooks). 
 5. Subscrições que necessitem de comunicar com o ambiente de testes do provider externo (Digital Sign) devem ter a subscription claim “claim_setting_certificatesprovidertestenvironment”. 
 
+**NOTA:** Necessário rever fluxo de impressão (custom code de 'print' e 'send') à luz da nova lógica de gestão de certificados, para garantir a correta utilização das assinaturas digitais.
+
 ### Atualização automática de base de dados
 
 1. Necessário atualizar a seccção `databaseUpgradeConfiguration` no web.config com o seguinte:
@@ -101,3 +103,16 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.1" para "**release_12.5.1**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_1.config)
+
+## HOTFIX 12.5.2 _(25 Mai 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Imprimir entidade com subtotal nas grelhas está a aparecer com uma tradução errada (som.) e o border devia ser top _([193299](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=193299))_
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.5\sdk\\**12.5.2.0114**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.2" para "**release_12.5.2**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_5_2.config)
