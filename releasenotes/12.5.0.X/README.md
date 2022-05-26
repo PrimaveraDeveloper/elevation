@@ -25,6 +25,7 @@
 3. No web.config (e app configuration), na secção `digitalCertificateConfiguration` deve ser removida a propriedade certificateName. 
 4. Para produtos que usem o Apps, o client definido na `digitalCertificateConfiguration` deve ter “FullAccess” na Access Control List do Apps (para funcionamento da lógica de webhooks). 
 5. Subscrições que necessitem de comunicar com o ambiente de testes do provider externo (Digital Sign) devem ter a subscription claim “claim_setting_certificatesprovidertestenvironment”. 
+6. Alterar, no IDS, a configuração do cliente usado para comunicar com micro-serviço 'Certificates', adicionando os seguintes scopes: 'lithium-certificates-eseals' e 'lithium-certificates-wh'
 
 **NOTA:** Necessário rever fluxo de impressão (custom code de 'print' e 'send') à luz da nova lógica de gestão de certificados, para garantir a correta utilização das assinaturas digitais.
 
@@ -100,7 +101,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 ### Procedimentos adicionais necessários
 
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.5\sdk\\**12.5.1.0104**
-- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.1" para "**release_12.5.1**"
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.0" para "**release_12.5.1**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_1.config)
 
@@ -113,6 +114,6 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 ### Procedimentos adicionais necessários
 
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.5\sdk\\**12.5.2.0114**
-- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.2" para "**release_12.5.2**"
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.1" para "**release_12.5.2**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_2.config)
