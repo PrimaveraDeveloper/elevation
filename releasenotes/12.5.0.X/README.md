@@ -117,3 +117,15 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.1" para "**release_12.5.2**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_2.config)
+
+## HOTFIX 12.5.3 _(25 Mai 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Migração de Subscrição - Erro quando não existe registo "database version" _([194068](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194068))_
+- Erro no acesso à storage no método Upgrade Version - está a usar a connection string da fileStorageServiceConfiguration em vez da definidia em databaseUpgradeConfiguration _([194066](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194066))_
+
+### Procedimentos adicionais necessários
+
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_5_3.config)
