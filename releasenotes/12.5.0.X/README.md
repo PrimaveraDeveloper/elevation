@@ -129,3 +129,18 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_3.config)
+
+## HOTFIX 12.5.4 _(1 Jun 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Falta registo de produto na Operations.DBVersions _([194237](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194237))_
+- Erro ao correr localmente quando ainda não existe a storage privada _([194214](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194214))_
+- Impressão em Lote - Erro 404 quando não é passado o template _([194271](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194271))_
+
+### Procedimentos adicionais necessários
+
+- Promover os seguintes packages para o feed de produto:
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.5\sdk\\**12.5.4.0119**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.2" para "**release_12.5.4**"
+  - [**Elevation**](./packages/packages_fw_12_5_4.config)
