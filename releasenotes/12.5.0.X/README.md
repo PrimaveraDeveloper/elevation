@@ -157,6 +157,15 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### Procedimentos adicionais necessários
 
+- Para ativar a integração com o 'inspectlet', é necessário adicionar no 'environment':
+```json
+"userEngagement": {
+  "inspectlet": {
+    "applicationId": "?????"
+  }
+}
+```
+
 - Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.5\sdk\\**12.5.5.0122**
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.4" para "**release_12.5.5**"
 - Promover os seguintes packages para o feed de produto:
