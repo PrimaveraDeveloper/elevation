@@ -144,3 +144,20 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.2" para "**release_12.5.4**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_4.config)
+
+## HOTFIX 12.5.5 _(2 Jun 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Integraçao com a plataforma de user engagement 'inspectlet'
+
+### Resumo dos problemas resolvidos
+
+- Certificates - Falta de traduções na feature de certificados eletrónicos _([194350](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194350))_
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.5\sdk\\**12.5.5.0122**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.4" para "**release_12.5.5**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_5_5.config)
