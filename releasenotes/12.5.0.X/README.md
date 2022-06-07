@@ -21,11 +21,12 @@
 ### Assinatura digital
 
 1. No modelo de entidades, reimplantar interface `IReportableDocument` (serão adicionadas as novas propriedades da interface: `IsReprint`, `IsSigned`, `PrintedReportName`)
-2. Adicionar entrada de menu para entidade ElectronicCertificates 
-3. No web.config (e app configuration), na secção `digitalCertificateConfiguration` deve ser removida a propriedade certificateName. 
-4. Para produtos que usem o Apps, o client definido na `digitalCertificateConfiguration` deve ter “FullAccess” na Access Control List do Apps (para funcionamento da lógica de webhooks). 
-5. Subscrições que necessitem de comunicar com o ambiente de testes do provider externo (Digital Sign) devem ter a subscription claim “claim_setting_certificatesprovidertestenvironment”. 
-6. Alterar, no IDS, a configuração do cliente usado para comunicar com micro-serviço 'Certificates', adicionando os seguintes scopes: 'lithium-certificates-eseals' e 'lithium-certificates-wh'
+2. No modelo de serviços, adicionar as novas propriedades aos resources correspondentes às entidades allteradas no passo 1 (se aplicável).
+3. Adicionar entrada de menu para entidade ElectronicCertificates 
+4. No web.config (e app configuration), na secção `digitalCertificateConfiguration` deve ser removida a propriedade certificateName. 
+5. Para produtos que usem o Apps, o client definido na `digitalCertificateConfiguration` deve ter “FullAccess” na Access Control List do Apps (para funcionamento da lógica de webhooks). 
+6. Subscrições que necessitem de comunicar com o ambiente de testes do provider externo (Digital Sign) devem ter a subscription claim “claim_setting_certificatesprovidertestenvironment”. 
+7. Alterar, no IDS, a configuração do cliente usado para comunicar com micro-serviço 'Certificates', adicionando os seguintes scopes: 'lithium-certificates-eseals' e 'lithium-certificates-wh'
 
 **NOTA:** Necessário rever fluxo de impressão (custom code de 'print' e 'send') à luz da nova lógica de gestão de certificados, para garantir a correta utilização das assinaturas digitais.
 
@@ -170,3 +171,31 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.4" para "**release_12.5.5**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_5.config)
+
+## HOTFIX 12.5.6 _(7 Jun 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Retro-compatibilidade das integrações: Reposição dos métodos de GET de entidades (não paginados);
+  - IMPORTANTE: Estes métodos serão descontinuados na versão 13.0.0
+  - Esta alteração deve ser comunicada com antecedência a todos os integradores.
+
+### Resumo dos problemas resolvidos
+
+- Certificates: Na impressão em Lote Erro 404 quando não é passado o template _([194271](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194271))_
+- Certificates: API - pedido /print sem parâmetros não respeita o original _([194644](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194644))_
+- Certificates: Erro ao carrregar o pdf gerado na impressão _([193340](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=193340))_
+- SDK: Sincronização os ListOperationAttributes gera novos Ids para as ListModelColumns _([194636](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194636))_
+- Certificate: Toast mostra mensagem de erro ao imprimir documento utlizando certificado com dados _([194264](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194264))_
+- Botão de fechar na "pri-modal" com border ou sombra _([190784](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190784))_
+- Campos disable no Master com background-color errada _([192451](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192451))_
+- Seleção na lista com cor do produto _([189461](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189461))_
+- Erro 400 nas view definitions de outras culturas _([194326](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194326))_
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.5\sdk\\**12.5.6.0128**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.5" para "**release_12.5.6**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_5_6.config)
+  - [**CoreLib**](./packages/packages_corelib_12_5_6.config)
