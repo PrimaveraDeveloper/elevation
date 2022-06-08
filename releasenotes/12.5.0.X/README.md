@@ -21,7 +21,7 @@
 ### Assinatura digital
 
 1. No modelo de entidades, reimplantar interface `IReportableDocument` (serão adicionadas as novas propriedades da interface: `IsReprint`, `IsSigned`, `PrintedReportName`)
-2. No modelo de serviços, adicionar as novas propriedades aos resources correspondentes às entidades allteradas no passo 1 (se aplicável).
+2. No modelo de serviços, adicionar as novas propriedades aos resources correspondentes às entidades alteradas no passo 1 (se aplicável).
 3. Adicionar entrada de menu para entidade ElectronicCertificates 
 4. No web.config (e app configuration), na secção `digitalCertificateConfiguration` deve ser removida a propriedade certificateName. 
 5. Para produtos que usem o Apps, o client definido na `digitalCertificateConfiguration` deve ter “FullAccess” na Access Control List do Apps (para funcionamento da lógica de webhooks). 
