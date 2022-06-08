@@ -308,3 +308,22 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.9" para "**release_12.4.10**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_4_10.config)
+
+## HOTFIX 12.4.11 _(8 Jun 2022)_
+ 
+### Resumo dos problemas resolvidos
+
+- Drill Down para um registo que se encontra na mesma tabela _([191327](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=191327&_a=edit))_
+- Botão de fechar na "pri-modal" com border ou sombra _([190784](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190784&_a=edit))_
+- Campos disable no Master com background-color errada _([192451](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192451&_a=edit))_
+- Seleção na lista com cor do produto _([189461](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=189461&_a=edit))_
+- Erro 400 nas view definitions de outras culturas _([194326](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194326&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Para corrigir o bug [191327](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=191327&_a=edit)
+  - Correr o upgrade de modelo de Apresentação (basta abrir o modelo e gravar)
+  - Produzir script de upgrade porque, nos cenários do bug, haverá alterações no ficheiro 'O05.module_name.Queries.Schema.sqlserver.sql' ('IsMainDrillDown' e 'Uri' da 'ListModelColumn')
+    - Não esquecer que podem haver listas alteradas pelos utilizadores
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.10" para "**release_12.4.11**"
