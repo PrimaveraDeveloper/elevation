@@ -199,3 +199,29 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_6.config)
   - [**CoreLib**](./packages/packages_corelib_12_5_6.config)
+
+## HOTFIX 12.5.7 _(14 Jun 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Atualização de Base de Dados
+  - Registo de Trace (warning) quando a pasta definida como contentor de scripts não existe.
+
+### Resumo dos problemas resolvidos
+
+- Seletor de dimensões deve ter o mesmo comportamento das Lookups _([193555](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=193555))_
+- Imagem apresentada no loader de produto está errada _([194778](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194778))_
+- Uniformizar a cor dos menus/quick actions para as cores do grupo _([194800](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194800))_
+- Popup da criação da empresa não está a abrir com a extensão _([194904](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194904))_
+- Impossibilidade de ativar a assinatura digital em documentos que tenham apenas um mapa de impressão _([194970](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194970))_
+- As regras\expressão de disable não está a ser aplicada no novo botão "CopyToNew" _([195005](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195005))_
+- Erro ao descarregar documento através de link enviado por email após impressão da 2ª via _([194975](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194975))_
+- Certificate - Erro ao imprimir segunda via de documento que tenham só um report _([194779](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194779))_
+- Certificates - Tradução PT em falta quando não é preenchido autorizador e/ou secret - estou a valida (faltam builds) _([194923](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194923))_
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.5\sdk\\**12.5.7.0130**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.6" para "**release_12.5.7**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_5_7.config)
