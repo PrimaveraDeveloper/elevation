@@ -217,7 +217,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - As regras\expressão de disable não está a ser aplicada no novo botão "CopyToNew" _([195005](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195005))_
 - Erro ao descarregar documento através de link enviado por email após impressão da 2ª via _([194975](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194975))_
 - Certificate - Erro ao imprimir segunda via de documento que tenham só um report _([194779](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194779))_
-- Certificates - Tradução PT em falta quando não é preenchido autorizador e/ou secret - estou a valida (faltam builds) _([194923](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194923))_
+- Certificates - Tradução PT em falta quando não é preenchido autorizador e/ou secret _([194923](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194923))_
 
 ### Procedimentos adicionais necessários
 
