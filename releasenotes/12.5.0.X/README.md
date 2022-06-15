@@ -218,6 +218,9 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Erro ao descarregar documento através de link enviado por email após impressão da 2ª via _([194975](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194975))_
 - Certificate - Erro ao imprimir segunda via de documento que tenham só um report _([194779](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194779))_
 - Certificates - Tradução PT em falta quando não é preenchido autorizador e/ou secret _([194923](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194923))_
+- Certificates - Envio de email de documentos com 1 só report não funciona _([195092](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195092))_
+- Certificates - Mapa predefinido só é guardado quando a checkbox do selo eletrónico está ativa _([195146](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195146))_
+- Imprimir novo - imprime a segunda via se já tiver sido impressa para documentos com um report _([195139](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195139))_
 
 ### Procedimentos adicionais necessários
 
