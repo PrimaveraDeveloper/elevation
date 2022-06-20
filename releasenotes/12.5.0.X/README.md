@@ -221,6 +221,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Certificates - Envio de email de documentos com 1 só report não funciona _([195092](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195092))_
 - Certificates - Mapa predefinido só é guardado quando a checkbox do selo eletrónico está ativa _([195146](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195146))_
 - Imprimir novo - imprime a segunda via se já tiver sido impressa para documentos com um report _([195139](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195139))_
+- Caso só exista um report, não é possível defini-lo como default _([195185](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195185))_
 
 ### Procedimentos adicionais necessários
 
