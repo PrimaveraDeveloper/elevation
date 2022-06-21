@@ -45,7 +45,7 @@
     <module Id="c9875725-24ce-4698-aec4-6dd01694e262" name="SalesCore" />
     <module Id="1a2d9eab-3eb1-4d8e-8d0d-e8f2d2d0981a" name="Sales" />
     <module Id="78d7f501-cfa5-430d-92f0-ab47d3da87f2" name="PurchasesCore" />
-    **<module Id="c219b0f0-ba0e-43fe-b7fd-67976565b25f" name="Reporting" />**
+    <module Id="c219b0f0-ba0e-43fe-b7fd-67976565b25f" name="Reporting" />
   </modules>
 ```
 
