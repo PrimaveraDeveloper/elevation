@@ -29,7 +29,7 @@
 7. Alterar, no IDS, a configuração do cliente usado para comunicar com micro-serviço 'Certificates', adicionando os seguintes scopes: 'lithium-certificates-eseals' e 'lithium-certificates-wh'
 8. Garantir que o `ReportingBootstrapper` é o último a ser inicializado. Para isso, basta abrir o modelo de produto como XML e colocar o Reporting como último módulo na lista de módulos.
 ```xml
-<modules>
+  <modules>
     <module Id="e2c3485c-d795-48df-b470-7d6c2999d009" name="CorePatterns" documentationArea="Platform" documentationDescription="The Platform API exposes management services for all common entities, such as currencies, countries, regions, companies or cultures." />
     <module Id="..." name="Module1" />
     <module Id="..." name="Module2" />
