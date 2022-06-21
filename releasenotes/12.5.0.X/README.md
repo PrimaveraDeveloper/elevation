@@ -31,21 +31,11 @@
 ```xml
 <modules>
     <module Id="e2c3485c-d795-48df-b470-7d6c2999d009" name="CorePatterns" documentationArea="Platform" documentationDescription="The Platform API exposes management services for all common entities, such as currencies, countries, regions, companies or cultures." />
-    <module Id="69619759-997c-41c7-bbff-7f70fe8b35c4" name="Identity" />
-    <module Id="0b37f3ae-f79a-4c8b-864c-4f9e4fdf0071" name="Shell" />
-    <module Id="569d0e1c-f7e1-4713-9293-de61a3f93ca2" name="QueryBuilder" />
-    <module Id="2eed2a17-9770-4d7b-95a5-304b0b8b6f75" name="Operations" />
-    <module Id="839d47ca-69f2-4b89-a3aa-e93ccff39c54" name="BusinessCore" />
-    <module Id="70dce9f0-f6cf-45dc-86ea-991c3feda8bb" name="Billing" />
-    <module Id="f4f840e2-7d98-45a1-8afc-6b62baf76d79" name="FinancialCore" />
-    <module Id="a606a578-040f-416e-ab1d-53687a5d81f5" name="LogisticsCore" />
-    <module Id="d6bbcb8d-de1b-43ad-a061-141d825bd900" name="MaterialsCore" />
-    <module Id="99e8c845-522e-443e-b73a-31a992e9f5e2" name="TaxesCore" />
-    <module Id="75a3232a-d503-4c6c-b9e6-26669ca8511f" name="Shipping" />
-    <module Id="c9875725-24ce-4698-aec4-6dd01694e262" name="SalesCore" />
-    <module Id="1a2d9eab-3eb1-4d8e-8d0d-e8f2d2d0981a" name="Sales" />
-    <module Id="78d7f501-cfa5-430d-92f0-ab47d3da87f2" name="PurchasesCore" />
-    <module Id="c219b0f0-ba0e-43fe-b7fd-67976565b25f" name="Reporting" />
+    <module Id="..." name="Module1" />
+    <module Id="..." name="Module2" />
+    <module Id="..." name="..." />
+    <module Id="..." name="ModuleN" />
+    <module Id="..." name="Reporting" />
   </modules>
 ```
 
