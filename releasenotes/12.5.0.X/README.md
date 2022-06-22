@@ -18,16 +18,9 @@
 
 # Procedimentos adicionais necessários
 
-### Assinatura digital
+### Ordem dos bootstrap
 
-1. No modelo de entidades, reimplantar interface `IReportableDocument` (serão adicionadas as novas propriedades da interface: `IsReprint`, `IsSigned`, `PrintedReportName`)
-2. No modelo de serviços, adicionar as novas propriedades aos resources correspondentes às entidades alteradas no passo 1 (se aplicável).
-3. Adicionar entrada de menu para entidade ElectronicCertificates 
-4. No web.config (e app configuration), na secção `digitalCertificateConfiguration` deve ser removida a propriedade certificateName. 
-5. Para produtos que usem o Apps, o client definido na `digitalCertificateConfiguration` deve ter “FullAccess” na Access Control List do Apps (para funcionamento da lógica de webhooks). 
-6. Subscrições que necessitem de comunicar com o ambiente de testes do provider externo (Digital Sign) devem ter a subscription claim “claim_setting_certificatesprovidertestenvironment”. 
-7. Alterar, no IDS, a configuração do cliente usado para comunicar com micro-serviço 'Certificates', adicionando os seguintes scopes: 'lithium-certificates-eseals' e 'lithium-certificates-wh'
-8. Garantir que o `ReportingBootstrapper` é o último a ser inicializado. Para isso, basta abrir o modelo de produto como XML e colocar o Reporting como último módulo na lista de módulos.
+Garantir que o `ReportingBootstrapper` é o último a ser inicializado. Para isso, basta abrir o modelo de produto como XML e colocar o Reporting como último módulo na lista de módulos.
 ```xml
   <modules>
     <module Id="e2c3485c-d795-48df-b470-7d6c2999d009" name="CorePatterns" documentationArea="Platform" documentationDescription="The Platform API exposes management services for all common entities, such as currencies, countries, regions, companies or cultures." />
@@ -38,6 +31,16 @@
     <module Id="..." name="Reporting" />
   </modules>
 ```
+
+### Assinatura digital
+
+1. No modelo de entidades, reimplantar interface `IReportableDocument` (serão adicionadas as novas propriedades da interface: `IsReprint`, `IsSigned`, `PrintedReportName`)
+2. No modelo de serviços, adicionar as novas propriedades aos resources correspondentes às entidades alteradas no passo 1 (se aplicável).
+3. Adicionar entrada de menu para entidade ElectronicCertificates 
+4. No web.config (e app configuration), na secção `digitalCertificateConfiguration` deve ser removida a propriedade certificateName. 
+5. Para produtos que usem o Apps, o client definido na `digitalCertificateConfiguration` deve ter “FullAccess” na Access Control List do Apps (para funcionamento da lógica de webhooks). 
+6. Subscrições que necessitem de comunicar com o ambiente de testes do provider externo (Digital Sign) devem ter a subscription claim “claim_setting_certificatesprovidertestenvironment”. 
+7. Alterar, no IDS, a configuração do cliente usado para comunicar com micro-serviço 'Certificates', adicionando os seguintes scopes: 'lithium-certificates-eseals' e 'lithium-certificates-wh'
 
 **NOTA:** Necessário rever fluxo de impressão (custom code de 'print' e 'send') à luz da nova lógica de gestão de certificados, para garantir a correta utilização das assinaturas digitais.
 
