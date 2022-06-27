@@ -243,3 +243,20 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.6" para "**release_12.5.7**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_7.config)
+
+## HOTFIX 12.5.8 _(23 Jun 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Erro ao obter link de um report já impresso do tipo EntityReport _([195476](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195476))_
+- Importação do efatura ao preencher a coluna da conta alternativa ou mesmo Conta Financeira, a opção "ver tudo" não carrega a lista (picking) _([195134](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195134))_
+- "ListOperations > Synchronize All Columns Information" resulta na remoção de colunas correspondentes a chaves naturais _([195281](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195281))_
+- Popup da criação da empresa não está a abrir com a extensão _([194904](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194904))_
+- Create inline sem extensão _([195543](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195543))_
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.5\sdk\\**12.5.8.0133**
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.7" para "**release_12.5.8**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_5_8.config)
