@@ -274,7 +274,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 
 ### Procedimentos adicionais necessários
 
-- Correr a script de upgrade de correção do bug '195541': [**script**](./database/db_upgrade_12.5.9.zip) 
+- Correr a [**script**](./database/db_upgrade_12.5.9.zip) de upgrade de correção do bug '195541' 
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.8" para "**release_12.5.9**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_9.config)
