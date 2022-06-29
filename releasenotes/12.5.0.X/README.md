@@ -260,3 +260,21 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.7" para "**release_12.5.8**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_8.config)
+
+  ## HOTFIX 12.5.9 _(29 Jun 2022)_
+
+### Resumo dos problemas resolvidos
+
+- Erro ao obter link de um report já impresso do tipo EntityReport _([195476](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195476))_
+- Applicação sem Apps _([194780](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=194780))_
+- Espaçamento definido no template não é respeitado na impressão _([195686](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195686))_
+- Preview do template não mostra o posicionamento da logo _([190774](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=190774))_
+- The method sendInvitation fails when there's no users on the database _([195955](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195955))_
+- API - Status 500 pedido get Odata extensible _([195541](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=195541))_
+
+### Procedimentos adicionais necessários
+
+- Correr a script de upgrade de correção do bug '195541': [**script**](./database/db_upgrade_12.5.9.zip) 
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.8" para "**release_12.5.9**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_5_9.config)
