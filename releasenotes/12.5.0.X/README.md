@@ -261,7 +261,7 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_8.config)
 
-  ## HOTFIX 12.5.9 _(29 Jun 2022)_
+## HOTFIX 12.5.9 _(29 Jun 2022)_
 
 ### Resumo dos problemas resolvidos
 
