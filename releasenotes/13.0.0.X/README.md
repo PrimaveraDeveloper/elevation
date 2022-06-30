@@ -29,5 +29,5 @@
 
 Dada a complexidade desta atualização, as equipas Elevation vão acompanhar a migração de todos os produtos.
 
-**NOTA 1:** As equipas de produto devem incluir esta migração nos respetivos Roadmaps, e alinhar a migração com as equipas Elevation.
-**NOTA 2:** Também é necessário alinhar a intervenção com a SWE, para que possa fazer as alterações necesárias no processo de build.
+- **NOTA 1:** As equipas de produto devem incluir esta migração nos respetivos Roadmaps, e alinhar a migração com as equipas Elevation.
+- **NOTA 2:** Também é necessário alinhar a intervenção com a SWE, para que possa fazer as alterações necesárias no processo de build.
