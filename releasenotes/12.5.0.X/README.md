@@ -278,3 +278,21 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.8" para "**release_12.5.9**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_5_9.config)
+
+## HOTFIX 12.5.10 _(1 Jul 2022)_
+
+### Resumo das funcionalidades mais relevantes
+
+- Possibilidate de ativar/desativar o convite de técnicos com base numa _subscription claim_ (claim_setting_allowinvitetechnician)
+
+### Resumo dos problemas resolvidos
+
+- Erro ao enviar convite com uma cultura que não existe na DB _([196193](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=196193))_
+- Certificates - Erro de certificado no envio de um documento _([196153](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=196153))_
+- Impossibilidade de alterar o nº de linhas visíveis na grelha de resumos _([196186](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=196186))_
+
+### Procedimentos adicionais necessários
+
+- Alterar a tag dos módulos de FW, na ClientApp, de "release_12.5.9" para "**release_12.5.10**"
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_5_10.config)
