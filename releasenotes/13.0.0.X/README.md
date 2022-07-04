@@ -1,7 +1,7 @@
 | **Server version** | 13.0.0.X                                                                           |  
 | ---:               | :---                                                                               |
 | **Cliente tag**    | release_13.0.0                                                                     |
-| **SDK**            | [**13.00.00.0030**](\\storage\BUILDS\TFS\framework\release-13.0\sdk\13.0.0.0030)   |
+| **SDK**            | [**13.00.00.0032**](\\storage\BUILDS\TFS\framework\release-13.0\sdk\13.0.0.0032)   |
 
 <br/>
 
